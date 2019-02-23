@@ -2,6 +2,7 @@
 # Morse code (THE CODE) decoder
 # Date : 02-23-2019
 # You can add keys from your problem
+# More about morse code is from <https://morsecode.scphillips.com/morse.html>
 dicto = {
   'A':'di-dah',
   'B':'dah-di-di-dit',
