@@ -1,0 +1,3 @@
+# Rate is top to bottom.
+https://www.dcode.fr/vigenere-cipher
+https://f00l.de/hacking/vigenere.php
