@@ -1,4 +1,5 @@
 JS-fuck
+
 [][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+
 
 https://enkhee-osiris.github.io/Decoder-JSFuck/
