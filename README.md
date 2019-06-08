@@ -69,7 +69,10 @@ Cryptography
 
 * Ceaser - 26
 
-	Англи хэлний 26 үсгэн дотор шилжилт хийж текстээ нууцалж задлана. Rot гэдэг нь хэдэн шилжилт хийснийг илэрхийлнэ. Маш олон онлайн түүл байгаа.
+	Англи хэлний 26 үсгэн дотор шилжилт хийж текстээ нууцалж задлана. Rot гэдэг нь хэдэн шилжилт хийснийг илэрхийлнэ. Маш олон онлайн түүл байгаа. Гэвч коммандны мөрнөөс хийвэл илүү амар `caesar` ашиглан (`apt install bsdgames`) аас суулгана. 
+	
+	```cipher='jeoi{geiwev_gmtliv_ws_svmkmrep}' ; for i in {0..25}; do echo $cipher | caesar $i; done```
+	
 	* [https://www.dcode.fr/caesar-cipher](https://www.dcode.fr/caesar-cipher)
 	* [https://cryptii.com/pipes/caesar-cipher](https://cryptii.com/pipes/caesar-cipher)
 	* [https://rot13.com/](https://rot13.com/)
@@ -79,4 +82,7 @@ Cryptography
 	``` :ptr, O[di, od do,[;u fi,,u yrcy pg yjr [tomyomh smf yu[rdryyomh omfidytu/ :ptr, O[di, jsd nrrm yjr omfidytu\d dysmfstf fi,,u yrcy rbrt domvr yjr 26--d. ejrm sm imlmpem [tomyrt yppl s hs;;ru pg yu[r smf dvts,n;rf oy yp ,slr s yu[r d[rvo,rm nppl/ Oy jsd ditbobrf mpy pm;u gobr vrmyitord. niy s;dp yjr ;rs[ omyp r;rvytpmov yu[rdryyomh. tr,somomh rddrmyos;;u imvjsmhrf/ Oy esd [p[i;stodrf om yjr 207-d eoyj yjr tr;rsdr pg :rytsdry djrryd vpmysomomh :ptr, O[di, [sddshrd. smf ,ptr trvrmy;u eoyj frdlyp[ [in;odjomh dpgyestr ;olr S;fid {shr<slrt omv;ifomh brtdopmd pg :ptr, O[di,/```
 
 	Keyboard дахь үсэгнүүдийг баруун тийш нь шилжүүлж нууцална.
+	* [https://www.dcode.fr/keyboard-shift-cipher](https://www.dcode.fr/keyboard-shift-cipher)
+
+
 	
