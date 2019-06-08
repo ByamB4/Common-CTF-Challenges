@@ -1,2 +1,3 @@
-# CaptureTheFlagTool
-This repository is for packing useful tools maybe of them online tools or someone who writes. Other tools writing from me during CTF problem or competition.
+# Capture The Flag Tool
+
+Зарим сайтуудаас хайж цаг алдахгүйн тулд өөрийн ашигладаг код түүл зэргийг багцлан өөртөө бэлдэв.
