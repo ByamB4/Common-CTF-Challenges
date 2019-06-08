@@ -9,6 +9,7 @@ Live тэмцээний үед түүл хайж цаг алдахын орон�
 ------------------
 * Burp suite Pro -> [https://drive.google.com/open?id=10RwrjnC4diW3nlGS0SBRpkR05L93zDOE](https://drive.google.com/open?id=10RwrjnC4diW3nlGS0SBRpkR05L93zDOE)
 * IDA PRO        -> [https://drive.google.com/open?id=1alqfGr6w9RBoRWqMo_7GEvLhu8H8lkuc](https://drive.google.com/open?id=1alqfGr6w9RBoRWqMo_7GEvLhu8H8lkuc)
+* StegSolve.jar  -> [https://drive.google.com/open?id=1VFn2ukSjw7YU8PeJNdR4KwndWBR1ejEY](https://drive.google.com/open?id=1VFn2ukSjw7YU8PeJNdR4KwndWBR1ejEY)
 
 Esoteric Languages
 -----------------------
@@ -39,3 +40,14 @@ MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO 
  MoO MoO Moo MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO Moo MoO MoO
  MoO MoO MoO MoO MoO Moo Moo MoO MoO MoO Moo OOO MoO MoO MoO MoO
  ```
+
+Steganography
+-----------------------
+
+* [`Stegsolve.jar`][Stegsolve.jar]
+
+	Ихэнх даалгавар дээр ашиглаж болох бөгөөд өнгө бүр дээр хувирлыг харуулна.
+	
+* [`steghide`][steghide]
+
+	Нууц үгээр тухайн зурагтаа файл нуух, гаргаж авах түүл. PNG болон BMP зурагтай л ажиллаж чадна.
