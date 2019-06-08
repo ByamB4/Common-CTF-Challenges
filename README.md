@@ -51,3 +51,8 @@ Steganography
 * [steghide](http://steghide.sourceforge.net/download.php)
 
 	Нууц үгээр тухайн зурагтаа файл нуух, гаргаж авах түүл. PNG болон BMP зурагтай л ажиллаж чадна.
+
+* Least Significant Bit 
+	Зурган дотор битүүдийн хөндлөнгөөр нуух. 
+	* [https://stylesuxx.github.io/steganography/](https://stylesuxx.github.io/steganography/)
+	
