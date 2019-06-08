@@ -61,3 +61,15 @@ Steganography
 	Зурган доторх битүүдийг хөндлөнгөөр ашиглан өгөгдөл нуух. 
 	* [https://stylesuxx.github.io/steganography/](https://stylesuxx.github.io/steganography/)
 	
+
+Cryptography
+-----------------------
+
+* Ихэнх төрлийн transposition cipher дээр ашиглаж болох онлайн түүл. [https://quipqiup.com/](https://quipqiup.com/)
+
+* Ceaser - 26
+	Англи хэлний 26 үсгэн дотор шилжилт хийж текстээ нууцалж задлана. Rot гэдэг нь хэдэн шилжилт хийснийг илэрхийлнэ. Маш олон онлайн түүл байгаа.
+	* [https://www.dcode.fr/caesar-cipher](https://www.dcode.fr/caesar-cipher)
+	* [https://cryptii.com/pipes/caesar-cipher](https://cryptii.com/pipes/caesar-cipher)
+	* [https://rot13.com/](https://rot13.com/)
+	
