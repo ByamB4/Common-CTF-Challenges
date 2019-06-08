@@ -65,7 +65,9 @@ Steganography
 Cryptography
 -----------------------
 
-* Ихэнх төрлийн transposition cipher дээр ашиглаж болох онлайн түүл. [https://quipqiup.com/](https://quipqiup.com/)
+* Ихэнх төрлийн transposition cipher дээр ашиглаж болох онлайн түүл. 
+	* [https://quipqiup.com/](https://quipqiup.com/)
+	* [https://gchq.github.io/CyberChef/](https://gchq.github.io/CyberChef/)
 
 * Ceaser - 26
 
@@ -90,4 +92,29 @@ Svylt Pwzbt pz zptwsf kbttf alea vm aol wypuapun huk afwlzlaapun pukbzayf. Svylt
 
 * XOR
 	
+	Бүх текст XOR үйлдэл хийх боломжтой `\xde\xad\xbe\xef` үүнийг өөрийн компьютер дотроо тайлна гэвэл `pwntools` ашиглаж болно.
+```
+ python >>> import pwn; pwn.xor("KEY", "RAW_BINARY_CIPHER")
+ ```
+ 
+ * [Atbash Cipher](https://en.wikipedia.org/wiki/Atbash)
+
+	Mapping хийдэг cipher `A` үсгийг `Z` ээр солих гэх `B`-г `Y` солих гэх мэт.
+	* [http://rumkin.com/tools/cipher/atbash.php](http://rumkin.com/tools/cipher/atbash.php)
+	
+* [Vigenere Cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
+
+	Түлхүүртэй байх бөгөөд тэр түлхүүрээрээ нууцалж буцааж задалж болно.
+	* [https://www.guballa.de/vigenere-solver](https://www.guballa.de/vigenere-solver)
+	* [https://www.dcode.fr/vigenere-cipher](https://www.dcode.fr/vigenere-cipher)
+	* [https://f00l.de/hacking/vigenere.php](https://f00l.de/hacking/vigenere.php)
+	
+* [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
+
+	Ихэнх тохиолдолд `n`, `c`, `e` өгөгдөх бөгөөд эхлээд [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool) ашиглаж үзэх хэрэгтэй. Бусад тохиолдолд гараар бодно.
+	* [FactorDB](http://factordb.com/)
+	* [IntegerECM](https://www.alpertron.com.ar/ECM.HTM)
+	* [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
+	* [Python2 - code](/Cryptography/python2.py)
+	* [Python3 - code](/Cryptography/python3.py)
 	
