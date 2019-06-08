@@ -44,10 +44,10 @@ MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO 
 Steganography
 -----------------------
 
-* Stegsolve.jar
+* [Stegsolve.jar](https://github.com/zardus/ctf-tools/blob/master/stegsolve/install)
 
 	Ихэнх даалгавар дээр ашиглаж болох бөгөөд өнгө бүр дээр хувирлыг харуулна.
 	
-* steghide
+* [steghide](http://steghide.sourceforge.net/download.php)
 
 	Нууц үгээр тухайн зурагтаа файл нуух, гаргаж авах түүл. PNG болон BMP зурагтай л ажиллаж чадна.
