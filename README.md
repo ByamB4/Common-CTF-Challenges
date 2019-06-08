@@ -57,6 +57,7 @@ Steganography
 	Энэ түүл нь PNG болон BMP файл дотор нуугдсан өгөгдлийг илрүүлнэ.
 
 * [Least Significant Bit](https://en.wikipedia.org/wiki/Bit_numbering#Least_significant_bit_in_digital_steganography) 
-	Зурган дотор битүүдийн хөндлөнгөөр нуух. 
+
+	Зурган доторх битүүдийг хөндлөнгөөр ашиглан өгөгдөл нуух. 
 	* [https://stylesuxx.github.io/steganography/](https://stylesuxx.github.io/steganography/)
 	
