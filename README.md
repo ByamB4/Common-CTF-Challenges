@@ -176,7 +176,14 @@ tcpflow -r my_file.pcap
 ls -1t | head -5 # see the last 5 recently modified files
 ```
 
+Java
+---------------
 
+* `.class` 
+
+	Java compile хийгдсэн файл decompile хийж болно.
+	* [http://www.javadecompilers.com/](http://www.javadecompilers.com/)
+	
 PHP
 ------------
 
