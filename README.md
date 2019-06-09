@@ -115,6 +115,6 @@ Svylt Pwzbt pz zptwsf kbttf alea vm aol wypuapun huk afwlzlaapun pukbzayf. Svylt
 	* [FactorDB](http://factordb.com/)
 	* [IntegerECM](https://www.alpertron.com.ar/ECM.HTM)
 	* [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
-	* [Python2 - code](/Cryptography/python2.py)
-	* [Python3 - code](/Cryptography/python3.py)
+	* [Python2 - code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/python2.py)
+	* [Python3 - code](/Cryptography/RSA/python3.py)
 	
