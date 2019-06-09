@@ -263,3 +263,12 @@ PNG File Forensics
 * `pngcheck`
 
 	Командын мөрний түүл өгөгдсөн `png` файлын бүрэн бүтэн байгаа эсэхийг анализ хийнэ.
+
+Miscellaneous
+--------------------
+
+* `01100010 00110001`
+
+	Битүүдийг тэмдэгтрүү хөрвүүлнэ.
+	* [https://www.rapidtables.com/convert/number/binary-to-ascii.html](https://www.rapidtables.com/convert/number/binary-to-ascii.html)
+	
