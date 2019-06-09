@@ -252,6 +252,13 @@ PDF Files
 Forensics
 -----------
 
+* `.wav`
+
+	Нэг төрлийн дууны формат бөгөөд `audacity` түүл ашиглаж болно.
+```
+Open file -> Straightfire -> Spectrogram
+```
+
 * Python bytecode `uncompyle6`
 
 	Python гийн compile хийгдсэн файлыг `uncompyle6` ашиглан decompile хийнэ. 
