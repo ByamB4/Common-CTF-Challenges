@@ -65,6 +65,11 @@ Steganography
 Cryptography
 -----------------------
 
+* `01100010 00110001`
+
+	Битүүдийг тэмдэгтрүү хөрвүүлнэ.
+	* [https://www.rapidtables.com/convert/number/binary-to-ascii.html](https://www.rapidtables.com/convert/number/binary-to-ascii.html)
+	
 * Ихэнх төрлийн transposition cipher дээр ашиглаж болох онлайн түүл. 
 	* [https://quipqiup.com/](https://quipqiup.com/)
 	* [https://gchq.github.io/CyberChef/](https://gchq.github.io/CyberChef/)
@@ -267,8 +272,5 @@ PNG File Forensics
 Miscellaneous
 --------------------
 
-* `01100010 00110001`
 
-	Битүүдийг тэмдэгтрүү хөрвүүлнэ.
-	* [https://www.rapidtables.com/convert/number/binary-to-ascii.html](https://www.rapidtables.com/convert/number/binary-to-ascii.html)
 	
