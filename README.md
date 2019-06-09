@@ -259,6 +259,9 @@ Forensics
 * [Magic Numbers](https://en.wikipedia.org/wiki/Magic_number_(programming)#Magic_numbers_in_files)
 
 	Файл болгонд өөрийн таних тэмдэг болгон Hex утгууд байдаг зарим тохиолдолд тэдгээрийг нь өөрчилсөн байна. Ихэнх файлын гарын үсгийг эндээс харж [болно](https://en.wikipedia.org/wiki/List_of_file_signatures).
+```
+[PNG](https://en.wikipedia.org/wiki/Portable_Network_Graphics) -> 	89 50 4e 47 0d 0a 1a 0a
+```
 	
 * [hexed.it](https://hexed.it/)
 
