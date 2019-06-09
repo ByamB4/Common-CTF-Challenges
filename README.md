@@ -198,4 +198,68 @@ PHP
 |0e00000111222333333666788888889|0e641853458593358523155449768529|
 |0001235666666688888888888|0e832225036643258141969031181899|
 
+* `preg_replace`
+
+	Хуучин PHP дээр байх Local File Inclusion алдаа 
+	* [http://php.net/manual/en/function.preg-replace.php](http://php.net/manual/en/function.preg-replace.php)
 	
+* `phpdc.phpr`
+	
+	`bcompile` аар compile хийгдсэн PHP файлыг decompile хийнэ.
+
+* [`php://filter`](https://www.idontplaydarts.com/2011/02/using-php-filter-for-local-file-inclusion/) 
+
+	PHP ийн бас нэгэн алдаа GET хүсэлтээр утга дамжуулж байх үед LFI хийх боломж олгоно.
+```
+http://xqi.cc/index.php?m=php://filter/convert.base64-encode/resource=index
+```
+
+PDF Files
+-------------
+
+* `pdfinfo`	
+	
+	Командын мөрний түүл ямар төрлийн `pdf` файл вэ зэрэгт анализ хийнэ.
+
+* `pdfcrack`
+
+	Командын мөрний түүл нууц үгээр хамгаалагдсан PDF файлыг `bruteforce`, `dictionary` аас тайлна.
+	
+Forensics
+-----------
+
+* Python bytecode `uncompyle6`
+
+	Python гийн compile хийгдсэн файлыг `uncompyle6` ашиглан decompile хийнэ. 
+
+* [Magic Numbers](https://en.wikipedia.org/wiki/Magic_number_(programming)#Magic_numbers_in_files)
+
+	Файл болгонд өөрийн таних тэмдэг болгон Hex утгууд байдаг зарим тохиолдолд тэдгээрийг нь өөрчилсөн байна. Ихэнх файлын гарын үсгийг эндээс харж [болно](https://en.wikipedia.org/wiki/List_of_file_signatures).
+	
+* [hexed.it](https://hexed.it/)
+
+	Онлайн түүл өгөгдсөн файлын HEX утгуудыг засварлан янзлана.
+	
+* `foremost`
+
+	Командын мөрний түүл файл дотор нуугдсан файлуудыг ил гаргаж ирнэ.
+
+* `binwalk` 
+
+	Командын мөрний түүл файлд анализ хийхээс гадна нуугдсан файлуудыг гаргаж ирнэ. 
+	
+```
+binwalk -e [FILENAME]
+binwalk -D='.*' [FILENAME]
+```
+
+* [TestDisk](https://www.cgsecurity.org/Download_and_donate.php/testdisk-7.1-WIP.linux26.tar.bz2)
+
+	Командын мөрний түүл `.dd`, `.img` файлуудаас устсан файлыг сэргээх засварлах юм.
+	
+PNG File Forensics
+--------------------
+
+* `pngcheck`
+
+	Командын мөрний түүл өгөгдсөн `png` файлын бүрэн бүтэн байгаа эсэхийг анализ хийнэ.
