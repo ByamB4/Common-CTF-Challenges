@@ -102,6 +102,15 @@ Svylt Pwzbt pz zptwsf kbttf alea vm aol wypuapun huk afwlzlaapun pukbzayf. Svylt
  python >>> import pwn; pwn.xor("KEY", "RAW_BINARY_CIPHER")
  ```
  
+ * [Mnemonic_major_system](https://en.wikipedia.org/wiki/Mnemonic_major_system)
+ 
+ 	Урт тоог цээжлэхийн тулд энэ аргийг ашигладаг бөгөөд үгийг -> тоо, буцаад тоог -> үг хэмээн хувиргана.
+	* [https://major-system.info/en/](https://major-system.info/en/)
+	* [Python 2 код](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/Major_System_Database.py)
+```
+Pave Pop Poke Pop Dutch Dozen Denim Deism Loot Thatch Pal Atheism Rough Ditch Tonal
+```
+ 
  * [Atbash Cipher](https://en.wikipedia.org/wiki/Atbash)
 
 	Mapping хийдэг cipher `A` үсгийг `Z` ээр солих гэх `B`-г `Y` солих гэх мэт.
