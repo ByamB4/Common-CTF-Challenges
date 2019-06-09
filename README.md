@@ -102,7 +102,7 @@ Svylt Pwzbt pz zptwsf kbttf alea vm aol wypuapun huk afwlzlaapun pukbzayf. Svylt
  python >>> import pwn; pwn.xor("KEY", "RAW_BINARY_CIPHER")
  ```
  
- * [Mnemonic_major_system](https://en.wikipedia.org/wiki/Mnemonic_major_system)
+* [Mnemonic_major_system](https://en.wikipedia.org/wiki/Mnemonic_major_system)
  
  	Урт тоог цээжлэхийн тулд энэ аргийг ашигладаг бөгөөд үгийг -> тоо, буцаад тоог -> үг хэмээн хувиргана.
 	* [https://major-system.info/en/](https://major-system.info/en/)
@@ -110,8 +110,18 @@ Svylt Pwzbt pz zptwsf kbttf alea vm aol wypuapun huk afwlzlaapun pukbzayf. Svylt
 ```
 Pave Pop Poke Pop Dutch Dozen Denim Deism Loot Thatch Pal Atheism Rough Ditch Tonal
 ```
- 
- * [Atbash Cipher](https://en.wikipedia.org/wiki/Atbash)
+
+* Mobile phone tap code Cipher 
+
+	Олон товчлуурт утсан дээр текст нууцална. Үр дүн нь үргэлж олон дараалсан тоонууд байна.
+	* [https://www.dcode.fr/multitap-abc-cipher](https://www.dcode.fr/multitap-abc-cipher)
+	
+```
+6 999 0 7777 88 7 33 777 0 7777 33 222 777 33 8 0 6 33 7777 7777 2 4 33
+```
+
+
+* [Atbash Cipher](https://en.wikipedia.org/wiki/Atbash)
 
 	Mapping хийдэг cipher `A` үсгийг `Z` ээр солих гэх `B`-г `Y` солих гэх мэт.
 	* [http://rumkin.com/tools/cipher/atbash.php](http://rumkin.com/tools/cipher/atbash.php)
