@@ -313,6 +313,17 @@ PNG File Forensics
 
 	Командын мөрний түүл өгөгдсөн `png` файлын бүрэн бүтэн байгаа эсэхийг анализ хийнэ.
 
+ZIP File Forensics
+--------------------
+
+* [`fcrackzip` ](https://allanfeid.com/content/cracking-zip-files-fcrackzip)
+
+	Командын мөрний түүл `.zip` файлуудыг brute-force ийн аргаар тайлна. Ихэнх тохиолдолд dictionary нь [`rockyou.txt`](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt) байх боловч зарим тохиолдолд өөр файлтай цуг өгөгдөн тэр файлаас dictionary гаргаж авна.
+```
+fcrackzip -v -D -u -p /usr/share/dict/words secret.zip
+```
+	
+	
 Miscellaneous
 --------------------
 
