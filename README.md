@@ -176,6 +176,19 @@ tcpflow -r my_file.pcap
 ls -1t | head -5 # see the last 5 recently modified files
 ```
 
+* 3D принтер өгөгдөл
+
+	Зарим `.pcap` файл дээр `usb` өгөгдөл баригдах бөгөөд эдгээрээс зарим нь принтерийнх байна. Энэ нь 3D принтерийн дата байх үед түүнийг зурах `python` код.
+	* [python2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/Code/pcap_3d_printer_capture.py)
+```
+BAR 148, 239, 48, 2
+BAR 196, 191, 2, 48
+BAR 148, 191, 48, 2
+BAR 68, 191, 48, 2
+BAR 76, 151, 40, 2
+BAR 76, 119, 2, 32
+```
+
 Java
 ---------------
 
@@ -327,5 +340,10 @@ fcrackzip -v -D -u -p /usr/share/dict/words secret.zip
 Miscellaneous
 --------------------
 
+* XOR файл
+
+	Зарим тохиолдолд тухайн файлыг `key`-ээр XOR үйлдэл хийсэн байдаг. Тэр тохиолдолд `python` код ашиглаж болох юм.
+	* [python2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/Code/xor_file_with_key.py)
+	
 
 	
