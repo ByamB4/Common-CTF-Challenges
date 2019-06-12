@@ -60,8 +60,12 @@ Steganography
 
 	Layer дээр өгөгдөл нуугдаагүй битэн дотор нуугдсан гэсэн үг. Тиймээс `Stegsolve.jar` аар Data Extract гээд үзээд явна. Эсвэл онлайн түүлээр шалгана.
 	* [https://stylesuxx.github.io/steganography/](https://stylesuxx.github.io/steganography/)
-	
 
+* [Steg with base64](https://github.com/bzorigt/stegb64)
+
+	Шинэ төрлийн base64 гэж хэлж болно. Энгийн base64 тайлахгүй бөгөөд одоогийн байдлаар доорх код л тайлна.
+	* [python2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Steganography/steg_base64.py)
+	
 Cryptography
 -----------------------
 
