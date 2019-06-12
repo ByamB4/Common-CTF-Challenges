@@ -58,7 +58,7 @@ Steganography
 
 * [Least Significant Bit](https://en.wikipedia.org/wiki/Bit_numbering#Least_significant_bit_in_digital_steganography) 
 
-	Зурган доторх битүүдийг хөндлөнгөөр ашиглан өгөгдөл нуух. 
+	Layer дээр өгөгдөл нуугдаагүй битэн дотор нуугдсан гэсэн үг. Тиймээс `Stegsolve.jar` аар Data Extract гээд үзээд явна. Эсвэл онлайн түүлээр шалгана.
 	* [https://stylesuxx.github.io/steganography/](https://stylesuxx.github.io/steganography/)
 	
 
