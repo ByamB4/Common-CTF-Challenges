@@ -339,7 +339,7 @@ binwalk -D='.*' [FILENAME]
 * [TestDisk](https://www.cgsecurity.org/Download_and_donate.php/testdisk-7.1-WIP.linux26.tar.bz2)
 
 	Командын мөрний түүл `.dd`, `.img` файлуудаас устсан файлыг сэргээх засварлах юм.
-	
+
 PNG File Forensics
 --------------------
 
@@ -365,6 +365,12 @@ Miscellaneous
 
 	Зарим тохиолдолд тухайн файлыг `key`-ээр XOR үйлдэл хийсэн байдаг. Тэр тохиолдолд `python` код ашиглаж болох юм.
 	* [python2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/Code/xor_file_with_key.py)
+
+* Npiet зураг
+
+	Програмын хэлээр 8 бит дотор өгөгдөл нууцална.
+	* [https://www.bertnase.de/npiet/npiet-execute.php](https://www.bertnase.de/npiet/npiet-execute.php)
 	
+![art.png](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/img/art.png)
 
 	
