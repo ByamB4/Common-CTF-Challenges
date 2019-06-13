@@ -156,6 +156,13 @@ s     e
     c 
 ```
 
+* [Music Sheet Cipher](https://en.wikipedia.org/wiki/Musical_cryptogram)
+
+	Нотыг ашиглаж өгөгдлөө нууцална.
+	* [https://www.dcode.fr/music-sheet-cipher](https://www.dcode.fr/music-sheet-cipher)
+	
+![something](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/Mortal_theme_score.jpg)
+
 Networking
 ---------------
 
