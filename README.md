@@ -356,7 +356,11 @@ ZIP File Forensics
 ```
 fcrackzip -v -D -u -p /usr/share/dict/words secret.zip
 ```
-	
+
+* `Too many zipped`
+
+	Ихэнх даалгаврууд дээр маш олон удаа шахсан байдалтай орж ирэх юм. Үүнийг одоогийн байдлаар ямар бэлэн түүл олоогүй ихэнх тохиолдолд гараар бичиж байгаа. 
+	* [Нэг төрлийн ZIP](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/ZIP/code/crack-1.py)
 	
 Miscellaneous
 --------------------
@@ -382,4 +386,10 @@ Miscellaneous
 D'`_$^"7m5X32Vxfvu?1NMpLml$jGFggUdSbb}<{)]xqpunm3qpohmfe+Lbgf_^]#a`Y^WVz=<XWVONrLQJINGkEiIHG)?c&BA:?>=<5Yzy765432+O/.'&%$H(!g%$#z@~}vu;srqvun4Uqjinmle+cKaf_d]#[`_X|\[ZYXWVUTSRQP2NMFKJCBfFE>&<`@9!=<5Y9y7654-,P0/o-,%I)ih~}${A!a}v{t:[Zvo5srTSonmf,jiKg`_dc\"`BXWVzZ<;WVUTMqQP2NGFEiIHGF?>bB$@9]=<;4381Uvu-2+0/('K+*)('~f|B/
 ```
 
-	
+Web
+--------------------
+
+* `hydra` 
+
+	Командын мөрний түүл бөгөөд brute-force хийх зэрэгт ашиглана.
+	`hydra -l admin -P $(locate rockyou.txt) http://docker.hackthebox.eu:33652 http-post-form "/:password=^PASS^:Invalid password -s 53593`
