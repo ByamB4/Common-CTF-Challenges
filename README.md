@@ -44,12 +44,16 @@ MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO 
 Steganography
 -----------------------
 
-* [Stegsolve.jar](https://github.com/zardus/ctf-tools/blob/master/stegsolve/install)
+* [`Stegsolve.jar`](https://github.com/zardus/ctf-tools/blob/master/stegsolve/install)
 
 	Ихэнх даалгавар дээр ашиглаж болох бөгөөд өнгө бүр дээр хувирлыг харуулна.
-* 
-	
-* [steghide](http://steghide.sourceforge.net/download.php)
+
+* `Offset`
+	Stegsolve-оор offset ээр нь гүйлгэнэ.
+
+![Offset image](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Steganography/img/frame_031_delay-0.07s.png)
+
+* [`steghide`](http://steghide.sourceforge.net/download.php)
 
 	Нууц үгээр тухайн зурагтаа файл нуух, гаргаж авах түүл. PNG болон BMP зурагтай л ажиллаж чадна.
 	
@@ -162,7 +166,7 @@ s     e
 	Нотыг ашиглаж өгөгдлөө нууцална.
 	* [https://www.dcode.fr/music-sheet-cipher](https://www.dcode.fr/music-sheet-cipher)
 	
-![something](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/Mortal_theme_score.jpg)
+![Mortal_theme_score](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/Mortal_theme_score.jpg)
 
 Networking
 ---------------
