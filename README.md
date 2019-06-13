@@ -61,12 +61,12 @@ Steganography
 	
 	Энэ түүл нь PNG болон BMP файл дотор нуугдсан өгөгдлийг илрүүлнэ.
 
-* [Least Significant Bit](https://en.wikipedia.org/wiki/Bit_numbering#Least_significant_bit_in_digital_steganography) 
+* [`Least Significant Bit`](https://en.wikipedia.org/wiki/Bit_numbering#Least_significant_bit_in_digital_steganography) 
 
 	Layer дээр өгөгдөл нуугдаагүй битэн дотор нуугдсан гэсэн үг. Тиймээс `Stegsolve.jar` аар Data Extract гээд үзээд явна. Эсвэл онлайн түүлээр шалгана.
 	* [https://stylesuxx.github.io/steganography/](https://stylesuxx.github.io/steganography/)
 
-* [Steg with base64](https://github.com/bzorigt/stegb64)
+* [`Steg with base64`](https://github.com/bzorigt/stegb64)
 
 	Шинэ төрлийн base64 гэж хэлж болно. Энгийн base64 тайлахгүй бөгөөд одоогийн байдлаар доорх код л тайлна.
 	* [python2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Steganography/steg_base64.py)
@@ -83,7 +83,7 @@ Cryptography
 	* [https://quipqiup.com/](https://quipqiup.com/)
 	* [https://gchq.github.io/CyberChef/](https://gchq.github.io/CyberChef/)
 
-* Ceaser - 26
+* `Ceaser - 26`
 
 	Англи хэлний 26 үсгэн дотор шилжилт хийж текстээ нууцалж задлана. Rot гэдэг нь хэдэн шилжилт хийснийг илэрхийлнэ. Маш олон онлайн түүл байгаа. Гэвч коммандны мөрнөөс хийвэл илүү амар `caesar` ашиглан (`apt install bsdgames`) аас суулгана. 
 	
@@ -96,7 +96,7 @@ Cryptography
 Svylt Pwzbt pz zptwsf kbttf alea vm aol wypuapun huk afwlzlaapun pukbzayf. Svylt Pwzbt ohz illu aol pukbzayf'z zahukhyk kbttf alea lcly zpujl aol 1500z, dolu hu buruvdu wypualy avvr h nhsslf vm afwl huk zjyhtislk pa av thrl h afwl zwljptlu ivvr. Pa ohz zbycpclk uva vusf mpcl jluabyplz, iba hszv aol slhw puav lsljayvupj afwlzlaapun, ylthpupun lzzluaphssf bujohunlk. Pa dhz wvwbshypzlk pu aol 1960z dpao aol ylslhzl vm Slayhzla zollaz jvuahpupun Svylt Pwzbt whzzhnlz, huk tvyl yljluasf dpao klzravw wbispzopun zvmadhyl sprl Hskbz WhnlThrly pujsbkpun clyzpvuz vm Svylt Pwzbt.
 ```
 	
-* Keyboard шилжилт
+* `Keyboard шилжилт`
 
 	Keyboard дахь үсэгнүүдийг баруун тийш нь шилжүүлж нууцална.
 	* [https://www.dcode.fr/keyboard-shift-cipher](https://www.dcode.fr/keyboard-shift-cipher)
@@ -104,14 +104,14 @@ Svylt Pwzbt pz zptwsf kbttf alea vm aol wypuapun huk afwlzlaapun pukbzayf. Svylt
 :ptr, O[di, od do,[;u fi,,u yrcy pg yjr [tomyomh smf yu[rdryyomh omfidytu/ :ptr, O[di, jsd nrrm yjr omfidytu\d dysmfstf fi,,u yrcy rbrt domvr yjr 26--d. ejrm sm imlmpem [tomyrt yppl s hs;;ru pg yu[r smf dvts,n;rf oy yp ,slr s yu[r d[rvo,rm nppl/ Oy jsd ditbobrf mpy pm;u gobr vrmyitord. niy s;dp yjr ;rs[ omyp r;rvytpmov yu[rdryyomh. tr,somomh rddrmyos;;u imvjsmhrf/ Oy esd [p[i;stodrf om yjr 207-d eoyj yjr tr;rsdr pg :rytsdry djrryd vpmysomomh :ptr, O[di, [sddshrd. smf ,ptr trvrmy;u eoyj frdlyp[ [in;odjomh dpgyestr ;olr S;fid {shr<slrt omv;ifomh brtdopmd pg :ptr, O[di,/
 ```
 
-* XOR
+* `XOR`
 	
 	Бүх текст XOR үйлдэл хийх боломжтой `\xde\xad\xbe\xef` үүнийг өөрийн компьютер дотроо тайлна гэвэл `pwntools` ашиглаж болно.
 ```
  python >>> import pwn; pwn.xor("KEY", "RAW_BINARY_CIPHER")
  ```
  
-* [Mnemonic_major_system](https://en.wikipedia.org/wiki/Mnemonic_major_system)
+* [`Mnemonic_major_system`](https://en.wikipedia.org/wiki/Mnemonic_major_system)
  
  	Урт тоог цээжлэхийн тулд энэ аргийг ашигладаг бөгөөд үгийг -> тоо, буцаад тоог -> үг хэмээн хувиргана.
 	* [https://major-system.info/en/](https://major-system.info/en/)
@@ -120,7 +120,7 @@ Svylt Pwzbt pz zptwsf kbttf alea vm aol wypuapun huk afwlzlaapun pukbzayf. Svylt
 Pave Pop Poke Pop Dutch Dozen Denim Deism Loot Thatch Pal Atheism Rough Ditch Tonal
 ```
 
-* Mobile phone tap code Cipher 
+* `Mobile phone tap code Cipher `
 
 	Олон товчлуурт утсан дээр текст нууцална. Үр дүн нь үргэлж олон дараалсан тоонууд байна.
 	* [https://www.dcode.fr/multitap-abc-cipher](https://www.dcode.fr/multitap-abc-cipher)
@@ -130,19 +130,19 @@ Pave Pop Poke Pop Dutch Dozen Denim Deism Loot Thatch Pal Atheism Rough Ditch To
 ```
 
 
-* [Atbash Cipher](https://en.wikipedia.org/wiki/Atbash)
+* [`Atbash Cipher`](https://en.wikipedia.org/wiki/Atbash)
 
 	Mapping хийдэг cipher `A` үсгийг `Z` ээр солих гэх `B`-г `Y` солих гэх мэт.
 	* [http://rumkin.com/tools/cipher/atbash.php](http://rumkin.com/tools/cipher/atbash.php)
 	
-* [Vigenere Cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
+* [`Vigenere Cipher`](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
 
 	Түлхүүртэй байх бөгөөд тэр түлхүүрээрээ нууцалж буцааж задалж болно.
 	* [https://www.guballa.de/vigenere-solver](https://www.guballa.de/vigenere-solver)
 	* [https://www.dcode.fr/vigenere-cipher](https://www.dcode.fr/vigenere-cipher)
 	* [https://f00l.de/hacking/vigenere.php](https://f00l.de/hacking/vigenere.php)
 	
-* [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
+* [`RSA`](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
 
 	Ихэнх тохиолдолд `n`, `c`, `e` өгөгдөх бөгөөд эхлээд [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool) ашиглаж үзэх хэрэгтэй. Бусад тохиолдолд гараар бодно.
 	* [FactorDB](http://factordb.com/)
@@ -151,7 +151,7 @@ Pave Pop Poke Pop Dutch Dozen Denim Deism Loot Thatch Pal Atheism Rough Ditch To
 	* [Python2 - code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/python2.py)
 	* [Python3 - code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/python3.py)
 	
-* Railfence Cipher
+* `Railfence Cipher`
 	
 	Симметрик төрлийн түлхүүртэй доош дээшээ шилжинэ.
 	* [http://rumkin.com/tools/cipher/railfence.php](http://rumkin.com/tools/cipher/railfence.php)
@@ -161,21 +161,21 @@ s     e
     c 
 ```
 
-* [Music Sheet Cipher](https://en.wikipedia.org/wiki/Musical_cryptogram)
+* [`Music Sheet Cipher`](https://en.wikipedia.org/wiki/Musical_cryptogram)
 
 	Нотыг ашиглаж өгөгдлөө нууцална.
 	* [https://www.dcode.fr/music-sheet-cipher](https://www.dcode.fr/music-sheet-cipher)
 	
-![Mortal_theme_score](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/Mortal_theme_score.jpg)
+![`Mortal_theme_score`](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/Mortal_theme_score.jpg)
 
 Networking
 ---------------
 
-* [Wireshark](https://www.wireshark.org/)
+* [`Wireshark`](https://www.wireshark.org/)
 
 	`.pcap` файлууд дээр анализ хийнэ.
 
-* [Network Miner](http://www.netresec.com/?page=NetworkMiner)
+* [`Network Miner`](http://www.netresec.com/?page=NetworkMiner)
 
 	`.pcap` болон `.pcapng` файлууд дээр анализ хийнэ.
 	
@@ -192,7 +192,7 @@ tcpflow -r my_file.pcap
 ls -1t | head -5 # see the last 5 recently modified files
 ```
 
-* 3D принтер өгөгдөл
+* `3D принтер` өгөгдөл
 
 	Зарим `.pcap` файл дээр `usb` өгөгдөл баригдах бөгөөд эдгээрээс зарим нь принтерийнх байна. Энэ нь 3D принтерийн дата байх үед түүнийг зурах `python` код.
 	* [python2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/Code/pcap_3d_printer_capture.py)
@@ -221,7 +221,7 @@ Java
 PHP
 ------------
 
-* Magic Hashes
+* `Magic Hashes`
 	
 	Хуучин PHP дээр зарим хаш ижил утгатай байдаг `0e` ээр эхэлсэн байна. Үүнийг `==` оператор дээр ашиглаж болно.
 	* [https://github.com/spaze/hashes](https://github.com/spaze/hashes)
@@ -305,11 +305,11 @@ Forensics
 Open file -> Straightfire -> Spectrogram
 ```
 
-* Python bytecode `uncompyle6`
+* `Python bytecode` uncompyle6
 
 	Python гийн compile хийгдсэн файлыг `uncompyle6` ашиглан decompile хийнэ. 
 
-* [Magic Numbers](https://en.wikipedia.org/wiki/Magic_number_(programming)#Magic_numbers_in_files)
+* [`Magic Numbers`](https://en.wikipedia.org/wiki/Magic_number_(programming)#Magic_numbers_in_files)
 
 	Файл болгонд өөрийн таних тэмдэг болгон Hex утгууд байдаг зарим тохиолдолд тэдгээрийг нь өөрчилсөн байна. Ихэнх файлын гарын үсгийг эндээс харж [болно](https://en.wikipedia.org/wiki/List_of_file_signatures).
 	* [https://asecuritysite.com/forensics/magic](https://asecuritysite.com/forensics/magic)
@@ -319,7 +319,7 @@ PSD ->  38 42 50 53
 ```
 	
 	
-* [hexed.it](https://hexed.it/)
+* [`hexed.it`](https://hexed.it/)
 
 	Онлайн түүл өгөгдсөн файлын HEX утгуудыг засварлан янзлана.
 	
@@ -336,7 +336,7 @@ binwalk -e [FILENAME]
 binwalk -D='.*' [FILENAME]
 ```
 
-* [TestDisk](https://www.cgsecurity.org/Download_and_donate.php/testdisk-7.1-WIP.linux26.tar.bz2)
+* [`TestDisk`](https://www.cgsecurity.org/Download_and_donate.php/testdisk-7.1-WIP.linux26.tar.bz2)
 
 	Командын мөрний түүл `.dd`, `.img` файлуудаас устсан файлыг сэргээх засварлах юм.
 
@@ -361,12 +361,12 @@ fcrackzip -v -D -u -p /usr/share/dict/words secret.zip
 Miscellaneous
 --------------------
 
-* XOR файл
+* `XOR` файл
 
 	Зарим тохиолдолд тухайн файлыг `key`-ээр XOR үйлдэл хийсэн байдаг. Тэр тохиолдолд `python` код ашиглаж болох юм.
 	* [python2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/Code/xor_file_with_key.py)
 
-* Npiet зураг
+* `Npiet` зураг
 
 	Програмын хэлээр 8 бит дотор өгөгдөл нууцална.
 	* [https://www.bertnase.de/npiet/npiet-execute.php](https://www.bertnase.de/npiet/npiet-execute.php)
