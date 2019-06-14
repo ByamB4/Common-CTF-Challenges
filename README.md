@@ -392,4 +392,16 @@ Web
 * `hydra` 
 
 	Командын мөрний түүл бөгөөд brute-force хийх зэрэгт ашиглана.
-	`hydra -l admin -P $(locate rockyou.txt) http://docker.hackthebox.eu:33652 http-post-form "/:password=^PASS^:Invalid password -s 53593`
+	`hydra -l admin -P $(locate rockyou.txt) http://docker.hackthebox.eu:33652 http-post-form "/:password=^PASS^:Invalid password -s 53593
+	
+Pwn
+--------------------
+
+* `gdb` 
+
+	Командын мөрний түүл Linux үйлдлийн системийн binary файлуудтай маш сайн ажиллана. 
+	* `disas main`      -> машины кодыг харуулна
+	* `b *0x000012`     -> тухайн хаяган дээр break хийнэ
+	* `info registers`  -> одоо байгаа register үүдийн утгийг харна
+	* `set $esp=1`	    -> register ийн утгийг өөрчлөнө
+
