@@ -168,6 +168,17 @@ s     e
 	
 ![`Mortal_theme_score`](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/Mortal_theme_score.jpg)
 
+* [`Tupper's Self-Referential Formula`](https://en.wikipedia.org/wiki/Tupper%27s_self-referential_formula)
+
+	x, y байрлалаар дүрс зурна. 
+	* [http://keelyhill.github.io/tuppers-formula/](http://keelyhill.github.io/tuppers-formula/)
+	
+```
+960 939 379 918 958 884 971 672 962 127 852 754 715 004 339 660 129 306 651 505 519 271 702 802 395 266 424 689 642 842 174 350 718 121 267 153 782 770 623 355 993 237 280 874 144 307 891 325 963 941 337 723 487 857 735 749 823 926 629 715 517 173 716 995 165 232 890 538 221 612 403 238 855 866 184 013 235 585 136 048 828 693 337 902 491 454 229 288 667 081 096 184 496 091 705 183 454 067 827 731 551 705 405 381 627 380 967 602 565 625 016 981 482 083 418 783 163 849 115 590 225 610 003 652 351 370 343 874 461 848 378 737 238 198 224 849 863 465 033 159 410 054 974 700 593 138 339 226 497 249 461 751 545 728 366 702 369 745 461 014 655 997 933 798 537 483 143 786 841 806 593 422 227 898 388 722 980 000 748 404 719
+```
+	
+![`Tupper decoded image](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/Tupper's_self_referential_formula_plot.svg)
+
 Networking
 ---------------
 
