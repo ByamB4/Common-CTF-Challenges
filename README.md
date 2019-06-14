@@ -351,6 +351,7 @@ binwalk -D='.*' [FILENAME]
 
 	Командын мөрний түүл `.dd`, `.img` файлуудаас устсан файлыг сэргээх засварлах юм.
 
+
 PNG File Forensics
 --------------------
 
@@ -424,6 +425,11 @@ Pwn
 Programming
 --------------------
 
+* [`Red Green Blue`](https://en.wikipedia.org/wiki/RGB_color_model)
+
+	8 бит хэмжээтэй зурагнаас red, green, blue өнгөний кодыг ялган авна.
+	* [python - 3](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Programming/code/get-rgb-value.py)
+	
 * `Old Lisp` 
 	
 	* [python-2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Programming/code/old_list_manner_of_thepeaking.py)
