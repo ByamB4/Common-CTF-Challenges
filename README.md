@@ -420,4 +420,11 @@ Pwn
 	* `b *0x000012`     -> тухайн хаяган дээр break хийнэ
 	* `info registers`  -> одоо байгаа register үүдийн утгийг харна
 	* `set $esp=1`	    -> register ийн утгийг өөрчлөнө
+	
+Programming
+--------------------
+
+* `Lisp` 
+
+	
 
