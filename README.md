@@ -425,11 +425,6 @@ Pwn
 Programming
 --------------------
 
-* [`Red Green Blue`](https://en.wikipedia.org/wiki/RGB_color_model)
-
-	8 бит хэмжээтэй зурагнаас red, green, blue өнгөний кодыг ялган авна.
-	* [python - 3](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Programming/code/get-rgb-value.py)
-	
 * `Old Lisp` 
 	
 	* [python-2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Programming/code/old_list_manner_of_thepeaking.py)
@@ -437,5 +432,8 @@ Programming
 cadadddddr, caddadddddr, caadddddr, caddadddddr, cadddddddddddddddddddadddddr, cadddddadddddr, caaddddddr, cadddddddddddadddr, cadadr, cadddddadr, cadddddddadr, caddddaddddr, caddddddddadr, caddddadr, cadddddadr, cadddadr, cadddadddddr, caddddaddddr, cadddddddddddddddadddddr, cadddddddddddddddddadddr, caadr, caddddddadddddr, cadddddddddddddddddadddr, caddddadr, caddddddddddddadddr, caddddddddddddadddddr, cadadr, cadddddddddddddadddddr, caddddddadddr, caddddaddddr, cadadr, cadddddadr, caddddaddddr, caddddadr, caddddddddddddddddddddddadddddr, cadddadr, caddddddddddddddddddadddr, caadr, caddddddddddddadddr, caddddadddddr, cadar, caddaddddddr
 ```
 
+* `PIL`
 	
-
+	Python Image Library нь зурагтай ажиллахад ашиглах сан юм. Доор зарим жишээ код үлдээв.
+	* Жижиг жижиг зураг [нэгтгэх](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Programming/code/PIL-UnionImage.py). 
+	* Red, Green, Blue өнгөний кодыг ялган [авна](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Programming/code/get-rgb-value.py).
