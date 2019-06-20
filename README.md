@@ -437,3 +437,8 @@ cadadddddr, caddadddddr, caadddddr, caddadddddr, cadddddddddddddddddddadddddr, c
 	Python Image Library нь зурагтай ажиллахад ашиглах сан юм. Доор зарим жишээ код үлдээв.
 	* Жижиг жижиг зураг [нэгтгэх](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Programming/code/PIL-UnionImage.py). 
 	* Red, Green, Blue өнгөний кодыг ялган [авна](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Programming/code/get-rgb-value.py).
+
+* `Magic number`
+
+	Зарим файлын magic number ийг өөрчилсөн байдаг. 
+	* [FF DE BO GG -> GG BO DE FF](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Programming/code/magic-number-reverse.py)
