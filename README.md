@@ -41,6 +41,12 @@ MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO 
  MoO MoO MoO MoO MoO Moo Moo MoO MoO MoO Moo OOO MoO MoO MoO MoO
  ```
 
+* `Alien message futarama`
+
+![`Example picture`](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Esoteric%20Languages/img/alien_message.png)
+
+![`Decode Table`](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Esoteric%20Languages/img/futurama.gif)
+
 Steganography
 -----------------------
 
