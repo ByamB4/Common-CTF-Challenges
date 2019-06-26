@@ -4,7 +4,7 @@ Miscellaneous
 * `XOR` файл
 
 	Зарим тохиолдолд тухайн файлыг `key`-ээр XOR үйлдэл хийсэн байдаг. Тэр тохиолдолд `python` код ашиглаж болох юм.
-	* [python2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/Code/xor_file_with_key.py)
+	* [python2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/code/xor_file_with_key.py)
 
 * `Npiet` зураг
 
