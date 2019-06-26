@@ -26,5 +26,5 @@ Steganography
 * [`Steg with base64`](https://github.com/bzorigt/stegb64)
 
 	Шинэ төрлийн base64 гэж хэлж болно. Энгийн base64 тайлахгүй бөгөөд одоогийн байдлаар доорх код л тайлна.
-	* [python2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Steganography/steg_base64.py)
+	* [python2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Steganography/code/stegb64.py)
 	
