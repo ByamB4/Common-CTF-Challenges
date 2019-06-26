@@ -17,7 +17,7 @@ Esoteric Languages
 * Esoteric төрлийн ихэнх хэлнүүдийг ажиллуулах сайт. [https://tio.run/](https://tio.run/)
 
   
-* Brainfuck
+* `Brainfuck`
   	8 тэмдэгтийг ашиглаж декод хийнэ. [https://www.dcode.fr/brainfuck-language](https://www.dcode.fr/brainfuck-language)
  ```
 ++++++++++[>+>+++>+++++++>++++++++++<<<<-]>>>>+++++++++++++++++.--.--------------.+++++++++++++.----.-----------
@@ -26,13 +26,13 @@ Esoteric Languages
 .<++++++++++++++++++++++.>++++++++++++++..>+.----.>------.+++++++.--------.<+++.>++++++++++++..-------.++.
 ```
   
-* JS-Fuck
+* `JS-Fuck`
 	6 тэмдэгтийг ашиглаж декод хийнэ. [https://enkhee-osiris.github.io/Decoder-JSFuck/](https://enkhee-osiris.github.io/Decoder-JSFuck/)
 ```
 [][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]][([][(![]+[])[+[]]+([![]]+[][[]])[+!+[]+[+[]]]+(![]+[])[!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!
 ```
 
-* Cow
+* `Cow`
 	3 тэмдэгтийг ашиглаж декод хийнэ. 
 ```
 MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO
@@ -41,6 +41,11 @@ MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO 
  MoO MoO MoO MoO MoO Moo Moo MoO MoO MoO Moo OOO MoO MoO MoO MoO
  ```
 
+* `Blub or Ook!`
+
+	Дараах 3 тэмдэгтийг ашиглана '!', '.', '?' ихэвчлэн dcode ашиглан тайлж байсан.
+	* [https://www.dcode.fr/ook-language](https://www.dcode.fr/ook-language)
+	
 * `Alien message futarama`
 
 ![`Example picture`](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Esoteric%20Languages/img/alien_message.png)
