@@ -45,6 +45,8 @@ MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO 
 
 	Дараах 3 тэмдэгтийг ашиглана '!', '.', '?' ихэвчлэн dcode ашиглан тайлж байсан.
 	* [https://www.dcode.fr/ook-language](https://www.dcode.fr/ook-language)
+
+![`Example picture with only character`](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Esoteric%20Languages/img/bulb-or-00k.png)
 	
 * `Alien message futarama`
 
