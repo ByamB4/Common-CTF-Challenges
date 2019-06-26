@@ -1,7 +1,7 @@
 PHP
 ------------
 
-* Magic Hashes
+* `Magic Hashes`
 	
 	Хуучин PHP дээр зарим хаш ижил утгатай байдаг `0e` ээр эхэлсэн байна. Үүнийг `==` оператор дээр ашиглаж болно.
 	* [https://github.com/spaze/hashes](https://github.com/spaze/hashes)
