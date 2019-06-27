@@ -22,3 +22,10 @@ Miscellaneous
 D'`_$^"7m5X32Vxfvu?1NMpLml$jGFggUdSbb}<{)]xqpunm3qpohmfe+Lbgf_^]#a`Y^WVz=<XWVONrLQJINGkEiIHG)?c&BA:?>=<5Yzy765432+O/.'&%$H(!g%$#z@~}vu;srqvun4Uqjinmle+cKaf_d]#[`_X|\[ZYXWVUTSRQP2NMFKJCBfFE>&<`@9!=<5Y9y7654-,P0/o-,%I)ih~}${A!a}v{t:[Zvo5srTSonmf,jiKg`_dc\"`BXWVzZ<;WVUTMqQP2NGFEiIHGF?>bB$@9]=<;4381Uvu-2+0/('K+*)('~f|B/
 ```
 
+* `IBM card punch`
+
+	Дээхэн үед цаасан нүхэлж кодчилдог байсан. Үүнийг уншихдаа 1 багана дахь тэмдэгтийг түүж бичнэ. Одоогоор шууд зурагнаас уншаад үр дүн харуулдаг байхгүй харин кодыг нь түүж бичээд үр дүн гаргаж болно.
+	* [python3](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/code/ibm-key-punch-code-to-text.py)
+
+![example](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/img/1.jpg)
+![code-to-text](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/img/keypunch.png)
