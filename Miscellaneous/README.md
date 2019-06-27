@@ -24,7 +24,9 @@ D'`_$^"7m5X32Vxfvu?1NMpLml$jGFggUdSbb}<{)]xqpunm3qpohmfe+Lbgf_^]#a`Y^WVz=<XWVONr
 
 * `IBM card punch`
 
-	Дээхэн үед цаасан нүхэлж кодчилдог байсан. Үүнийг уншихдаа 1 багана дахь тэмдэгтийг түүж бичнэ. Одоогоор шууд зурагнаас уншаад үр дүн харуулдаг байхгүй харин кодыг нь түүж бичээд үр дүн гаргаж болно.
+	Дээхэн үед цаасан нүхэлж кодчилдог байсан. Үүнийг уншихдаа 1 багана дахь тэмдэгтийг түүж бичнэ. 
+	* [python2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/code/punch-card-method-1.py)
+	* [python3](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/code/punch-card-method-2.py)
 	* [python3](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/code/ibm-key-punch-code-to-text.py)
 
 ![example](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/img/1.jpg)
