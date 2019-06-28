@@ -87,12 +87,22 @@ s     e
   e  r  t  => seertc 
     c 
 ```
+
 * `Bubble Babble`
 
 	* [https://github.com/eur0pa/bubblepy](https://github.com/eur0pa/bubblepy)
 
 ```
 xipak-comok-repuk-vanik-dytuk-dimyk-sinyx
+```
+
+* `Cpassword`
+	
+	* [python-3](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/code/c-password-method-1-3.py)
+	* [python-2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/code/c-password-method-2-2.py)
+	
+```
+PCXrmCkYWyRRx3bf+zqEydW9/trbFToMDx6fAvmeCDw
 ```
 	
 * [`Music Sheet Cipher`](https://en.wikipedia.org/wiki/Musical_cryptogram)
