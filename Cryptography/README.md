@@ -87,7 +87,14 @@ s     e
   e  r  t  => seertc 
     c 
 ```
+* `Bubble Babble`
 
+	* [https://github.com/eur0pa/bubblepy](https://github.com/eur0pa/bubblepy)
+
+```
+xipak-comok-repuk-vanik-dytuk-dimyk-sinyx
+```
+	
 * [`Music Sheet Cipher`](https://en.wikipedia.org/wiki/Musical_cryptogram)
 
 	Нотыг ашиглаж өгөгдлөө нууцална.
