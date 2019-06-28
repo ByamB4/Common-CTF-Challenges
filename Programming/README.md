@@ -1,7 +1,7 @@
 Programming
 --------------------
 
-* (`RingZer0-CTF-Programing`](https://ringzer0ctf.com/challenges)
+* [`RingZer0-CTF-Programing`](https://ringzer0ctf.com/challenges)
 	
 	**Hash breaker reloaded** Вебээс hash утга болон salt аваад түүнийг 1 ээс 10000 ын хооронд brute-force хийж тэнцэж байвал буцаад веб хуудасруугаа дамжуулна.
 	* [python3](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Programming/ringzero0/hash-breaker-reloaded.py)
