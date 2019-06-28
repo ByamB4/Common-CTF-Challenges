@@ -1,6 +1,7 @@
 Hash
 -----------------------
 
-* [`Stegsolve.jar`](https://github.com/zardus/ctf-tools/blob/master/stegsolve/install)
+* `Hash functions length`
 
-	Ихэнх даалгавар дээр ашиглаж болох бөгөөд өнгө бүр дээр хувирлыг харуулна.
+	* MD-5  *5eb63bbbe01eeed093cb22bb8f5acdc3* -> _32_
+	* SHA-1 *2aae6c35c94fcfb415dbe95f408b9ce91ee846ed* -> _40_
