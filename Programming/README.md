@@ -25,3 +25,8 @@ cadadddddr, caddadddddr, caadddddr, caddadddddr, cadddddddddddddddddddadddddr, c
 
 	Зарим файлын magic number ийг өөрчилсөн байдаг. 
 	* [FF DE BO GG -> GG BO DE FF](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Programming/code/magic-number-reverse.py)
+
+* `ISITDTU - 2019`
+	
+	Do you like math netcat аар холбогдох ба серверээс ascii art ирж 1 секундын дотор хариулах ёстой.
+	* [python2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Programming/code/isitdtu2019-do-you-like-math.py)
