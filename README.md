@@ -192,6 +192,12 @@ s     e
 	
 ![`Tupper decoded image](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/Tupper's_self_referential_formula_plot.svg)
 
+* `Birs on a wire code`
+	
+	Шувууны дүрсээр [A-Z] үсэг илэрхийлнэ.
+	
+![Bird code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/birdsOnAWire.png)
+
 Networking
 ---------------
 
