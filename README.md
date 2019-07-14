@@ -163,6 +163,9 @@ Pave Pop Poke Pop Dutch Dozen Denim Deism Loot Thatch Pal Atheism Rough Ditch To
 	* [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
 	* [Python2 - code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/python2.py)
 	* [Python3 - code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/python3.py)
+		
+	Зарим тохиолдолд `e` -г таахаас өөр аргагүй.
+	* [Python2 - code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/find_e_python-2.py)
 	
 * `Railfence Cipher`
 	
