@@ -316,7 +316,12 @@ http://xqi.cc/index.php?m=php://filter/convert.base64-encode/resource=index
 
 	Бас нэгэн php гийн алдаа бөгөөд ямар нэгэн дараах утгууд bypass хийнэ.
 	* 129581926211651571912466741651878684928
+	
+* `strcmp`
 
+	PHP дээр үүнийг bypass хийх олон арга байдгийг доор жагсаав.
+	* Хэрвээ GET хүсэлтээр дамжиж байгаа бол array байдалтай утгаа дамжуулах `?password[]=123`, эсвэл POST хүсэлтээр байвал source дээрх `input name=password[]` болгож утга дамжуулна.
+	
 PDF Files
 -------------
 
