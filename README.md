@@ -312,6 +312,11 @@ PHP
 http://xqi.cc/index.php?m=php://filter/convert.base64-encode/resource=index
 ```
 
+* `md5('value', true);`
+
+	Бас нэгэн php гийн алдаа бөгөөд ямар нэгэн дараах утгууд bypass хийнэ.
+	* 129581926211651571912466741651878684928
+
 PDF Files
 -------------
 
