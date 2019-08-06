@@ -201,6 +201,12 @@ s     e
 	
 ![Bird code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/birdsOnAWire.png)
 
+* `DNA crypto`
+
+	![alt text](https://raw.githubusercontent.com/JohnHammond/ctf-katana/master/img/dna_codes.png)
+	![alt text](https://raw.githubusercontent.com/JohnHammond/ctf-katana/master/img/genome-coding.jpg)
+	* [python3](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/code/DNA-solver.py)
+
 Networking
 ---------------
 
