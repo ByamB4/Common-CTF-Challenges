@@ -391,6 +391,17 @@ PNG File Forensics
 
 	Командын мөрний түүл өгөгдсөн `png` файлын бүрэн бүтэн байгаа эсэхийг анализ хийнэ.
 
+GIF File Forensics
+--------------------
+
+* `gif split`
+
+	`GIF` зургийг салгаж нэгтгэн ганц зураг гаргана.
+	* `convert test.gif %02d.png`
+	* `ls *.png | while read filename; do convert $filename -transparent white $filename; done`
+	* `ls *.png | while read filename; do convert $filename 00.png -gravity center -composite 00.png; done`
+	
+
 ZIP File Forensics
 --------------------
 
