@@ -83,6 +83,11 @@ Steganography
 
 	Шинэ төрлийн base64 гэж хэлж болно. Энгийн base64 тайлахгүй бөгөөд одоогийн байдлаар доорх код л тайлна.
 	* [python2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Steganography/code/stegb64.py)
+
+* `[White space steganography]` 
+
+	Хоосон зай, таб зэрэгт нуугдсан мессеж байна. `snow` ашиглаж тайлна.
+	
 	
 Cryptography
 -----------------------
