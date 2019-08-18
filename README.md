@@ -491,6 +491,8 @@ cadadddddr, caddadddddr, caadddddr, caddadddddr, cadddddddddddddddddddadddddr, c
 	Python Image Library нь зурагтай ажиллахад ашиглах сан юм. Доор зарим жишээ код үлдээв.
 	* Жижиг жижиг зураг [нэгтгэх](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Programming/code/PIL-UnionImage.py). 
 	* Red, Green, Blue өнгөний кодыг ялган [авна](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Programming/code/PIL-get-RGB-value.py).
+	* QR зураг бэлдэх
+	[python-3](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Programming/code/PIL-QRcode.py)
 
 * `Magic number`
 
