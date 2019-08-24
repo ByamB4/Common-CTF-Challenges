@@ -128,6 +128,9 @@ Svylt Pwzbt pz zptwsf kbttf alea vm aol wypuapun huk afwlzlaapun pukbzayf. Svylt
 	Бүх текст XOR үйлдэл хийх боломжтой `\xde\xad\xbe\xef` үүнийг өөрийн компьютер дотроо тайлна гэвэл `pwntools` ашиглаж болно.
 ```
  python >>> import pwn; pwn.xor("KEY", "RAW_BINARY_CIPHER")
+ key1 = xor(c1[:5],'d4rk{')
+ key2 = xor(c2[-5:],'}c0de')
+ key = key1+key2
  ```
  
 * [`Mnemonic_major_system`](https://en.wikipedia.org/wiki/Mnemonic_major_system)
