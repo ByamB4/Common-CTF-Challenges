@@ -216,6 +216,12 @@ s     e
 	![alt text](https://raw.githubusercontent.com/JohnHammond/ctf-katana/master/img/genome-coding.jpg)
 	* [python3](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/code/DNA-solver.py)
 
+* `Uuencoder, xxencoder` 
+	
+	Энэ нь мейл явуулж байх үед encode хийх бөгөөд зарим даалгавар дээр хэрэг болно.
+	* [online-tool](http://uuencode.online-domain-tools.com/)
+	`E0V]D969E<W1#5$9[-V@Q-5\Q-5\T7V,P,#%?,VYC,&0Q;CE]"@`
+	
 Networking
 ---------------
 
