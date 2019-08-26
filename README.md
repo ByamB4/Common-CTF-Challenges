@@ -54,6 +54,13 @@ MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO 
 
 ![`Decode Table`](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Esoteric%20Languages/img/futurama.gif)
 
+* `Deadfish`
+
+	4 үсэг ашигласан esoteric хэл. Дараах түүлүүдээр тайлж уншиж болно.
+	* [https://www.dcode.fr/deadfish-language](https://www.dcode.fr/deadfish-language)
+```
+dddddddddddddddddddddddddddddddsiiisisoioiodoiiiiiiiiiiiiiioiodddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddoiiiiiiiioddddddddddddddddddddddddddddddddddddddddddddddsiiiio
+```
 Steganography
 -----------------------
 
