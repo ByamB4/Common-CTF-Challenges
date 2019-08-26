@@ -85,6 +85,7 @@ Steganography
 
 	Layer дээр өгөгдөл нуугдаагүй битэн дотор нуугдсан гэсэн үг. Тиймээс `Stegsolve.jar` аар Data Extract гээд үзээд явна. Эсвэл онлайн түүлээр шалгана.
 	* [https://stylesuxx.github.io/steganography/](https://stylesuxx.github.io/steganography/)
+	* `stegify -op decode -carrier cute_kittens.jpg -result hello`
 
 * [`Steg with base64`](https://github.com/bzorigt/stegb64)
 
@@ -95,7 +96,7 @@ Steganography
 
 	Хоосон зай, таб зэрэгт нуугдсан мессеж байна. `stegsnow` ашиглаж тайлна. Гэхдээ энд заавал нууц үг хэрэгтэй бөгөөд хэрэв нууц үгтэй бол дараах командыг дагуу тайлна.
 	* `stegsnow -C -p password secret.txt`
-	
+
 	
 Cryptography
 -----------------------
