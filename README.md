@@ -58,9 +58,9 @@ MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO 
 
 	4 үсэг ашигласан esoteric хэл. Дараах түүлүүдээр тайлж уншиж болно.
 	* [https://www.dcode.fr/deadfish-language](https://www.dcode.fr/deadfish-language)
-```
+``
 dddddddddddddddddddddddddddddddsiiisisoioiodoiiiiiiiiiiiiiioiodddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddoiiiiiiiioddddddddddddddddddddddddddddddddddddddddddddddsiiiio
-```
+``
 Steganography
 -----------------------
 
