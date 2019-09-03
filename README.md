@@ -523,3 +523,10 @@ cadadddddr, caddadddddr, caadddddr, caddadddddr, cadddddddddddddddddddadddddr, c
 
 	Зарим файлын magic number ийг өөрчилсөн байдаг. 
 	* [FF DE BO GG -> GG BO DE FF](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Programming/code/magic-number-reverse.py)
+
+Reverse engineering
+--------------------
+
+* `NekoVM bytecode`
+	
+	* nekoc -d [FILENAME].n 
