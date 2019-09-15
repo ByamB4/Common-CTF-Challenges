@@ -20,7 +20,7 @@ def find_match(hashed_string, hash_salt):
 def connections():
   url = 'https://ringzer0ctf.com/challenges/57'
   session = requests.Session()
-  session.post('https://ringzer0ctf.com/login', data={'username':'l3yam134','password':'Aa99894642'})
+  session.post('https://ringzer0ctf.com/login', data={'username':'l3yam134','password':'REDACTED'})
   response = session.get(url).text
   # print(response)
   hashed_string = str(response[response.find('----- BEGIN HASH -----<br />')+32:response.find('----- END HASH -----<br />')-10])
