@@ -565,3 +565,13 @@ Reverse engineering
 	
 	* `nekoc -d [FILENAME].n`
 
+Sandbox (payload)
+--------------------
+
+* `BASH` 
+
+```
+	"";
+	; ls
+	` ls `
+```
