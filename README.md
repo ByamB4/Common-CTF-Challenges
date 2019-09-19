@@ -391,7 +391,10 @@ PDF Files
 
 	Онлайн түүл pdf файлыг засна.
 	* [https://www.pdf-online.com/osa/repair.aspx](https://www.pdf-online.com/osa/repair.aspx)
-	
+
+* `pdf-parser`
+
+	Kali-linux командын мөрний түүл.
 	
 Forensics
 -----------
