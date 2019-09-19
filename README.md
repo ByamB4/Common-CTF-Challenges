@@ -386,6 +386,12 @@ PDF Files
 * `pdfcrack`
 
 	Командын мөрний түүл нууц үгээр хамгаалагдсан PDF файлыг `bruteforce`, `dictionary` аас тайлна.
+
+* `pdf-repair`
+
+	Онлайн түүл pdf файлыг засна.
+	* [https://www.pdf-online.com/osa/repair.aspx](https://www.pdf-online.com/osa/repair.aspx)
+	
 	
 Forensics
 -----------
