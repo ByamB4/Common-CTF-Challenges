@@ -571,7 +571,7 @@ Sandbox (payload)
 * `BASH` 
 
 ```
-	"";
-	; ls
-	` ls `
+"";
+; ls
+` ls `
 ```
