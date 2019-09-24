@@ -243,6 +243,14 @@ s     e
 
 ![Animals-code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/egyption-animals.jpg)
 
+* `Pigpen cipher`
+
+	Энэхүү cipher нь дүрснүүдийн өнцгөөс харагдах бөгөөд дараах зураг ctf дээр ирж байсан.
+	
+	![cipher-source](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/pigpen-cipher.jpg)
+	
+	![cipher-decode](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/pigpen-cipher-decode.png)
+	
 	
 Networking
 ---------------
