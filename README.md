@@ -262,7 +262,14 @@ s     e
 	
 	![https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/PhoneticAlphabet.jpg](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/PhoneticAlphabet.jpg)
 	
+* `Polybius Square`
+
+	5 тэмдэгтээр нууцлах бөгөөд ихэвчлэн `A B C D E` байх ба үүнээсээ тооруу хөрвүүлнэ. Key заавал байх шаардлагатай бөгөөд. Дараах түүлээр тайлвал амар.
 	
+	* `DB DA AB ED DD DC DE AC AD BB DD AD DE AB BB`
+        * `42 41 12 54 44 43 45 13 14 22 44 14 45 12 22`
+	* [https://md5decrypt.net/en/Polybius-square/](https://md5decrypt.net/en/Polybius-square/)
+
 Networking
 ---------------
 
