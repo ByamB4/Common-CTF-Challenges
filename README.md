@@ -512,6 +512,11 @@ fcrackzip -v -D -u -p /usr/share/dict/words secret.zip
 
 	Зарим zip файл нэг файлтай хамт өгөгдөх бөгөөд мэдээж нууц үгтэй байвал тэр хамт ирсэн файл нь dictionary байх боломжтой юм. 
 	`strings [FILENAME] > dict.txt`
+
+* `ZIP password produce flag`
+
+	TJCTF дээр иймэрхүү даалгавар ирж байсан ба маш олон .zip файлуудын нууц үг нь манай флагийг гаргаж ирж байсан.
+	* [bash-script](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/ZIP/code/unzip-withbruteforce-files.sh)
 	
 Miscellaneous
 --------------------
