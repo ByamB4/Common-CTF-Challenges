@@ -251,6 +251,10 @@ s     e
 	
 	![cipher-decode](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/pigpen-cipher-decode.png)
 	
+* `Windows cpassword`
+
+	Kali linux дээр байдаг `gpp-decrypt` түүлээр тайлна. Өөр үйлдлийн системд суулгах бол [https://github.com/kost/gpp-decrypt-ruby](https://github.com/kost/gpp-decrypt-ruby)-аас суулгаж болно.
+	* `gpp-decrypt j1Uyj3Vx8TY9LtLZil2uAuZkFQA/4latT76ZwgdHdhw`
 	
 Networking
 ---------------
