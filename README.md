@@ -271,7 +271,11 @@ s     e
         * `42 41 12 54 44 43 45 13 14 22 44 14 45 12 22`
 	
 	* [https://md5decrypt.net/en/Polybius-square/](https://md5decrypt.net/en/Polybius-square/)
+* `Mexican Army Cipher Wheel`
 
+	`2909946005181979180530154283`
+	* `https://www.dcode.fr/mexican-army-cipher-wheel`
+	
 Networking
 ---------------
 
