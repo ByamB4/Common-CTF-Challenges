@@ -192,6 +192,7 @@ Pave Pop Poke Pop Dutch Dozen Denim Deism Loot Thatch Pal Atheism Rough Ditch To
 	* [Python3 - code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/python3.py)
 	* [Brute force - encrypt 4 letter](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/brute-force-encrypt-4-letter.py)
 	* [Brute force - encrypt e guessing](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/find_e_python-2.py)
+	* [c1, c2, e1, e2 given](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/common_modules_attack.py) 
 	
 * `Railfence Cipher`
 	
