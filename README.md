@@ -529,6 +529,15 @@ fcrackzip -v -D -u -p /usr/share/dict/words secret.zip
 	TJCTF дээр иймэрхүү даалгавар ирж байсан ба маш олон .zip файлуудын нууц үг нь манай флагийг гаргаж ирж байсан.
 	* [bash-script](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/ZIP/code/unzip-withbruteforce-files.sh)
 	
+RAR File Forensics
+--------------------
+
+* `Password protected`
+
+	rar2john ашиглаж hash ийн гаргаж аваад дараа нь wordlist ээр brute force хийнэ.
+	* `rar2john [NAME].rar > rar.hash`
+	* `john --wordlist /usr/share/wordlists/rockyou.txt --format=rar5 rar.hash`
+	
 Miscellaneous
 --------------------
 
