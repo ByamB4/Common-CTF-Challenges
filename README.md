@@ -486,10 +486,14 @@ PNG File Forensics
 * `pngcheck`
 
 	Командын мөрний түүл өгөгдсөн `png` файлын бүрэн бүтэн байгаа эсэхийг анализ хийнэ.
+	
 * `2 ижил зураг`
 
 	2 ижилхэн зураг гарч ирвэл SUB,OR, XOR, MUL гэх мэт үйлдэл хийж нэг зураг болгож нэгтгэх.
-	`compare 00000000.png 00000725.png -compose src diff.png`
+	
+```
+compare 00000000.png 00000725.png -compose src diff.png
+```
 	
 
 GIF File Forensics
