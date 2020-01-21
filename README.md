@@ -179,6 +179,7 @@ Pave Pop Poke Pop Dutch Dozen Denim Deism Loot Thatch Pal Atheism Rough Ditch To
 
 	Түлхүүртэй байх бөгөөд тэр түлхүүрээрээ нууцалж буцааж задалж болно.
 	* [https://www.guballa.de/vigenere-solver](https://www.guballa.de/vigenere-solver)
+	* [https://www.boxentriq.com/code-breaking/vigenere-cipher](https://www.boxentriq.com/code-breaking/vigenere-cipher)
 	* [https://www.dcode.fr/vigenere-cipher](https://www.dcode.fr/vigenere-cipher)
 	* [https://f00l.de/hacking/vigenere.php](https://f00l.de/hacking/vigenere.php)
 	
