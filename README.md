@@ -241,7 +241,7 @@ s     e
 	* [online-tool](http://uuencode.online-domain-tools.com/)
 	`E0V]D969E<W1#5$9[-V@Q-5\Q-5\T7V,P,#%?,VYC,&0Q;CE]"@`
 	
-* `Egyptian animals cipher`
+* `Egyptian animals cipher
 
 ![Animals-code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/egyption-animals.jpg)
 
@@ -277,6 +277,10 @@ s     e
 
 	`2909946005181979180530154283`
 	* `https://www.dcode.fr/mexican-army-cipher-wheel`
+
+* `Hash`
+	* [https://crackstation.net/](https://crackstation.net/)
+	
 	
 Networking
 ---------------
