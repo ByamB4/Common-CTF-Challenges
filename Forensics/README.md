@@ -14,13 +14,9 @@ Forensics
 Open file -> Straightfire -> Spectrogram
 ```
 
-* `Python bytecode` uncompyle6
+* `Python bytecode`
 
 	Python гийн compile хийгдсэн файлыг `uncompyle6` ашиглан decompile хийнэ. 
-	
-* [`hexed.it`](https://hexed.it/)
-
-	Онлайн түүл өгөгдсөн файлын HEX утгуудыг засварлан янзлана.
 	
 * `foremost`
 
