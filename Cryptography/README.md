@@ -77,6 +77,8 @@ Pave Pop Poke Pop Dutch Dozen Denim Deism Loot Thatch Pal Atheism Rough Ditch To
 	
 	Симметрик төрлийн түлхүүртэй доош дээшээ шилжинэ.
 	* [http://rumkin.com/tools/cipher/railfence.php](http://rumkin.com/tools/cipher/railfence.php)
+	* [https://www.boxentriq.com/code-breaking/rail-fence-cipher](https://www.boxentriq.com/code-breaking/rail-fence-cipher)
+	
 ```
 s     e
   e  r  t  => seertc 
