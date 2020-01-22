@@ -111,4 +111,6 @@ WAV File Forensics
 
 * `SSTV audio file to image using QSSTV`
 	
+	Аудио файл slow-scan television буюу (SSTV) ээр кодчилогдоно _(encode)_.  Саран дээр буух үед ашиглаж байсан. 
+	* `qsstv` ашиглаж зургийг ялгаж авна. [tutorial](https://ourcodeworld.com/articles/read/956/how-to-convert-decode-a-slow-scan-television-transmissions-sstv-audio-file-to-images-using-qsstv-in-ubuntu-18-04)
 	
