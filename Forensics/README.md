@@ -112,8 +112,8 @@ WAV File Forensics
 * `SSTV audio file to image using QSSTV`
 	
 	Аудио файл slow-scan television буюу (SSTV) ээр кодчилогдоно _(encode)_.  Саран дээр буух үед ашиглаж байсан. 
-	* `qsstv` ашиглаж зургийг ялгаж авна. [tutorial](https://ourcodeworld.com/articles/read/956/how-to-convert-decode-a-slow-scan-television-transmissions-sstv-audio-file-to-images-using-qsstv-in-ubuntu-18-04)
-	* Ижил даалгавар [pactl load-module virtual-cable](pactl load-module module-null-sink sink_name=virtual-cable)
+	* `qsstv` ашиглаж зургийг ялгаж авна. [эх сурвалж](https://ourcodeworld.com/articles/read/956/how-to-convert-decode-a-slow-scan-television-transmissions-sstv-audio-file-to-images-using-qsstv-in-ubuntu-18-04)
+	* (Ижил даалгавар)[pactl load-module virtual-cable](pactl load-module module-null-sink sink_name=virtual-cable)
 	* `pactl load-module module-null-sink sink_name=virtual-cable`
 	* `pavucontrol`
 	* `pavucontrol # A GUI will pop-up, go to the "Output Devices" tab to verify that you have the "Null Output" device`
