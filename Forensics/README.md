@@ -23,7 +23,7 @@ Forensics
 PNG File Forensics
 --------------------
 
-* `Magic Numbers
+* `Magic Numbers`
 
 	* [default-image-1](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Forensics/Files/png-default.png) 
 	* PNG файл засна [png-parser](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Forensics/Code/png_parser.py)
