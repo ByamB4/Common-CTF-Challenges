@@ -36,6 +36,9 @@ Svylt Pwzbt pz zptwsf kbttf alea vm aol wypuapun huk afwlzlaapun pukbzayf. Svylt
 	Бүх текст XOR үйлдэл хийх боломжтой `\xde\xad\xbe\xef` үүнийг өөрийн компьютер дотроо тайлна гэвэл `pwntools` ашиглаж болно.
 ```
  python >>> import pwn; pwn.xor("KEY", "RAW_BINARY_CIPHER")
+ key1 = xor(c1[:5],'d4rk{')
+ key2 = xor(c2[-5:],'}c0de')
+ key = key1+key2
  ```
  
 * [`Mnemonic_major_system`](https://en.wikipedia.org/wiki/Mnemonic_major_system)
@@ -66,6 +69,7 @@ Pave Pop Poke Pop Dutch Dozen Denim Deism Loot Thatch Pal Atheism Rough Ditch To
 
 	Түлхүүртэй байх бөгөөд тэр түлхүүрээрээ нууцалж буцааж задалж болно.
 	* [https://www.guballa.de/vigenere-solver](https://www.guballa.de/vigenere-solver)
+	* [https://www.boxentriq.com/code-breaking/vigenere-cipher](https://www.boxentriq.com/code-breaking/vigenere-cipher)
 	* [https://www.dcode.fr/vigenere-cipher](https://www.dcode.fr/vigenere-cipher)
 	* [https://f00l.de/hacking/vigenere.php](https://f00l.de/hacking/vigenere.php)
 	
@@ -77,6 +81,10 @@ Pave Pop Poke Pop Dutch Dozen Denim Deism Loot Thatch Pal Atheism Rough Ditch To
 	* [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
 	* [Python2 - code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/python2.py)
 	* [Python3 - code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/python3.py)
+	* [Brute force - encrypt 4 letter](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/brute-force-encrypt-4-letter.py)
+	* [Brute force - encrypt e guessing](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/find_e_python-2.py)
+	* [`c1`, `c2`, `e1`, `e2` given](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/common_modules_attack.py) 
+	* [`p`, `q`, `e` өгөгдсөн үед `d` олох](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/p_q_e_given-calculate-d.py)
 	
 * `Railfence Cipher`
 	
@@ -88,23 +96,6 @@ s     e
     c 
 ```
 
-* `Bubble Babble`
-
-	* [https://github.com/eur0pa/bubblepy](https://github.com/eur0pa/bubblepy)
-
-```
-xipak-comok-repuk-vanik-dytuk-dimyk-sinyx
-```
-
-* `Cpassword`
-	
-	* [python-3](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/code/c-password-method-1-3.py)
-	* [python-2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/code/c-password-method-2-2.py)
-	
-```
-PCXrmCkYWyRRx3bf+zqEydW9/trbFToMDx6fAvmeCDw
-```
-	
 * [`Music Sheet Cipher`](https://en.wikipedia.org/wiki/Musical_cryptogram)
 
 	Нотыг ашиглаж өгөгдлөө нууцална.
@@ -123,28 +114,60 @@ PCXrmCkYWyRRx3bf+zqEydW9/trbFToMDx6fAvmeCDw
 	
 ![`Tupper decoded image](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/Tupper's_self_referential_formula_plot.svg)
 
-* Public key recovery (RSA)
-
-```
------BEGIN RSA PRIVATE KEY-----
-MIICXgIBAAKBgQDwkrxVrZ+KCl1cX27SHDI7EfgnFJZ0qTHUD6uEeSoZsiVkcu0/
-XOPbz1RtpK7xxpKMSnH6uDc5On1IEw3A127wW4Y3Lqqwcuhgypd3Sf/bH3z4tC25
-eqr5gA1sCwSaEw+yBxdnElBNOXxOQsST7aZGDyIUtmpouI1IXqxjrDx2SQIDAQAB
-AoGBAOwd6PFitnpiz90w4XEhMX/elCOvRjh8M6bCNoKP9W1A9whO8GJHRnDgXio6
-/2XXktBU5OfCVJk7uei6or4J9BvXRxQpn1GvOYRwwQa9E54GS0Yu1XxTPtnBlqKZ
-KRbmVNpv7eZyZfYG+V+/f53cgu6M4U3SE+9VTlggfZ8iSqGBAkEA/XvFz7Nb7mIC
-qzQpNmpKeN4PBVRJBXqHTj0FcqQ5POZTX6scgE3LrxVKSICmm6ungenPXQrdEQ27
-yNQsfASFGQJBAPL2JsjakvTVUIe2JyP99CxF5WuK2e0y6N2sU3n9t0lde9DRFs1r
-mhbIyIGZ0fIkuwZSOqVGb0K4W1KWypCd8LECQQCRKIIc8R9iIepZVGONb8z57mA3
-sw6l/obhfPxTrEvC3js8e+a0atiLiOujHVlLqD8inFxNcd0q2OyCk05uLsBxAkEA
-vWkRC3z7HExAn8xt7y1Ickt7c7+n7bfGuyphWbVmcpeis0SOVk8QrbqSNhdJCVGB
-TIhGmBq1GnrHFzffa6b1wQJAR7d8hFRtp7uFx5GFFEpFIJvs/SlnXPvOIBmzBvjU
-yGglag8za2A8ArHZwA1jXcFPawuJEmeZWo+5/MWp0j+yzQ==
------END RSA PRIVATE KEY-----
-
-
-Public key = md5(base64 blob only) MD5 2 first bytes are 0x42f5
-```
-	`openssl rsa -in private.key -pubout 2> /dev/null | grep -v "^-" | tr -d '\n' | md5sum | cut -d "-" -f 1`
+* `Birs on a wire code`
 	
+	Шувууны дүрсээр [A-Z] үсэг илэрхийлнэ.
 	
+![Bird code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/birdsOnAWire.png)
+
+* `DNA crypto`
+
+	![alt text](https://raw.githubusercontent.com/JohnHammond/ctf-katana/master/img/dna_codes.png)
+	![alt text](https://raw.githubusercontent.com/JohnHammond/ctf-katana/master/img/genome-coding.jpg)
+	* [python3](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/code/DNA-solver.py)
+
+* `Uuencoder, xxencoder` 
+	
+	Энэ нь мейл явуулж байх үед encode хийх бөгөөд зарим даалгавар дээр хэрэг болно.
+	* [online-tool](http://uuencode.online-domain-tools.com/)
+	`E0V]D969E<W1#5$9[-V@Q-5\Q-5\T7V,P,#%?,VYC,&0Q;CE]"@`
+	
+* `Egyptian animals cipher
+
+![Animals-code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/egyption-animals.jpg)
+
+* `Pigpen cipher`
+
+	Энэхүү cipher нь дүрснүүдийн өнцгөөс харагдах бөгөөд дараах зураг ctf дээр ирж байсан.
+	
+	![cipher-source](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/pigpen-cipher.jpg)
+	
+	![cipher-decode](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/pigpen-cipher-decode.png)
+	
+* `Windows cpassword`
+
+	Kali linux дээр байдаг `gpp-decrypt` түүлээр тайлна. Өөр үйлдлийн системд суулгах бол [https://github.com/kost/gpp-decrypt-ruby](https://github.com/kost/gpp-decrypt-ruby)-аас суулгаж болно.
+	* `gpp-decrypt j1Uyj3Vx8TY9LtLZil2uAuZkFQA/4latT76ZwgdHdhw`
+
+* `Radio Phonetic Alphabet` 
+
+	Нэг CTF дээр ирж байсан ба тухайн үед `.wav` файл сонсож хөрвүүлж байсан.
+	
+	![https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/PhoneticAlphabet.jpg](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/img/PhoneticAlphabet.jpg)
+	
+* `Polybius Square`
+
+	5 тэмдэгтээр нууцлах бөгөөд ихэвчлэн `A B C D E` байх ба үүнээсээ тооруу хөрвүүлнэ. Key заавал байх шаардлагатай бөгөөд. Дараах түүлээр тайлвал амар.
+	
+	* `DB DA AB ED DD DC DE AC AD BB DD AD DE AB BB`
+	
+        * `42 41 12 54 44 43 45 13 14 22 44 14 45 12 22`
+	
+	* [https://md5decrypt.net/en/Polybius-square/](https://md5decrypt.net/en/Polybius-square/)
+* `Mexican Army Cipher Wheel`
+
+	`2909946005181979180530154283`
+	* `https://www.dcode.fr/mexican-army-cipher-wheel`
+
+* `Hash`
+	* [https://crackstation.net/](https://crackstation.net/)
