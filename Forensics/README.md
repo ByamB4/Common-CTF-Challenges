@@ -106,3 +106,9 @@ GIF File Forensics
 	* `ls *.png | while read filename; do convert $filename -transparent white $filename; done`
 	* `ls *.png | while read filename; do convert $filename 00.png -gravity center -composite 00.png; done`
 	
+WAV File Forensics
+--------------------
+
+* `SSTV audio file to image using QSSTV`
+	
+	
