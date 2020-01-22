@@ -15,16 +15,18 @@ Forensics
 	* Python гийн compile хийгдсэн файлыг `uncompyle6` ашиглан decompile хийнэ. 
 	
 
-* [`TestDisk`](https://www.cgsecurity.org/Download_and_donate.php/testdisk-7.1-WIP.linux26.tar.bz2)
+* `TestDisk`
 
-	Командын мөрний түүл `.dd`, `.img` файлуудаас устсан файлыг сэргээх засварлах юм.
+	* Командын мөрний түүл `.dd`, `.img` файлуудаас устсан файлыг сэргээх засварлах юм.
 
 
 PNG File Forensics
 --------------------
-* [`Magic Numbers`](https://en.wikipedia.org/wiki/Magic_number_(programming)#Magic_numbers_in_files)
-	* [default-image](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Forensics/Files/png-default.png) 
-	* [png-parser](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Forensics/Code/png_parser.py)
+
+* `Magic Numbers
+
+	* [default-image-1](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Forensics/Files/png-default.png) 
+	* PNG файл засна [png-parser](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Forensics/Code/png_parser.py)
 	
 * `pngcheck`
 
@@ -32,8 +34,8 @@ PNG File Forensics
 	
 * `2 ижил зураг`
 
-	2 ижилхэн зураг гарч ирвэл SUB,OR, XOR, MUL гэх мэт үйлдэл хийж нэг зураг болгож нэгтгэх.
-	* `compare 00000000.png 00000725.png -compose src diff.png`
+	* 2 ижилхэн зураг гарч ирвэл SUB,OR, XOR, MUL гэх мэт үйлдэл хийж нэг зураг болгож нэгтгэх.
+		* `compare 00000000.png 00000725.png -compose src diff.png`
 	
 PDF Files
 -------------
