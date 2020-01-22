@@ -456,7 +456,8 @@ Open file -> Straightfire -> Spectrogram
 
 * [`Magic Numbers`](https://en.wikipedia.org/wiki/Magic_number_(programming)#Magic_numbers_in_files)
 
-	* PNG -> `89 50 4e 47 0d 0a 1a 0a` [default-image](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Forensics/Files/png-default.png)
+	* PNG -> `89 50 4e 47 0d 0a 1a 0a` 
+		* [default-image](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Forensics/Files/png-default.png) 		    * [python-2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Forensics/Code/png_parser.py)
 	* PSD ->  `38 42 50 53`
 	
 	
