@@ -113,7 +113,7 @@ WAV File Forensics
 	
 	Аудио файл slow-scan television буюу (SSTV) ээр кодчилогдоно _(encode)_.  Саран дээр буух үед ашиглаж байсан. 
 	* `qsstv` ашиглаж зургийг ялгаж авна. [эх сурвалж](https://ourcodeworld.com/articles/read/956/how-to-convert-decode-a-slow-scan-television-transmissions-sstv-audio-file-to-images-using-qsstv-in-ubuntu-18-04)
-	* [Ижил даалгавар(https://github.com/Dvd848/CTFs/blob/master/2019_picoCTF/m00nwalk.md)
+	* [Ижил даалгавар](https://github.com/Dvd848/CTFs/blob/master/2019_picoCTF/m00nwalk.md)
 	* `pactl load-module module-null-sink sink_name=virtual-cable`
 	* `pavucontrol`
 	* `pavucontrol # A GUI will pop-up, go to the "Output Devices" tab to verify that you have the "Null Output" device`
