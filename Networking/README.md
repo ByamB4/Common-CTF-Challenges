@@ -13,7 +13,7 @@ Networking
 
 	Ихэнх файл ийм байгаад байдаггүй гэхдээ хувиргах шаардлага гарвал
 	* [http://pcapng.com/](http://pcapng.com/)
-	
+
 * [`tcpflow`][tcpflow]
 
 	Командын мөрний түүл `.pcap` файлаас нуугдсан файл илрүүлнэ. 
@@ -35,8 +35,12 @@ BAR 76, 151, 40, 2
 BAR 76, 119, 2, 32
 ```
 
+* `USB (mouse) draw flag`
+
+	Ихэнх тохиолдолд USB трафикаар флаг зурах юм.
+	* [source-writeup](https://blogs.tunelko.com/2017/02/05/bitsctf-tom-and-jerry-50-points/)
+	
 * `Hex packet`
 
 	Энэ нь `.pcap` файлыг hex болгож нууцалсан байдаг.
 	* [https://hpd.gasmi.net/](https://hpd.gasmi.net/)
-
