@@ -171,3 +171,12 @@ s     e
 
 * `Hash`
 	* [https://crackstation.net/](https://crackstation.net/)
+
+Encoding decoding
+-----------------------
+
+* `Base64` 
+	
+	Зарим тохиолдолд эвдэрсэн байдаг 
+	
+	* https://base64.guru/tools/repair
