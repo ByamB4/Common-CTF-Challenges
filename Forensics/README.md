@@ -1,34 +1,19 @@
 Forensics
 -----------
 
-* `Reverse file`
+* `Нуугдсан файл`
+	* `foremost` файл дотор нуугдсан файлуудыг ил гаргаж ирнэ.
+	* `binwalk` файлд анализ хийхээс гадна нуугдсан файлуудыг гаргаж ирнэ.
+	
+* `Reverse HEX`
 
 	* Заримдаа файлын hex утгууд ямар ч замбараагүй байдалтай өгөгдөх бөгөөд үүнийг python ашиглаж reverse хийнэ.
 	* `open('output2.txt', 'wb').write(open('output.txt', 'rb').read()[::-1])`
-	
-* `.wav`
-
-	Нэг төрлийн дууны формат бөгөөд `audacity` түүл ашиглаж болно.
-```
-Open file -> Straightfire -> Spectrogram
-```
 
 * `Python bytecode`
 
-	Python гийн compile хийгдсэн файлыг `uncompyle6` ашиглан decompile хийнэ. 
+	* Python гийн compile хийгдсэн файлыг `uncompyle6` ашиглан decompile хийнэ. 
 	
-* `foremost`
-
-	Командын мөрний түүл файл дотор нуугдсан файлуудыг ил гаргаж ирнэ.
-
-* `binwalk` 
-
-	Командын мөрний түүл файлд анализ хийхээс гадна нуугдсан файлуудыг гаргаж ирнэ. 
-	
-```
-binwalk -e [FILENAME]
-binwalk -D='.*' [FILENAME]
-```
 
 * [`TestDisk`](https://www.cgsecurity.org/Download_and_donate.php/testdisk-7.1-WIP.linux26.tar.bz2)
 
@@ -43,7 +28,7 @@ PNG File Forensics
 	
 * `pngcheck`
 
-	Командын мөрний түүл өгөгдсөн `png` файлын бүрэн бүтэн байгаа эсэхийг анализ хийнэ.
+	* Командын мөрний түүл өгөгдсөн `png` файлын бүрэн бүтэн байгаа эсэхийг анализ хийнэ.
 	
 * `2 ижил зураг`
 
@@ -55,21 +40,21 @@ PDF Files
 
 * `pdfinfo`	
 	
-	Командын мөрний түүл ямар төрлийн `pdf` файл вэ зэрэгт анализ хийнэ.
+	* Командын мөрний түүл ямар төрлийн `pdf` файл вэ зэрэгт анализ хийнэ.
 	
 * `pdf2txt`
 	
-	Python файл `.pdf` файлуудаас текст гарган авна.
-	* [https://github.com/euske/pdfminer](https://github.com/euske/pdfminer)
+	* Python файл `.pdf` файлуудаас текст гарган авна.
+		* [https://github.com/euske/pdfminer](https://github.com/euske/pdfminer)
 
 * `pdfcrack`
 
-	Командын мөрний түүл нууц үгээр хамгаалагдсан PDF файлыг `bruteforce`, `dictionary` аас тайлна.
+	* Командын мөрний түүл нууц үгээр хамгаалагдсан PDF файлыг `bruteforce`, `dictionary` аас тайлна.
 
 * `pdf-repair`
 
-	Онлайн түүл pdf файлыг засна.
-	* [https://www.pdf-online.com/osa/repair.aspx](https://www.pdf-online.com/osa/repair.aspx)
+	* Онлайн түүл pdf файлыг засна.
+		* [https://www.pdf-online.com/osa/repair.aspx](https://www.pdf-online.com/osa/repair.aspx)
 
 * `pdf-parser`
 
