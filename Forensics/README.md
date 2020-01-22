@@ -3,9 +3,8 @@ Forensics
 
 * `Reverse file`
 
-	Заримдаа файлын hex утгууд ямар ч замбараагүй байдалтай өгөгдөх бөгөөд үүнийг python ашиглаж reverse хийнэ.
-	
-	`open('output2.txt', 'wb').write(open('output.txt', 'rb').read()[::-1])`
+	* Заримдаа файлын hex утгууд ямар ч замбараагүй байдалтай өгөгдөх бөгөөд үүнийг python ашиглаж reverse хийнэ.
+	* `open('output2.txt', 'wb').write(open('output.txt', 'rb').read()[::-1])`
 	
 * `.wav`
 
