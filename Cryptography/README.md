@@ -49,32 +49,30 @@ Block cipher
 	Тэгэхээр бид түлхүүрийг олохоос илүү аль нэг блок дээр байгаа текстийг нэг унших нь илүү үр дүнтэй юм. 
 
 ```
-   'Agent,\nGreetings' <--- 16  (Блок 1)
-   '. My situation r'  <--- 16  (Блок 2)
-   'eport is as foll'  <--- 16  (Блок 3)
-   'ows:\nAAAAAAAAAAA' <--- 16  (Блок 4) <--- Оролт эхлэх хэсэг 
-   'BBBBBBBBBBBBBBBB'  <--- 16  (Блок 5) <--- padding 
-   'CCCCCCCCCCCCCCCC'  <--- 16  (Блок 6) 
-   '\nMy agent identi' <--- 16  (Блок 7)
-   'fying code is:  '  <--- 16  (Блок 8)  <---мэдэгдэж буй блок
-   'flagCTF{ABCDEFG}'  <--- 16  (Блок 9)  <---бидний бай _(ABCDEFG нь гүйцээж байгаа)_
-   '.Down with the S'  <--- 16  (Блок 10) <---мэдэгдэж буй блок
+   'Agent,\nGreetings'    <--- 16  (Блок 1)
+   '. My situation r'     <--- 16  (Блок 2)
+   'eport is as foll'     <--- 16  (Блок 3)
+   'ows:\nAAAAAAAAAAA'    <--- 16  (Блок 4)    <--- Оролт эхлэх хэсэг 
+   'BBBBBBBBBBBBBBBB'     <--- 16  (Блок 5)    <--- padding 
+   'CCCCCCCCCCCCCCCC'     <--- 16  (Блок 6) 
+   '\nMy agent identi'    <--- 16  (Блок 7)
+   'fying code is:  '     <--- 16  (Блок 8)    <--- мэдэгдэж буй блок
+   'flagCTF{ABCDEFG}'     <--- 16  (Блок 9)    <--- бидний бай (ABCDEFG нь гүйцээж байгаа)
+   '.Down with the S'  	  <--- 16  (Блок 10)   <--- мэдэгдэж буй блок
 ```
-
 Бид эндээс Блок 6 ийн нэг тэмдэгтийг хасвал манай флагийн нэг тэмдэгт дээшээ гарч ирнэ. 
 
-
 ```
-   'Agent,\nGreetings'    <--- 16  (Block 1)
-   '. My situation r'     <--- 16  (Block 2)
-   'eport is as foll'     <--- 16  (Block 3)
-   'ows:\nAAAAAAAAAAA'    <--- 16  (Block 4)
-   'ying code is:  %s'    <--- 16  (Block 5)    <--- replace %s to char in range(32,128)   
-   'CCCCCCCCCCCCCCC\n'    <--- 16  (Block 6)
-   'My agent identif'     <--- 16  (Block 7)
-   'ying code is:  p'     <--- 16  (Block 8)    <--- Now we know block 8 has our one byte flag
-   'icoCTF{ABCDEFG}.'     <--- 16  (Block 9)    <--- unknown block 
-   'Down with the So'     <--- 16  (Block 10)   <---known Block
+   'Agent,\nGreetings'    <--- 16  (Блок 1)
+   '. My situation r'     <--- 16  (Блок 2)
+   'eport is as foll'     <--- 16  (Блок 3)
+   'ows:\nAAAAAAAAAAA'    <--- 16  (Блок 4)
+   'ying code is:  %c'    <--- 16  (Блок 5)    <--- %c тэмдэгтийг (32-128) хүртэл сольж Блок 8 тай тулгана   
+   'CCCCCCCCCCCCCCC\n'    <--- 16  (Блок 6)
+   'My agent identif'     <--- 16  (Блок 7)
+   'ying code is:  p'     <--- 16  (Блок 8)    <--- Блок 8-д флагийн эхний тэмдэгт байгаа
+   'icoCTF{ABCDEFG}.'     <--- 16  (Блок 9)    <--- мэдэгдэхгүй блок
+   'Down with the So'     <--- 16  (Блок 10)   <--- мэдэгдэхгүй блок
 ```
 	
 
