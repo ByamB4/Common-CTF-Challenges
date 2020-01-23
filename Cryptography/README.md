@@ -67,7 +67,7 @@ Block cipher
    '. My situation r'     <--- 16  (Блок 2)
    'eport is as foll'     <--- 16  (Блок 3)
    'ows:\nAAAAAAAAAAA'    <--- 16  (Блок 4)
-   'ying code is:  %c'    <--- 16  (Блок 5)    <--- %c тэмдэгтийг (32-128) хүртэл Блок 8 тай тулгана   
+   'ying code is:  %c'    <--- 16  (Блок 5)    <--- %c тэмдэгт[32-128] хүртэл Блок 8тай тулгана   
    'CCCCCCCCCCCCCCC\n'    <--- 16  (Блок 6)
    'My agent identif'     <--- 16  (Блок 7)
    'ying code is:  p'     <--- 16  (Блок 8)    <--- Блок 8-д флагийн эхний тэмдэгт байгаа
@@ -75,5 +75,5 @@ Block cipher
    'Down with the So'     <--- 16  (Блок 10)   <--- мэдэгдэхгүй блок
 ```
 
-	* [python-3 скрипт](google.com) 
+* [python-3 скрипт](https://google.com) 
 	
