@@ -40,4 +40,4 @@ Block cipher
 	
 	ECB буюу Electronic Codebook нь plaintext-ийг тэнцүү урттай хэд хэдэн блок болгон хувааж нэг ижил түлхүүрээр нууцладаг. 
 	
-	[https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/Images/Block%20cipher/AES-ECB-encryption.png](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/Images/Block%20cipher/AES-ECB-encryption.png)
+	![AES-Electronic codebook encryption image](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/Images/Block%20cipher/AES-ECB-encryption.png)
