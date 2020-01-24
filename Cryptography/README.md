@@ -75,5 +75,5 @@ Block cipher
    'Down with the So'     <--- 16  (Блок 10)   <--- мэдэгдэхгүй блок
 ```
 
-* [python-3 скрипт](https://google.com) 
+* [python-3 скрипт](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/Code/Block-cipher/AES-ECB-decode.py)
 	
