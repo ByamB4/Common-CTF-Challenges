@@ -16,10 +16,10 @@ Asymmetric cryptography
 
 * `Rivest-Shamir–Adleman`
 
-	* `n`-ийн хуваагдагчид буюу `p`, `q` хувьсагчийн утгийг олох.
+	* **n**-ийн хуваагдагчид буюу **p**, **q** хувьсагчийн утгийг олох.
 		* [FactorDB](http://factordb.com/)
 		* [IntegerECM](https://www.alpertron.com.ar/ECM.HTM)
-	* `e` хэтэрхий том буюу `e` < 65537 нөхцлийг хангаж байвал `wiener-attack` хэрэгжүүлж болно.
+	* **e** хэтэрхий том буюу (e < 65537) нөхцлийг хангаж байвал **wiener-attack** хэрэгжүүлж болно.
 	* [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
 	* [Python2 - code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/python2.py)
 	* [Python3 - code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/python3.py)
