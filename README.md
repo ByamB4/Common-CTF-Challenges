@@ -15,6 +15,7 @@ Binary, Exploitation
 ------------------
 
 * `Cheat Engine`
+
   Тухайн ажиллаж байгаа процессоо зааж өгөөд аль хаяг дээр ямар утга байна, өөрийн утгийг хайж олох өөрчлөх боломжтой. 
     * Татах линк [https://www.cheatengine.org/](https://www.cheatengine.org/)
 
