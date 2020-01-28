@@ -1,6 +1,3 @@
-Cryptography
------------------------
-
 Encoding decoding
 -----------------------
 
@@ -10,6 +7,18 @@ Encoding decoding
 	
 	* https://base64.guru/tools/repair
 	
+Transposition cipher
+-----------------------
+
+* `Rail Fence`
+
+	Заримдаа zipzag cipher ч гэж нэрлэдэг. Тухайн plaintext ийг дээшээ доошоо мөр болгож дараан нэг мөрөөр нь нэгтгэж ciphertext үүсгэнэ. Дээшээ доошоо мөр болгож байгааг нь **key** гэж нэрлэнэ.
+```
+key = 3
+T       I       E       T
+  H   S   S   S   C   E
+    I       _       R 
+```
 	
 Asymmetric cryptography 
 -----------------------
