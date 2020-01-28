@@ -41,8 +41,8 @@ Hash нь ямар нэгэн мэдээллийн бүрэн бүтэн бай�
 
 * `Message-Digest algorithm also MD5`
 	128 бит урттай бөгөөд 16 байт гэсэн үг. Ингэснээр 32 ийн урттай hex утга гаргаж авна. 
-	* *9e107d9d372bb6826bd81d3542a419d6*
-	* `[https://crackstation.net/](https://crackstation.net/)`
+	* `9e107d9d372bb6826bd81d3542a419d6`
+	* [https://crackstation.net/](https://crackstation.net/)
 
 	
 Block cipher 
