@@ -29,13 +29,13 @@ Substitution cipher
 
 	Тухайн нэг түлхүүрээр нууцлах ба ерөнхийдөө тухайн plaintext key тэйгээ тааруулаад доорх хүснэгт ашиглаад ciphertext үүсгэнэ.
 ![https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/Images/Substitution%20cipher/Vigenere%20cipher.png](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/Images/Substitution%20cipher/Vigenere%20cipher.png)
-```
+``
 key        = LEMONLEMONLE
 plaintext  = ATTACKATDAWN
 ciphertext = LXFOPVEFRNHR
 Энд түлхүүр нь LEMON бөгөөд plaintext ийнхээ уртад тааруулан давтагдаж байна. 
 Хүснэгтэнд A L тэмдэгтийн огтлолцол L учир ciphertext ийн эхний тэмдэгт нь L болж байгаа юм.
-```
+``
 	
 	
 Asymmetric cryptography 
