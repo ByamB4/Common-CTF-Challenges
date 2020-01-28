@@ -36,8 +36,8 @@ ciphertext = LXFOPVEFRNHR
 Энд түлхүүр нь LEMON бөгөөд plaintext ийнхээ уртад тааруулан давтагдаж байна. 
 Хүснэгтэнд A L тэмдэгтийн огтлолцол L учир ciphertext ийн эхний тэмдэгт нь L болж байгаа юм.
 ```
-	
-	* [https://www.guballa.de/vigenere-solver](https://www.guballa.de/vigenere-solver)
+
+* [https://www.guballa.de/vigenere-solver](https://www.guballa.de/vigenere-solver)
 	
 	
 Asymmetric cryptography 
