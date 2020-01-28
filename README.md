@@ -11,6 +11,13 @@ Live тэмцээний үед түүл хайж цаг алдахын орон�
 * IDA PRO        -> [https://drive.google.com/open?id=1alqfGr6w9RBoRWqMo_7GEvLhu8H8lkuc](https://drive.google.com/open?id=1alqfGr6w9RBoRWqMo_7GEvLhu8H8lkuc)
 * StegSolve.jar  -> [https://drive.google.com/open?id=1VFn2ukSjw7YU8PeJNdR4KwndWBR1ejEY](https://drive.google.com/open?id=1VFn2ukSjw7YU8PeJNdR4KwndWBR1ejEY)	
 
+Binary, Exploitation
+------------------
+
+* `Cheat Engine`
+  Тухайн ажиллаж байгаа процессоо зааж өгөөд аль хаяг дээр ямар утга байна, өөрийн утгийг хайж олох өөрчлөх боломжтой. 
+    * Татах линк [https://www.cheatengine.org/](https://www.cheatengine.org/)
+
 Steganography
 ------------------
 
