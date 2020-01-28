@@ -34,6 +34,17 @@ Asymmetric cryptography
 	* `base64 -d enc.b64 > enc`
 	* `openssl rsautl -decrypt -inkey out.key < enc > decrypted`
 
+Hash functions 
+-----------------------
+
+Hash нь ямар нэгэн мэдээллийн бүрэн бүтэн байдал, эх файл мөн эсэхийг шалгахад ихэвчлэ ашиглана. Дотроо хэд хэдэн тусдаа алгоритм байх бөгөөд хоорондоо битийн урт, бодож байгаа алгоритмаараа ялгаатай байна. Hash нь нэг зүгт нууцлалт бөгөөд эргүүлж задлана гэсэн ойлголт байхгүй, боломжит ганц арга нь **brute-force** билээ.
+
+* `Message-Digest algorithm also MD5`
+	128 бит урттай бөгөөд 16 байт гэсэн үг. Ингэснээр 32 ийн урттай hex утга гаргаж авна. 
+	* *9e107d9d372bb6826bd81d3542a419d6*
+	* `[https://crackstation.net/](https://crackstation.net/)`
+
+	
 Block cipher 
 -----------------------
 
