@@ -125,3 +125,11 @@ WAV File Forensics
 	* `# Back in the pavucontrol GUI, select the "Recording" tab and specify that QSSTV should capture audio from the Null Output`
 	* `paplay -d virtual-cable message.wav `
 	
+Disk File Forensics
+--------------------
+
+* `.img` 
+	
+	Disk image төрөл дотор орох бөгөөд оптик диск болон соронзон диск ийн түүхий эд юм. 
+	* [DiskInternals Raid Recovery](https://www.diskinternals.com/raid-recovery/) 
+	
