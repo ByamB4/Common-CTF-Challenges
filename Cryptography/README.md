@@ -5,7 +5,14 @@ Encoding decoding
 	
 	Зарим тохиолдолд эвдэрсэн байдаг 
 	
-	* https://base64.guru/tools/repair
+	* [https://base64.guru/tools/repair](https://base64.guru/tools/repair)
+
+* `Morse code`
+
+	Харилцаа холбооны өгөгдлийг нууцлахад ашигладаг бөгөөд цэг **,**, зураас **-** ашиглаж A-Z тэмдэгтийг кодчилно.
+	
+	* [https://www.dcode.fr/morse-code](https://www.dcode.fr/morse-code)
+	
 	
 Transposition cipher
 -----------------------
