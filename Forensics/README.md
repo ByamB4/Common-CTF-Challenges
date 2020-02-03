@@ -40,6 +40,7 @@ PNG File Forensics
 
 	* 2 ижилхэн зураг гарч ирвэл SUB,OR, XOR, MUL гэх мэт үйлдэл хийж нэг зураг болгож нэгтгэх.
 		* `compare 00000000.png 00000725.png -compose src diff.png`
+		* `cmp -l [file] [file2]`
 	
 PDF Files
 -------------
