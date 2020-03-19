@@ -11,4 +11,6 @@ SQLi
 
 * `UNION`
 	
-	`' UNION SELECT current_database() as name --`
+```
+' UNION SELECT current_database() as name --
+```
