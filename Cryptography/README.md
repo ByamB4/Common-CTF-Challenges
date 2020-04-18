@@ -55,6 +55,7 @@ Asymmetric cryptography
 		* [FactorDB](http://factordb.com/)
 		* [IntegerECM](https://www.alpertron.com.ar/ECM.HTM)
 	* **e** хэтэрхий жижиг буюу (e < 65537) нөхцлийг хангаж байвал **wiener-attack** хэрэгжүүлж болно.
+	* `n1`, `n2`, `n3`, `c1`, `c2`, `c3` өгөгдсөн мөн `e=3` үед [CRT](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/small-e-with-values.py) хэрэгжүүлж болно.
 	* [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
 	* [Python2 - code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/python2.py)
 	* [Python3 - code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/python3.py)
@@ -68,7 +69,7 @@ Asymmetric cryptography
 	* `base64 -d priv.b64 | openssl rsa -inform DER > out.key`
 	* `base64 -d enc.b64 > enc`
 	* `openssl rsautl -decrypt -inkey out.key < enc > decrypted`
-
+	
 Hash functions 
 -----------------------
 
