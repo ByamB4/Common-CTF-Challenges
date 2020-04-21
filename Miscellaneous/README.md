@@ -19,4 +19,8 @@ Esoteric programming languages
 	
 	"Shout", "put", "Fuzz", "Buzz" гэх мэт үгээр дууны үг болгоно. 
 	* [https://codewithrockstar.com/online](https://codewithrockstar.com/online)
-	
+
+* `Dual-tone multi-frequency signaling (DTMF)`
+
+	Хуучин утасны keypad дуунаас тоонууд ялган авна
+	* [https://unframework.github.io/dtmf-detect/#/](https://unframework.github.io/dtmf-detect/#/)
