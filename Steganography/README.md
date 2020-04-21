@@ -12,8 +12,9 @@ Steganography
 
 * [`steghide`](http://steghide.sourceforge.net/download.php)
 
-	Нууц үгээр тухайн зурагтаа файл нуух, гаргаж авах түүл. PNG болон BMP зурагтай л ажиллаж чадна.
-	
+	Нууц үгээр тухайн зурагтаа файл нуух, гаргаж авах түүл. 
+	* Нууц үг [brute-force](https://github.com/Va5c0/Steghide-Brute-Force-Tool) хийнэ. 
+
 * [zsteg](https://github.com/zed-0xff/zsteg)
 	
 	Энэ түүл нь PNG болон BMP файл дотор нуугдсан өгөгдлийг илрүүлнэ.
