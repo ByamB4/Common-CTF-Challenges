@@ -3,7 +3,7 @@ Reverse engineering
 
 * `Stripped binary`
 
-	Stripped буюу хэрэгцээгүй debugging symbol ийг хаясан гэсэн үг. Ингэснээр тухайн програмыг reverse болон disassembly хийхэд хүндрэлтэй болж байгаа юм.
+	* Stripped буюу хэрэгцээгүй debugging symbol ийг хаясан гэсэн үг. Ингэснээр тухайн програмыг reverse болон disassembly хийхэд хүндрэлтэй болж байгаа юм.
 	
 	* Тухайн binary файлыг аль санг ашигласныг мэдэж IDA дээрээ нэмж өгнө. [source](https://github.com/maroueneboubakri/lscan/wiki/Reverse-Engineer-a-stripped-binary-with-lscan-and-IDApro)
 ```
@@ -15,7 +15,7 @@ cp amd64/sig/libcrypto-1.0.2h.sig ../ida66/sig
 	
 * `Assembly language`
 
-	Машины хэл дээрх код бөгөөд ойлгож уншиж болно. Зарим үед хэт ойлгомжгүй байвал онлайн түүл ашиглаад diassemble хийгээд ажилуулж болно.
+	* Машины хэл дээрх код бөгөөд ойлгож уншиж болно. Зарим үед хэт ойлгомжгүй байвал онлайн түүл ашиглаад diassemble хийгээд ажилуулж болно.
 	* [https://defuse.ca/online-x86-assembler.htm#disassembly2](https://defuse.ca/online-x86-assembler.htm#disassembly2) дараа нь **hex** хуулж авч доорх кодонд орлуулж бодож болно.
 	
 ```C
@@ -33,6 +33,6 @@ int main(int argc, char **argv){
 
 * `angr`
 	
-	Нөхцөл шалгах, хэтэрхий статик байдалтай бичигдсэн **ELF** файлууд дээр гайхалтай үр дүнтэй энгийн template.
+	* Нөхцөл шалгах, хэтэрхий статик байдалтай бичигдсэн **ELF** файлууд дээр гайхалтай үр дүнтэй энгийн template.
 	* [Angr_template.py](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Reverse%20Engineering/Code/angr_template.py)
 
