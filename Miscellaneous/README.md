@@ -12,7 +12,7 @@ Esoteric programming languages
 	
 	* [http://www.quine.org/09-bob-matthews-2009-09-12-usps-imb-decode.html](http://www.quine.org/09-bob-matthews-2009-09-12-usps-imb-decode.html)
 	
-![https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/Images/imb_barcode.png(https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/Images/imb_barcode.png)
+![https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/Images/imb_barcode.png](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/Images/imb_barcode.png)
 	
 	
 * `Rockstar`
