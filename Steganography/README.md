@@ -13,6 +13,7 @@ Steganography
 * [`steghide`](http://steghide.sourceforge.net/download.php)
 
 	Нууц үгээр тухайн зурагтаа файл нуух, гаргаж авах түүл. 
+	* `stegcracker` 
 	* Нууц үг [brute-force](https://github.com/Va5c0/Steghide-Brute-Force-Tool) хийнэ. 
 
 * [zsteg](https://github.com/zed-0xff/zsteg)
