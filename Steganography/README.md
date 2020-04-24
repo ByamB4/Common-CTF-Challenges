@@ -20,6 +20,11 @@ Steganography
 	
 	Энэ түүл нь PNG болон BMP файл дотор нуугдсан өгөгдлийг илрүүлнэ.
 
+* `jsteg`
+
+	Хуучин түүл бөгөөд `.jpg` файлаас өгөгдөл гарган авна.
+
+
 * [`Least Significant Bit`](https://en.wikipedia.org/wiki/Bit_numbering#Least_significant_bit_in_digital_steganography) 
 
 	Layer дээр өгөгдөл нуугдаагүй битэн дотор нуугдсан гэсэн үг. Тиймээс `Stegsolve.jar` аар Data Extract гээд үзээд явна. Эсвэл онлайн түүлээр шалгана.
