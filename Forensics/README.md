@@ -132,4 +132,9 @@ Disk File Forensics
 	
 	Disk image төрөл дотор орох бөгөөд оптик диск болон соронзон диск ийн түүхий эд юм. 
 	* [DiskInternals Raid Recovery](https://www.diskinternals.com/raid-recovery/) 
+
+* `.iso`
 	
+	LUKS encrypted file үүнийг задлахын тулд нууц үг хэрэгтэй. Нууц үгийг олсон тохиолдолд:
+	* `sudo cryptsetup open --type luks glaf.iso out_iso`
+	* `sudo mount /dev/mapper/out_iso /mnt`
