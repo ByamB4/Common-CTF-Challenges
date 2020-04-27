@@ -125,3 +125,5 @@ Block cipher
 
 * [python-3 скрипт](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/Code/Block-cipher/AES-ECB-decode.py)
 	
+Fractionated Morse Cipher
+Sebald cipher.
