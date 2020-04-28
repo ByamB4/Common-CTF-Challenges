@@ -1,4 +1,4 @@
-Capture The Flag also Hacking Tools shortcut
+Capture The Flag tools 
 ============================================
 
 > Byambadalai Sumiya | 2019-09-09
