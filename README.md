@@ -1,28 +1,7 @@
-Тугийг олзлох түүлүүд
-===============
+Capture The Flag also Hacking Tools shortcut
+============================================
 
-> С. Бямбадалай | 2019-09-09
+> Byambadalai Sumiya | 2019-09-09
 --------------------------
-Live тэмцээний үед түүл хайж цаг алдахын оронд өөрийн бэлдсэн түүл, код зэргийг өөр өөртөө бэлдсэн болно. 
 
-Татах линк 
-------------------
-* Burp suite PRO -> [https://drive.google.com/open?id=10RwrjnC4diW3nlGS0SBRpkR05L93zDOE](https://drive.google.com/open?id=10RwrjnC4diW3nlGS0SBRpkR05L93zDOE)
-* IDA PRO        -> [https://drive.google.com/open?id=1alqfGr6w9RBoRWqMo_7GEvLhu8H8lkuc](https://drive.google.com/open?id=1alqfGr6w9RBoRWqMo_7GEvLhu8H8lkuc)
-* StegSolve.jar  -> [https://drive.google.com/open?id=1VFn2ukSjw7YU8PeJNdR4KwndWBR1ejEY](https://drive.google.com/open?id=1VFn2ukSjw7YU8PeJNdR4KwndWBR1ejEY)	
-
-Binary, Exploitation
-------------------
-
-* `Cheat Engine`
-
-  Тухайн ажиллаж байгаа процессоо зааж өгөөд аль хаяг дээр ямар утга байна, өөрийн утгийг хайж олох өөрчлөх боломжтой. 
-    * Татах линк [https://www.cheatengine.org/](https://www.cheatengine.org/)
-
-Steganography
-------------------
-
-* `steghide`
-
-  Зурган дотор файл нуух, нуугдсан файлыг нууц үгийн тусламжтайгаар гаргаж авна
-  * Гаргаж авахдаа `steghide --exctract -sf [FILENAME]`
+translating Mongolian to English
