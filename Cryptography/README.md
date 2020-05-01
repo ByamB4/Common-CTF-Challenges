@@ -13,6 +13,9 @@ Encoding decoding
 	
 	* [https://www.dcode.fr/morse-code](https://www.dcode.fr/morse-code)
 	
+* `Monks cipher`
+
+	![https://github.com/ByamB4/Capture-The-Flag-Tools/blob/master/Cryptography/Images/Monks%20cipher/monks%20cipher.jpg](https://github.com/ByamB4/Capture-The-Flag-Tools/blob/master/Cryptography/Images/Monks%20cipher/monks%20cipher.jpg)
 	
 Transposition cipher
 -----------------------
