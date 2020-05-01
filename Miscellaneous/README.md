@@ -1,8 +1,11 @@
 Esoteric programming languages
 --------------------
 
+* `Malbolge`
+	
+	* [http://malbolge.doleczek.pl/](http://malbolge.doleczek.pl/)
 
-* `Pigpen cipher`
+* `Pigpen`
 
 	* [https://www.dcode.fr/pigpen-cipher](https://www.dcode.fr/pigpen-cipher)
 	
