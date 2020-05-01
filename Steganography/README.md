@@ -24,6 +24,9 @@ Steganography
 
 	Хуучин түүл бөгөөд `.jpg` файлаас өгөгдөл гарган авна.
 
+* `binary image`
+
+	* [https://www.dcode.fr/binary-image](https://www.dcode.fr/binary-image)
 
 * [`Least Significant Bit`](https://en.wikipedia.org/wiki/Bit_numbering#Least_significant_bit_in_digital_steganography) 
 
