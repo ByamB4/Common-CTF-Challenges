@@ -69,6 +69,14 @@ Asymmetric cryptography
 	* `base64 -d priv.b64 | openssl rsa -inform DER > out.key`
 	* `base64 -d enc.b64 > enc`
 	* `openssl rsautl -decrypt -inkey out.key < enc > decrypted`
+
+Symmetric cryptography
+----------------------
+
+* `Fernet`
+
+	Mostly starts with **gAAAAABaDDCR** also cannot decrypt without key
+	* [https://asecuritysite.com/encryption/ferdecode](https://asecuritysite.com/encryption/ferdecode)
 	
 Hash functions 
 -----------------------
