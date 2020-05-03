@@ -27,6 +27,9 @@ Steganography
 * `binary image`
 
 	* [https://www.dcode.fr/binary-image](https://www.dcode.fr/binary-image)
+* `FFT`
+
+	* [http://bigwww.epfl.ch/demo/ip/demos/FFT/](http://bigwww.epfl.ch/demo/ip/demos/FFT/)
 
 * [`Least Significant Bit`](https://en.wikipedia.org/wiki/Bit_numbering#Least_significant_bit_in_digital_steganography) 
 
