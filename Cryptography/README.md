@@ -72,6 +72,14 @@ Asymmetric cryptography
 	* `base64 -d priv.b64 | openssl rsa -inform DER > out.key`
 	* `base64 -d enc.b64 > enc`
 	* `openssl rsautl -decrypt -inkey out.key < enc > decrypted`
+	
+	* `Hastad’s Broadcast Attack`
+		
+		* N1, N2, N3, C1, C2, C3 өгөгдсөн буюу e = 3 үед энэ нь боломжтой.
+		
+	* `Fermat’s attack`
+	
+		* P, Q хоёр ижил урттай анхны тоо ч хэтэрхий ойрхон буюу ялгавар бага үед.
 
 Symmetric cryptography
 ----------------------
