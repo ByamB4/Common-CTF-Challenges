@@ -73,9 +73,11 @@ Asymmetric cryptography
 	* `base64 -d enc.b64 > enc`
 	* `openssl rsautl -decrypt -inkey out.key < enc > decrypted`
 	
+	Нийтлэг дайралтууд
 	* `Hastad’s Broadcast Attack`
 		
 		* N1, N2, N3, C1, C2, C3 өгөгдсөн буюу e = 3 үед энэ нь боломжтой.
+		* [python2](https://github.com/ByamB4/Capture-The-Flag-Tools/blob/master/Cryptography/RSA/Hasted's%20Attack.py)
 		
 	* `Fermat’s attack`
 	
