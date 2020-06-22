@@ -82,6 +82,10 @@ Asymmetric cryptography
 	* `Fermat’s attack`
 	
 		* P, Q хоёр ижил урттай анхны тоо ч хэтэрхий ойрхон буюу ялгавар бага үед.
+	
+	* `Too many primes`
+	
+		* [Python2](https://github.com/ByamB4/Capture-The-Flag-Tools/blob/master/Cryptography/Code/rsa-too-many-primes.py)
 
 Symmetric cryptography
 ----------------------
