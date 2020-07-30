@@ -1,3 +1,9 @@
+Scavenger Hunt
+--------------
+
+* `/robots.txt`
+* `/.well-known`
+
 JavaScript
 --------------------
 
