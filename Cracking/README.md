@@ -25,5 +25,5 @@ ZIP
 
 * [`zip2john`](https://github.com/magnumripper/JohnTheRipper.git)
 
-	* `john2zip <filename> > crackme
+	* `john2zip <filename> > crackme`
 	* `john crackme --show`
