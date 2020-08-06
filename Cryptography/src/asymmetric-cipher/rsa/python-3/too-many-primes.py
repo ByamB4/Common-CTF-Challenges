@@ -14,19 +14,16 @@ p = ans
 d = 1
 
 def egcd(a, b):
- if (a == 0):
-     return [b, 0, 1]
+ if (a == 0): return [b, 0, 1]
  else:
      g, y, x = egcd(b % a, a)
      return [g, x - (b // a) * y, y]
 def modInv(a, m):
  g, x, y = egcd(a, m)
- if (g != 1):
-     raise Exception("[-]No modular multiplicative inverse of %d under modulus %d" % (a, m))
- else:
-     return x % m
+ if (g != 1): raise Exception("[-]No modular multiplicative inverse of %d under modulus %d" % (a, m))
+ else: return x % m
 
-phy=1
+phy = 1
 for a in p:
   phy *= (a-1)
 d = modInv(e, phy)

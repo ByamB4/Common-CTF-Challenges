@@ -5,26 +5,18 @@ import os
 import struct
 from binascii import hexlify
 
-
 def process_1x_database(data, databaseName, maxInlineSize=1024):
     index = 8
     algorithm = -1
 
     encFlag = struct.unpack("<L", data[index:index+4])[0]
     index += 4
-    if (encFlag & 2 == 2):
-        # AES
-        algorithm = 0
-    elif (enc_flag & 8):
-        # Twofish
-        algorithm = 1
+    if (encFlag & 2 == 2): algorithm = 0
+    elif (enc_flag & 8): algorithm = 1
     else:
         print "Unsupported file encryption!"
         return
 
-    # TODO: keyfile processing
-
-    # TODO: database version checking
     version = hexlify(data[index:index+4])
     index += 4
     
