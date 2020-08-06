@@ -1,21 +1,11 @@
-Steganography
+Image
 -----------------------
 
-* [`Stegsolve.jar`](https://github.com/zardus/ctf-tools/blob/master/stegsolve/install)
-
-	Ихэнх даалгавар дээр ашиглаж болох бөгөөд өнгө бүр дээр хувирлыг харуулна.
-
-* `Offset`
-	Stegsolve-оор offset ээр нь гүйлгэнэ.
-
-![Offset image](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Steganography/img/frame_031_delay-0.07s.png)
-
 * [`steghide`](http://steghide.sourceforge.net/download.php)
-
-	Нууц үгээр тухайн зурагтаа файл нуух, гаргаж авах түүл. 
-	* `stegcracker` 
-	* Нууц үг [brute-force](https://github.com/Va5c0/Steghide-Brute-Force-Tool) хийнэ. 
-
+	
+	* To extract files `steghide extract -sf <filename>`
+	* To brute force password [`stegcracker`](https://github.com/Va5c0/Steghide-Brute-Force-Tool)
+	
 * [zsteg](https://github.com/zed-0xff/zsteg)
 	
 	Энэ түүл нь PNG болон BMP файл дотор нуугдсан өгөгдлийг илрүүлнэ.
