@@ -9,4 +9,9 @@ Database cracking
 * `FTP` 
 	
 	* Brute force pasword with known username using [`hydra`](https://tools.kali.org/password-attacks/hydra)
-	* `hydra -l <username> -P <wordlist> <target address> ftp`
+	* `hydra -l <username> -P <wordlist> <target-address> ftp`
+
+* `ZIP`
+
+	* Brute force password with dictionary using [`fcrackzip`](http://manpages.ubuntu.com/manpages/trusty/man1/fcrackzip.1.html)
+	* `fcrackzip -v -D -u -p <wordlist> <target.zip>
