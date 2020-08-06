@@ -1,0 +1,9 @@
+*.png binary
+*.jpg binary
+*.html text eol=lf
+*.js text eol=lf
+*.eot binary
+*.otf binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
