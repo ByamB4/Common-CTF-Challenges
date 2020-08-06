@@ -40,7 +40,7 @@ Substitution cipher
 	* [https://www.guballa.de/vigenere-solver](https://www.guballa.de/vigenere-solver)
 	
 	Тухайн нэг түлхүүрээр нууцлах ба ерөнхийдөө тухайн plaintext key тэйгээ тааруулаад доорх хүснэгт ашиглаад ciphertext үүсгэнэ.
-![https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/Images/Substitution%20cipher/Vigenere%20cipher.png](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/Images/Substitution%20cipher/Vigenere%20cipher.png)
+![https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/static/img/substitution%20cipher/Vigenere%20cipher.png](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/static/img/substitution%20cipher/Vigenere%20cipher.png)
 ```
 key        = LEMONLEMONLE
 plaintext  = ATTACKATDAWN
