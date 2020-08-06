@@ -1,4 +1,4 @@
-Database cracking
+Database
 -----------------------
 
 * `Keepass` 
@@ -6,7 +6,7 @@ Database cracking
 	* python [code.py](https://github.com/ByamB4/Capture-The-Flag-Tools/blob/master/Cracking/code/keepass2john.py) FILE.kdb > crackme
   	* `hashcat -a 0 -m 13400 --show -o out crackme rockyou.txt --force`
 
-Service cracking
+Service
 -----------------------
 
 * `FTP`
@@ -15,7 +15,7 @@ Service cracking
 	* `hydra -l <username> -P <wordlist> <target-address> ftp`
 
 
-ZIP cracking
+ZIP
 -----------------------
 
 * [`fcrackzip`](http://manpages.ubuntu.com/manpages/trusty/man1/fcrackzip.1.html)
