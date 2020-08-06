@@ -1,5 +1,5 @@
 Database
------------------------
+-
 
 * `Keepass` 
 	
@@ -7,7 +7,7 @@ Database
   	* `hashcat -a 0 -m 13400 --show -o out crackme rockyou.txt --force`
 
 Service
------------------------
+-
 
 * `FTP`
 	
@@ -20,7 +20,7 @@ Service
 	* `hydra -t 4 -l jan -P <wordlist> ssh://<target-address>`
 
 ZIP
------------------------
+-
 
 * [`fcrackzip`](http://manpages.ubuntu.com/manpages/trusty/man1/fcrackzip.1.html)
 
@@ -29,5 +29,13 @@ ZIP
 
 * [`zip2john`](https://github.com/magnumripper/JohnTheRipper.git)
 
-	* `john2zip <filename> > crackme`
+	* `zip2john <filename> > crackme`
+	* `john crackme --show`
+
+Private key
+-
+
+* [`ssh2john`](https://github.com/magnumripper/JohnTheRipper.git)
+
+	* `ssh2john <filename> > crackme`
 	* `john crackme --show`
