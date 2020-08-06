@@ -22,3 +22,8 @@ ZIP
 
 	* Brute force password with dictionary
 	* `fcrackzip -v -D -u -p <wordlist> <target.zip>`
+
+* [`zip2john`](https://github.com/magnumripper/JohnTheRipper.git)
+
+	* `john2zip <filename> > crackme
+	* `john crackme --show`
