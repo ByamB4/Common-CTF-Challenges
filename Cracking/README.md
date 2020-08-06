@@ -8,5 +8,5 @@ Database cracking
 
 * `FTP` 
 	
-	* Brute force pasword with known username using `hydra`
+	* Brute force pasword with known username using [`hydra`](https://tools.kali.org/password-attacks/hydra)
 	* `hydra -l <username> -P <wordlist> <target address> ftp`
