@@ -15,7 +15,7 @@ Encoding decoding
 	
 * `Monks cipher`
 
-	![https://github.com/ByamB4/Capture-The-Flag-Tools/blob/master/Cryptography/Images/Monks%20cipher/monks%20cipher.jpg](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/static/img/monks%20cipher/monks%20cipher.jpg)
+	![https://github.com/ByamB4/Capture-The-Flag-Tools/blob/master/Cryptography/Images/Monks%20cipher/monks%20cipher.jpg](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/static/img/monks-cipher/table.jpg)
 	
 Transposition cipher
 -----------------------
@@ -40,7 +40,7 @@ Substitution cipher
 	* [https://www.guballa.de/vigenere-solver](https://www.guballa.de/vigenere-solver)
 	
 	Тухайн нэг түлхүүрээр нууцлах ба ерөнхийдөө тухайн plaintext key тэйгээ тааруулаад доорх хүснэгт ашиглаад ciphertext үүсгэнэ.
-![https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/static/img/substitution%20cipher/Vigenere%20cipher.png](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/static/img/substitution%20cipher/Vigenere%20cipher.png)
+![https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/static/img/substitution%20cipher/Vigenere%20cipher.png](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/static/img/substitution-cipher/vigenere/table.png)
 ```
 key        = LEMONLEMONLE
 plaintext  = ATTACKATDAWN
@@ -58,14 +58,14 @@ Asymmetric cryptography
 		* [FactorDB](http://factordb.com/)
 		* [IntegerECM](https://www.alpertron.com.ar/ECM.HTM)
 	* **e** хэтэрхий жижиг буюу (e < 65537) нөхцлийг хангаж байвал **wiener-attack** хэрэгжүүлж болно.
-	* `n1`, `n2`, `n3`, `c1`, `c2`, `c3` өгөгдсөн мөн `e=3` үед [CRT](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/small-e-with-values.py) хэрэгжүүлж болно.
+	* `n1`, `n2`, `n3`, `c1`, `c2`, `c3` өгөгдсөн мөн `e=3` үед [CRT](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/small-e-with-values.py) хэрэгжүүлж болно.
 	* [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
-	* [Python2 - code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/python2.py)
-	* [Python3 - code](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/python3.py)
-	* [Brute force - encrypt 4 letter](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/brute-force-encrypt-4-letter.py)
-	* [Brute force - encrypt e guessing](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/find_e_python-2.py)
-	* [`c1`, `c2`, `e1`, `e2` given](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/common_modules_attack.py) 
-	* [`p`, `q`, `e` өгөгдсөн үед `d` олох](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/RSA/p_q_e_given-calculate-d.py)
+	* [Python2 - code](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/solve.py)
+	* [Python3 - code](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/solve-3.py)
+	* [Brute force - encrypt 4 letter](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/brute-force-encrypt-4-letter.py)
+	* [Brute force - encrypt e guessing](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/find-e.py)
+	* [`c1`, `c2`, `e1`, `e2` given](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/common-modules-attack.py) 
+	* [`p`, `q`, `e` өгөгдсөн үед `d` олох](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/p-q-e-given-calculate-d.py)
 	
 	Public key, Private key, Encrypted text base64-өөр өгөгдсөн үед дараах байдлаар бодож болно
 	* `base64 -d < pub.b64 > pub.der`
@@ -113,11 +113,11 @@ Block cipher
 	
 	ECB буюу Electronic Codebook нь plaintext-ийг тэнцүү урттай хэд хэдэн блок болгон хувааж нэг ижил түлхүүрээр нууцладаг. 
 	
-	![AES-Electronic codebook encryption image](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/Images/Block%20cipher/AES-ECB-encryption.png)
+	![AES-Electronic codebook encryption image](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/static/img/block-cipher/aes-ecb/encryption.png)
 	
 	Буцааж задлахдаа яг ижил зарчмаар задлана. 
 	
-	![AES-Electronic codebook decryption image](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/Images/Block%20cipher/AES-ECB-decyption.png)
+	![AES-Electronic codebook decryption image](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/static/img/block-cipher/aes-ecb/decryption.png)
 	
 	Тэгэхээр бид түлхүүрийг олохоос илүү аль нэг блок дээр байгаа текстийг нэг унших нь илүү үр дүнтэй юм. 
 
@@ -148,7 +148,7 @@ Block cipher
    'Down with the So'     <--- 16  (Блок 10)   <--- мэдэгдэхгүй блок
 ```
 
-* [python-3 скрипт](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Cryptography/Code/Block-cipher/AES-ECB-decode.py)
+* [python-3 скрипт](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/block-cipher/aes-ecb/solve.py)
 	
 Fractionated Morse Cipher
 Sebald cipher.
