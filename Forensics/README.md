@@ -1,140 +1,64 @@
-Forensics
------------
+General
+-
 
-* `Нуугдсан файл`
-	* `foremost` файл дотор нуугдсан файлуудыг ил гаргаж ирнэ.
-	* `binwalk` файлд анализ хийхээс гадна нуугдсан файлуудыг гаргаж ирнэ.
-	
-* `Reverse HEX`
+* `Reversed hex file`
 
-	* Заримдаа файлын hex утгууд ямар ч замбараагүй байдалтай өгөгдөх бөгөөд үүнийг python ашиглаж reverse хийнэ.
-	* `open('output2.txt', 'wb').write(open('output.txt', 'rb').read()[::-1])`
+	* Using python `open('output2.txt', 'wb').write(open('output.txt', 'rb').read()[::-1])`.
 
 * `Python bytecode`
 
-	* Python гийн compile хийгдсэн файлыг `uncompyle6` ашиглан decompile хийнэ. 
-	
+	* You can use `uncompyle6` to decompile.
 
-* `TestDisk`
+PNG File
+-
 
-	* Командын мөрний түүл `.dd`, `.img` файлуудаас устсан файлыг сэргээх засварлах юм.
-
-* `Compare two file`
-
-	Ижил харагдах файлууд дээр hex утгаар нь харьцуулаад ялгаж авна
-	* `cmp -bl [FILE-1] [FILE-2]`
-
-PNG File Forensics
---------------------
-
-* `Magic Numbers`
-
-	* [default-image-1](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Forensics/Files/png-default.png) 
-	* PNG файл засна [png-parser](https://github.com/ByamB4/Capture-The-Flag-Tools/blob/master/Forensics/code/png_parser.py)
+* `Magic numbers`
+ 
+	* Fix magics [png-parser](https://github.com/ByamB4/Capture-The-Flag/blob/master/Forensics/src/png_parser.py)
 	
 * `pngcheck`
 
-	* Командын мөрний түүл өгөгдсөн `png` файлын бүрэн бүтэн байгаа эсэхийг анализ хийнэ.
+	* Command line tool, checks given png file corrupted or not.
 	
-* `2 ижил зураг`
+* `2 same image`
 
-	* 2 ижилхэн зураг гарч ирвэл SUB,OR, XOR, MUL гэх мэт үйлдэл хийж нэг зураг болгож нэгтгэх.
-		* `compare 00000000.png 00000725.png -compose src diff.png`
 	
-PDF Files
--------------
+	* We can use SUB, MUL, ... `compare 00000000.png 00000725.png -compose src diff.png`
+	
+PDF File
+-
 
 * `pdfinfo`	
 	
-	* Командын мөрний түүл ямар төрлийн `pdf` файл вэ зэрэгт анализ хийнэ.
+	* Command line tool to analyse given pdf.
 	
-* `pdf2txt`
+* [`pdfminer`](https://github.com/euske/pdfminer)
 	
-	* Python файл `.pdf` файлуудаас текст гарган авна.
-		* [https://github.com/euske/pdfminer](https://github.com/euske/pdfminer)
+	* Lot of useful tools.
 
-* `pdfcrack`
+* `[pdf-repair](https://www.pdf-online.com/osa/repair.aspx)`
 
-	* Командын мөрний түүл нууц үгээр хамгаалагдсан PDF файлыг `bruteforce`, `dictionary` аас тайлна.
-
-* `pdf-repair`
-
-	* Онлайн түүл pdf файлыг засна.
-		* [https://www.pdf-online.com/osa/repair.aspx](https://www.pdf-online.com/osa/repair.aspx)
-
-* `pdf-parser`
-
-	Kali-linux командын мөрний түүл.
-
-ZIP File Forensics
---------------------
-
-* [`fcrackzip` ](https://allanfeid.com/content/cracking-zip-files-fcrackzip)
-
-	Командын мөрний түүл `.zip` файлуудыг brute-force ийн аргаар тайлна. Ихэнх тохиолдолд dictionary нь [`rockyou.txt`](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt) байх боловч зарим тохиолдолд өөр файлтай цуг өгөгдөн тэр файлаас dictionary гаргаж авна.
-```
-fcrackzip -v -D -u -p /usr/share/dict/words secret.zip
-```
-
-* `Too many zipped`
-
-	Ихэнх даалгаврууд дээр маш олон удаа шахсан байдалтай орж ирэх юм. Үүнийг одоогийн байдлаар ямар бэлэн түүл олоогүй ихэнх тохиолдолд гараар бичиж байгаа. 
-	* [Нэг төрлийн ZIP](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/ZIP/code/crack-1.py)
-
-* `strings` 
-
-	Зарим zip файл нэг файлтай хамт өгөгдөх бөгөөд мэдээж нууц үгтэй байвал тэр хамт ирсэн файл нь dictionary байх боломжтой юм. 
-	`strings [FILENAME] > dict.txt`
-
-* `ZIP password produce flag`
-
-	TJCTF дээр иймэрхүү даалгавар ирж байсан ба маш олон .zip файлуудын нууц үг нь манай флагийг гаргаж ирж байсан.
-	* [bash-script](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/ZIP/code/unzip-withbruteforce-files.sh)
-	
-RAR File Forensics
---------------------
-
-* `Password protected`
-
-	rar2john ашиглаж hash ийн гаргаж аваад дараа нь wordlist ээр brute force хийнэ.
-	* `rar2john [NAME].rar > rar.hash`
-	* `john --wordlist /usr/share/wordlists/rockyou.txt --format=rar5 rar.hash`
+	* Online tool to fix given pdf file.
 	
 GIF File Forensics
---------------------
+-
 
-* `gif split`
+* `Split images`
 
-	`GIF` зургийг салгаж нэгтгэн ганц зураг гаргана.
 	* `convert test.gif %02d.png`
 	* `ls *.png | while read filename; do convert $filename -transparent white $filename; done`
 	* `ls *.png | while read filename; do convert $filename 00.png -gravity center -composite 00.png; done`
-	
-WAV File Forensics
---------------------
 
-* `SSTV audio file to image using QSSTV`
 	
-	Аудио файл slow-scan television буюу (SSTV) ээр кодчилогдоно _(encode)_.  Саран дээр буух үед ашиглаж байсан. 
-	* `qsstv` ашиглаж зургийг ялгаж авна. [эх сурвалж](https://ourcodeworld.com/articles/read/956/how-to-convert-decode-a-slow-scan-television-transmissions-sstv-audio-file-to-images-using-qsstv-in-ubuntu-18-04)
-	* [Ижил даалгавар](https://github.com/Dvd848/CTFs/blob/master/2019_picoCTF/m00nwalk.md)
-	* `pactl load-module module-null-sink sink_name=virtual-cable`
-	* `pavucontrol`
-	* `pavucontrol # A GUI will pop-up, go to the "Output Devices" tab to verify that you have the "Null Output" device`
-	* `qsstv # The program GUI will pop-up, go to "Options" -> "Configuration" -> "Sound" and select the "PulseAudio" Audio Interface`
-	* `# Back in the pavucontrol GUI, select the "Recording" tab and specify that QSSTV should capture audio from the Null Output`
-	* `paplay -d virtual-cable message.wav `
-	
-Disk File Forensics
---------------------
+Disk File
+-
 
 * `.img` 
 	
-	Disk image төрөл дотор орох бөгөөд оптик диск болон соронзон диск ийн түүхий эд юм. 
 	* [DiskInternals Raid Recovery](https://www.diskinternals.com/raid-recovery/) 
 
 * `.iso`
 	
-	LUKS encrypted file үүнийг задлахын тулд нууц үг хэрэгтэй. Нууц үгийг олсон тохиолдолд:
+	* LUKS encrypted file, we have to find password to extract.
 	* `sudo cryptsetup open --type luks glaf.iso out_iso`
 	* `sudo mount /dev/mapper/out_iso /mnt`
