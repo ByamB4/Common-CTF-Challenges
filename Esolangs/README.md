@@ -5,6 +5,11 @@ Esoteric programming languages
 	
 	* [http://malbolge.doleczek.pl/](http://malbolge.doleczek.pl/)
 
+* [`Deadfish`](https://www.dcode.fr/deadfish-language)
+
+	
+	```iisiiiisiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiodddddddddddddddddddddddddddddddddoiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiodddddddddddoiodddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddoiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiioiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiioddddoiiioiioiiioiiiiiiiiiiodddddddddddo```
+	
 * `Pigpen`
 
 	* [https://www.dcode.fr/pigpen-cipher](https://www.dcode.fr/pigpen-cipher)
