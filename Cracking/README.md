@@ -3,7 +3,7 @@ Database
 
 * `Keepass` 
 	
-	* python [code.py](https://github.com/ByamB4/Capture-The-Flag-Tools/blob/master/Cracking/code/keepass2john.py) FILE.kdb > crackme
+	* python [code.py](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cracking/src/keepass2john.py) FILE.kdb > crackme
   	* `hashcat -a 0 -m 13400 --show -o out crackme rockyou.txt --force`
 
 Service
