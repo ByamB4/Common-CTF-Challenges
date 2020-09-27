@@ -1,25 +1,25 @@
 ## Transposition Cipher
 
-- `Rail Fence (Zig-Zag) Cipher`
+- [`Rail Fence (Zig-Zag) Cipher`](https://www.dcode.fr/rail-fence-cipher)
 
-  - [`FEPLOCLGXMLFAFRCAAEGC`](https://www.dcode.fr/rail-fence-cipher)
+  - `FEPLOCLGXMLFAFRCAAEGC`
 
-- `Route/Path Cipher`
-  - [`DCODUORETECIREHP`](https://www.dcode.fr/route-cipher)
+- [`Route/Path Cipher`](https://www.dcode.fr/route-cipher)
+  - `DCODUORETECIREHP`
 
 ## Substitution Cipher
 
-- `Fractionated Morse Cipher`
+- [`Fractionated Morse Cipher`](https://www.dcode.fr/fractionated-morse)
   - `BGJTWGVFFOEGJUPSHSLNTHDVLKI`
 
 ## Poly-Alphabetic Cipher
 
-- `Vigenere Cipher`
+- [`Vigenere Cipher`](https://www.dcode.fr/vigenere-cipher)
   - `nGmni Tskcxipo esdskkxgmejvc`
 
 ## Asymmetric Cryptography
 
-- `Rivest-Shamir–Adleman`
+- [`Rivest-Shamir–Adleman`](https://github.com/Ganapati/RsaCtfTool)
 
   - **wiener-attack** when given **e** is small.
   - `n1`, `n2`, `n3`, `c1`, `c2`, `c3` өгөгдсөн мөн `e=3` үед [CRT](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/small-e-with-values.py) хэрэгжүүлж болно.
@@ -52,11 +52,10 @@
 
 ## Symmetric cryptography
 
-- `Fernet`
+- [`Fernet`](https://asecuritysite.com/encryption/ferdecode)
 
-  Mostly starts with **gAAAAABaDDCR** also cannot decrypt without key
-
-  - [https://asecuritysite.com/encryption/ferdecode](https://asecuritysite.com/encryption/ferdecode)
+  `Token: gAAAAABWC9P7-9RsxTz_dwxh9-O2VUB7Ih8UCQL1_Zk4suxnkCvb26Ie4i8HSUJ4caHZuiNtjLl3qfmCv_fS3_VpjL7HxCz7_Q==`
+  `Key: -s6eI5hyNh8liH7Gq0urPC-vzPgNnxauKvRO4g03oYI=`
 
 ## Block cipher
 
