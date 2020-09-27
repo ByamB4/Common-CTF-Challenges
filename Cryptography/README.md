@@ -1,7 +1,11 @@
 ## Transposition Cipher
 
 - `Rail Fence (Zig-Zag) Cipher`
-  - `FEPLOCLGXMLFAFRCAAEGC`
+
+  - [`FEPLOCLGXMLFAFRCAAEGC`](https://www.dcode.fr/rail-fence-cipher)
+
+- `Route/Path Cipher`
+  - [`DCODUORETECIREHP`](https://www.dcode.fr/route-cipher)
 
 ## Substitution Cipher
 
