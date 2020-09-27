@@ -73,7 +73,7 @@ Block cipher
 
 * `AES-ECB`
 	
-	* [python-3](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/block-cipher/aes-ecb/solve.py)
+	* [simple-python-3](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/block-cipher/aes-ecb/simple-python-3.py)
 	
 Fractionated Morse Cipher
 Sebald cipher.
