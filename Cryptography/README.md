@@ -54,14 +54,8 @@ Asymmetric cryptography
 
 * `Rivest-Shamir–Adleman`
 
-	* **n**-ийн хуваагдагчид буюу **p**, **q** хувьсагчийн утгийг олох.
-		* [FactorDB](http://factordb.com/)
-		* [IntegerECM](https://www.alpertron.com.ar/ECM.HTM)
-	* **e** хэтэрхий жижиг буюу (e < 65537) нөхцлийг хангаж байвал **wiener-attack** хэрэгжүүлж болно.
+	* **wiener-attack** when given **e** is small.
 	* `n1`, `n2`, `n3`, `c1`, `c2`, `c3` өгөгдсөн мөн `e=3` үед [CRT](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/small-e-with-values.py) хэрэгжүүлж болно.
-	* [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
-	* [Python2 - code](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/solve.py)
-	* [Python3 - code](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/solve-3.py)
 	* [Brute force - encrypt 4 letter](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/brute-force-encrypt-4-letter.py)
 	* [Brute force - encrypt e guessing](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/find-e.py)
 	* [`c1`, `c2`, `e1`, `e2` given](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/common-modules-attack.py) 
