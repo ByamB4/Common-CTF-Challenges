@@ -7,7 +7,7 @@
 - [`Route/Path Cipher`](https://www.dcode.fr/route-cipher)
   - `DCODUORETECIREHP`
   
-- [more](https://github.com/ByamB4/CCC/tree/master/Cryptography/Substitution%20Cipher)
+- [`Read more`](https://github.com/ByamB4/CCC/tree/master/Cryptography/Substitution%20Cipher)
 
 ## Substitution Cipher
 
