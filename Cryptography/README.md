@@ -16,9 +16,8 @@ Substitution cipher
 -
 
 * `Vigenère cipher`
-
-	* [https://www.guballa.de/vigenere-solver](https://www.guballa.de/vigenere-solver)
-
+* `Fractionated Morse Cipher`
+	* `BGJTWGVFFOEGJUPSHSLNTHDVLKI`
 	
 Asymmetric cryptography 
 -
@@ -65,15 +64,10 @@ Hash functions
 
 * `MD-5`
 	
-	To do
-
-	
 Block cipher 
 -
 
 * `AES-ECB`
 	
 	* [simple-python-3](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/block-cipher/aes-ecb/simple-python-3.py)
-	
-Fractionated Morse Cipher
-Sebald cipher.
+
