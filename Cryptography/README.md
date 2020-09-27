@@ -3,7 +3,8 @@ Encoding decoding
 
 * `Monks cipher`
 
-	![https://github.com/ByamB4/Capture-The-Flag-Tools/blob/master/Cryptography/Images/Monks%20cipher/monks%20cipher.jpg](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/static/img/monks-cipher/table.jpg)
+	* <img src="https://github.com/ByamB4/Capture-The-Flag-Tools/blob/master/Cryptography/Images/Monks%20cipher/monks%20cipher.jpg" width="200" height="400" />
+
 	
 Transposition cipher
 -
