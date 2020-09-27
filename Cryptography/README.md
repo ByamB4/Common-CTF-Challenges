@@ -1,18 +1,6 @@
 Encoding decoding
 -----------------------
 
-* `Base64` 
-	
-	Зарим тохиолдолд эвдэрсэн байдаг 
-	
-	* [https://base64.guru/tools/repair](https://base64.guru/tools/repair)
-
-* `Morse code`
-
-	Харилцаа холбооны өгөгдлийг нууцлахад ашигладаг бөгөөд цэг **,**, зураас **-** ашиглаж A-Z тэмдэгтийг кодчилно.
-	
-	* [https://www.dcode.fr/morse-code](https://www.dcode.fr/morse-code)
-	
 * `Monks cipher`
 
 	![https://github.com/ByamB4/Capture-The-Flag-Tools/blob/master/Cryptography/Images/Monks%20cipher/monks%20cipher.jpg](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/static/img/monks-cipher/table.jpg)
@@ -22,15 +10,7 @@ Transposition cipher
 
 * `Rail Fence`
 
-	Заримдаа zipzag cipher ч гэж нэрлэдэг. Тухайн plaintext ийг дээшээ доошоо мөр болгож дараан нэг мөрөөр нь нэгтгэж ciphertext үүсгэнэ. Дээшээ доошоо мөр болгож байгааг нь **key** гэж нэрлэнэ.
-```
-key        = 3
-plaintext  = THISIS_SECRET
-ciphertext = TIETHSSSCEI_R
-T       I       E       T
-  H   S   S   S   C   E
-    I       _       R 
-```
+	* [https://www.dcode.fr/rail-fence-cipher](https://www.dcode.fr/rail-fence-cipher)
 	
 Substitution cipher
 -----------------------
@@ -38,16 +18,7 @@ Substitution cipher
 * `Vigenère cipher`
 
 	* [https://www.guballa.de/vigenere-solver](https://www.guballa.de/vigenere-solver)
-	
-	Тухайн нэг түлхүүрээр нууцлах ба ерөнхийдөө тухайн plaintext key тэйгээ тааруулаад доорх хүснэгт ашиглаад ciphertext үүсгэнэ.
-![https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/static/img/substitution%20cipher/Vigenere%20cipher.png](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/static/img/substitution-cipher/vigenere/table.png)
-```
-key        = LEMONLEMONLE
-plaintext  = ATTACKATDAWN
-ciphertext = LXFOPVEFRNHR
-Энд түлхүүр нь LEMON бөгөөд plaintext ийнхээ уртад тааруулан давтагдаж байна. 
-Хүснэгтэнд A L тэмдэгтийн огтлолцол L учир ciphertext ийн эхний тэмдэгт нь L болж байгаа юм.
-```
+
 	
 Asymmetric cryptography 
 -----------------------
