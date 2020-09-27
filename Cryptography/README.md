@@ -1,9 +1,3 @@
-## Encoding decoding
-
-- `Monks cipher`
-
-  - <img src="https://github.com/ByamB4/Capture-The-Flag-Tools/blob/master/Cryptography/Images/Monks%20cipher/monks%20cipher.jpg" width="200" height="400" />
-
 ## Transposition cipher
 
 - `Rail Fence`
