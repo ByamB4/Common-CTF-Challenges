@@ -1,18 +1,19 @@
-## Transposition cipher
+## Transposition Cipher
 
-- `Rail Fence`
+- `Rail Fence (Zig-Zag) Cipher`
+  - `FEPLOCLGXMLFAFRCAAEGC`
 
-  - [https://www.dcode.fr/rail-fence-cipher](https://www.dcode.fr/rail-fence-cipher)
+## Substitution Cipher
 
-## Substitution cipher
-
-- `Vigenère cipher`
 - `Fractionated Morse Cipher`
   - `BGJTWGVFFOEGJUPSHSLNTHDVLKI`
-- `Mary Stuart Code`
-  - <img src="https://github.com/ByamB4/Capture-The-Flag-Tools/blob/master/Cryptography/Images/Monks%20cipher/monks%20cipher.jpg" width="200" height="400" />
 
-## Asymmetric cryptography
+## Poly-Alphabetic Cipher
+
+- `Vigenere Cipher`
+  - `nGmni Tskcxipo esdskkxgmejvc`
+
+## Asymmetric Cryptography
 
 - `Rivest-Shamir–Adleman`
 
@@ -21,25 +22,25 @@
   - [Brute force - encrypt 4 letter](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/brute-force-encrypt-4-letter.py)
   - [Brute force - encrypt e guessing](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/find-e.py)
   - [`c1`, `c2`, `e1`, `e2` given](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/common-modules-attack.py)
-  - [`p`, `q`, `e` өгөгдсөн үед `d` олох](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/p-q-e-given-calculate-d.py)
+  - [`p`, `q`, `e` given find `d`](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/p-q-e-given-calculate-d.py)
 
-  Public key, Private key, Encrypted text base64-өөр өгөгдсөн үед дараах байдлаар бодож болно
+  Given file as base64
 
   - `base64 -d < pub.b64 > pub.der`
   - `base64 -d priv.b64 | openssl rsa -inform DER > out.key`
   - `base64 -d enc.b64 > enc`
   - `openssl rsautl -decrypt -inkey out.key < enc > decrypted`
 
-  Нийтлэг дайралтууд
+  Common attacks
 
   - `Hastad’s Broadcast Attack`
 
-    - N1, N2, N3, C1, C2, C3 өгөгдсөн буюу e = 3 үед энэ нь боломжтой.
+    - N1, N2, N3, C1, C2, C3 given also e = 3.
     - [python2](https://github.com/ByamB4/Capture-The-Flag-Tools/blob/master/Cryptography/RSA/Hasted's%20Attack.py)
 
   - `Fermat’s attack`
 
-    - P, Q хоёр ижил урттай анхны тоо ч хэтэрхий ойрхон буюу ялгавар бага үед.
+    - P, Q too near as N also known as difference is small.
 
   - `Too many primes`
 
@@ -52,10 +53,6 @@
   Mostly starts with **gAAAAABaDDCR** also cannot decrypt without key
 
   - [https://asecuritysite.com/encryption/ferdecode](https://asecuritysite.com/encryption/ferdecode)
-
-## Hash functions
-
-- `MD-5`
 
 ## Block cipher
 
