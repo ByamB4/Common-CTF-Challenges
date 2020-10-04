@@ -38,7 +38,10 @@
   - `openssl rsautl -decrypt -inkey out.key < enc > decrypted`
 
   Common attacks
-
+  
+  - `Small e`
+      - [python-3](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/small-e-gmpy.py)
+      
   - `Hastad’s Broadcast Attack`
 
     - N1, N2, N3, C1, C2, C3 given also e = 3.
