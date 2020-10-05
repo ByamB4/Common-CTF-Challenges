@@ -39,8 +39,8 @@
 
   Common attacks
   
-  - `Small e`
-      - [python-3](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/small-e-gmpy.py)
+  - `Small exponent`
+      - [Find n-th root using gmpy](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/small-exponent-attack-gmpy.py)
       
   - `Hastad’s Broadcast Attack`
 
