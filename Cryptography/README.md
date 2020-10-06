@@ -23,7 +23,6 @@
 
 - [`Rivest-Shamir–Adleman`](https://github.com/Ganapati/RsaCtfTool)
 
-  - **wiener-attack** when given **e** is small.
   - `n1`, `n2`, `n3`, `c1`, `c2`, `c3` өгөгдсөн мөн `e=3` үед [CRT](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/small-e-with-values.py) хэрэгжүүлж болно.
   - [Brute force - encrypt 4 letter](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/brute-force-encrypt-4-letter.py)
   - [Brute force - encrypt e guessing](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/find-e.py)
@@ -40,7 +39,12 @@
   Common attacks
   
   - `Small exponent`
+  
       - [Find n-th root using gmpy](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/small-exponent-attack-gmpy.py)
+      
+  - `Big exponent`
+  
+      - [Wiener attack](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/big-exponent-wiener.py)
       
   - `Hastad’s Broadcast Attack`
 
