@@ -51,4 +51,4 @@ int main()
 
 * `Random`
 
-	* Brute force seed in [c](https://github.com/ByamB4/CCC/blob/master/Reverse%20Engineering/src/random-bruteforce-seed.c) (file based)
+	* Brute force seed in [c-language](https://github.com/ByamB4/CCC/blob/master/Reverse%20Engineering/src/random-bruteforce-seed.c) (file based)
