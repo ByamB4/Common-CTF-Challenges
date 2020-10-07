@@ -44,7 +44,8 @@
       
   - `Big exponent`
   
-      - [Wiener attack](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/big-exponent-wiener.py)
+      - [Wiener](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/big-exponent-wiener.py)
+      - [Boneh Durfee](https://someurl)
       
   - `Hastad’s Broadcast Attack`
 
