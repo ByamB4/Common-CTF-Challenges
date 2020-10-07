@@ -52,9 +52,10 @@
     - N1, N2, N3, C1, C2, C3 given also e = 3.
     - [python2](https://github.com/ByamB4/Capture-The-Flag-Tools/blob/master/Cryptography/RSA/Hasted's%20Attack.py)
 
-  - `Fermat’s attack`
+  - `Fermat factors attack`
 
-    - P, Q too near as N also known as difference is small.
+    - **p**, **q** is too near, also known as difference is small.
+    - [code](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/fermat-factors-attack.py)
 
   - `Too many primes`
 
