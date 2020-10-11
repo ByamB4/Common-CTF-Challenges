@@ -1,5 +1,5 @@
 Image
------------------------
+-
 
 * [`steghide`](http://steghide.sourceforge.net/download.php)
 	
@@ -36,3 +36,10 @@ Image
 
 	Хоосон зай, таб зэрэгт нуугдсан мессеж байна. `stegsnow` ашиглаж тайлна. Гэхдээ энд заавал нууц үг хэрэгтэй бөгөөд хэрэв нууц үгтэй бол дараах командыг дагуу тайлна.
 	* `stegsnow -C -p password secret.txt`
+
+Audio
+-
+
+* LSB Steganography
+
+	* [repo](https://github.com/sniperline047/Audio-Steganography) 
