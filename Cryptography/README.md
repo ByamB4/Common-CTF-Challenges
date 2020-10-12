@@ -29,7 +29,6 @@
   - [`c1`, `c2`, `e1`, `e2` given](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/common-modules-attack.py)
   - [`p`, `q`, `e` given find `d`](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/p-q-e-given-calculate-d.py)
   - [`N is prime`](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/n-is-prime.py)
-  Given file as base64
 
   - `base64 -d < pub.b64 > pub.der`
   - `base64 -d priv.b64 | openssl rsa -inform DER > out.key`
