@@ -47,7 +47,7 @@
       
   - `Hastad’s Broadcast Attack`
 
-    - **e** cipher text, with same **m**.
+    - **e** cipher text, with same **message**.
     - [Chinese remainder theorem](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/Hastad-Broadcast-Attack-CRT.py)
     - [Simple gmpy](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/Hastad-Broadcast-Attack-Gmpy.py)
     
