@@ -41,8 +41,9 @@
       - [Find n-th root using gmpy](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/small-exponent-attack-gmpy.py)
       
   - `Big exponent`
-  
-      - [Wiener](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/big-exponent-wiener.py)
+      
+      - **n** is too big then public exponent **e** must be small.
+      - [Wiener's attack](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/Wiener-Attack.py)
       - [Boneh Durfee](https://someurl)
       
   - `Hastad’s Broadcast Attack`
