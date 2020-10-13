@@ -1,5 +1,5 @@
 from Crypto.Util.number import long_to_bytes as ltb, inverse
-from gmpy2 import isqrt, square, is_square, 
+from gmpy2 import isqrt, square, is_square
 
 n = REDACTED
 e = REDACTED
