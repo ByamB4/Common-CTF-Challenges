@@ -51,10 +51,10 @@
     - [Chinese remainder theorem](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/Hastad-Broadcast-Attack-CRT.py)
     - [Simple gmpy](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/Hastad-Broadcast-Attack-Gmpy.py)
     
-  - `Fermat factors attack`
+  - `Fermat's attack`
 
     - **p**, **q** is too near, also known as difference is small.
-    - [code](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/fermat-factors-attack.py)
+    - [Fermat factor](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/Fermats-Factor-Attack-Simple.py)
 
   - `Too many primes`
 
