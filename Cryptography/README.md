@@ -22,8 +22,6 @@
 ## Asymmetric Cryptography
 
 - [`Rivest-Shamir–Adleman`](https://github.com/Ganapati/RsaCtfTool)
-
-  - `n1`, `n2`, `n3`, `c1`, `c2`, `c3` өгөгдсөн мөн `e=3` үед [CRT](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/small-e-with-values.py) хэрэгжүүлж болно.
   - [Brute force - encrypt 4 letter](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/brute-force-encrypt-4-letter.py)
   - [Brute force - encrypt e guessing](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/find-e.py)
   - [`c1`, `c2`, `e1`, `e2` given](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/common-modules-attack.py)
@@ -49,9 +47,10 @@
       
   - `Hastad’s Broadcast Attack`
 
-    - N1, N2, N3, C1, C2, C3 given also e = 3.
-    - [python2](https://github.com/ByamB4/Capture-The-Flag-Tools/blob/master/Cryptography/RSA/Hasted's%20Attack.py)
-
+    - **e** cipher text, with same **m**.
+    - [Chinese remainder theorem](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/Hastad-Broadcast-Attack-CRT.py)
+    - [Simple gmpy](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/Hastad-Broadcast-Attack-Gmpy.py)
+    
   - `Fermat factors attack`
 
     - **p**, **q** is too near, also known as difference is small.
