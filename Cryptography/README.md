@@ -12,7 +12,10 @@
 ## Hash function
   
   - Message Digest algorithm - 5
-  - `327a6c4304ad5938eaf0efb6cc3e53dc`
+     - Length: 32
+
+  - Secure Hash algorithm - 256
+    - Length: 64
 
 ## Substitution Cipher
 
