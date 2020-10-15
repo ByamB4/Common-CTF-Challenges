@@ -9,6 +9,11 @@
   
 - [`Read more`](https://github.com/ByamB4/CCC/tree/master/Cryptography/Substitution%20Cipher)
 
+## Hash function
+  
+  - Message Digest algorithm - 5
+  - `327a6c4304ad5938eaf0efb6cc3e53dc`
+
 ## Substitution Cipher
 
 - [`Fractionated Morse Cipher`](https://www.dcode.fr/fractionated-morse)
