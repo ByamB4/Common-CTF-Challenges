@@ -22,7 +22,8 @@ openssl rsautl -decrypt -inkey private.key < cipher2.cipher > decrypted
 - Challenge: Two different e, c. Same n. Also known as Common modules.
 - Solution:
   - Write python script
-- [pub-key.pem](https://github.com/ByamB4/CCC/blob/master/Cryptography/Examples/src/rsa-example-1.pem)
-- [cipher](https://github.com/ByamB4/CCC/blob/master/Cryptography/Examples/src/rsa-example-1.cipher)
-- [cipher]
+- [key1_pub.pem](https://github.com/ByamB4/CCC/blob/master/Cryptography/Examples/src/rsa-example-1.pem)
+- [key2_pub.pem](https://github.com/ByamB4/CCC/blob/master/Cryptography/Examples/src/rsa-example-1.cipher)
+- [message1]
+- [message2](https://github.com/ByamB4/CCC/blob/master/Cryptography/Examples/src/rsa-example-1.sh)
 - [solution](https://github.com/ByamB4/CCC/blob/master/Cryptography/Examples/src/rsa-example-1.sh)
