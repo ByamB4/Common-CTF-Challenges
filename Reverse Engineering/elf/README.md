@@ -1,4 +1,4 @@
-`Stripped binary`
+## Stripped binary
 
 - **Method 1**
 
@@ -11,18 +11,18 @@
   cp amd64/sig/libcrypto-1.0.2h.sig ../ida66/sig
   ```
 
-`Python code packed`
+## Python code packed
 
 Extract python code from binary
 
 - `pyi-archive_viewer` Extract the .pyc file
 - `uncompyle6` To uncompile .pyc file
 
-`Bypassing ptrace`
+## Bypassing ptrace
 
 - `Ghidra` open with raw binary, change **JNS** compare to **JMP** for disabling TEST instuction.
 
-`Bypassing strcmp`
+## Bypassing strcmp
 
 - **Method 1**
 
