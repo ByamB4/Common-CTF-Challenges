@@ -1,17 +1,4 @@
-## Reverse engineering
-
-- `Stripped binary`
-
-  - Stripped буюу хэрэгцээгүй debugging symbol ийг хаясан гэсэн үг. Ингэснээр тухайн програмыг reverse болон disassembly хийхэд хүндрэлтэй болж байгаа юм.
-
-  - Тухайн binary файлыг аль санг ашигласныг мэдэж IDA дээрээ нэмж өгнө. [source](https://github.com/maroueneboubakri/lscan/wiki/Reverse-Engineer-a-stripped-binary-with-lscan-and-IDApro)
-
-```
-git clone https://github.com/maroueneboubakri/lscan.git
-pip install pyelftools pefile
-python lscan.py -S amd64/sig -f stripped
-cp amd64/sig/libcrypto-1.0.2h.sig ../ida66/sig
-```
+## Reverse engineering (general)
 
 - `Assembly language`
 

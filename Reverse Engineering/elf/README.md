@@ -1,3 +1,16 @@
+- `Stripped binary`
+
+  - **Method 1**
+
+    Scan library
+
+    ```sh
+    git clone https://github.com/maroueneboubakri/lscan.git
+    pip install pyelftools pefile
+    python lscan.py -S amd64/sig -f stripped
+    cp amd64/sig/libcrypto-1.0.2h.sig ../ida66/sig
+    ```
+
 - `Python code packed`
 
   Extract python code from binary
@@ -11,7 +24,10 @@
 
 - `Bypassing strcmp`
 
-  - Method 1: - Write own strcmp function then attach
+  - **Method 1**
+
+    Write own strcmp function then attach
+
     ```c
     #include <stdio.h>
     int strcmp (const char* s1, const char* s2) {
@@ -20,6 +36,7 @@
       return 0;
     }
     ```
+
     ```sh
     gcc -fPIC -c strcmp.c -m32 -o strcmp.o
     gcc -shared -o strcmp.so strcmp.o -m32
