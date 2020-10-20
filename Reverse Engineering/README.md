@@ -44,10 +44,6 @@ int main()
 }
 ```
 
-- `Bypassing ptrace`
-
-  - `Ghidra` open with raw binary, change **JNS** compare to **JMP** for disabling TEST instuction.
-
 - `angr`
 
   - Нөхцөл шалгах, хэтэрхий статик байдалтай бичигдсэн **ELF** файлууд дээр гайхалтай үр дүнтэй энгийн template.
