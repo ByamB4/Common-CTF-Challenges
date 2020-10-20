@@ -3,94 +3,16 @@ RSA
 
 **Example 1:**
   * Challenge: Cipher text given as base64, public key given as .pem
-  * Solution: Decode cipher text using openssl base64, Export private key using RsaCtfTool, decrypt message using openssl.
-  * [Source code](https://github.com/ByamB4/CCC/blob/master/Binary%20Exploitation/examples/src/buffer-overflow-shellcode-1.c)
-  * [Solution code](https://github.com/ByamB4/CCC/blob/master/Binary%20Exploitation/examples/src/buffer-overflow-shellcode-1.py) 
-```c
-char buffer[64];
-
-gets(buffer);
+  * Solution: 
+    * Decode cipher text using openssl base64
+    * Export private key using RsaCtfTool
+    * Decrypt message using openssl.
+  * [pub-key.pem](https://github.com/ByamB4/CCC/blob/master/Cryptography/Examples/src/rsa-example-1.pem)
+  * [cipher](https://github.com/ByamB4/CCC/blob/master/Cryptography/Examples/src/rsa-example-1.cipher)
+  * [solution](https://github.com/ByamB4/CCC/blob/master/Cryptography/Examples/src/rsa-example-1.sh)
+  
+```sh
+echo "e8oQDihsmkvjT3sZe+EE8lwNvBEsFegYF6+OOFOiR6gMtMZxxba/bIgLUD8pV3yEf0gOOfHuB5bC3vQmo7bE4PcIKfpFGZBA" | openssl base64 -d > cipher2.cipher
+./RsaCtfTool.py --publickey ./pubkey.pem --private > private.key
+openssl rsautl -decrypt -inkey private.key < cipher2.cipher > decrypted
 ```
-**Example 2:**
-  * Solution: Jump to function with arguments 32bit.
-  * [Source code](https://github.com/ByamB4/CCC/blob/master/Binary%20Exploitation/examples/src/buffer-overflow-jump-1.c)
-  * [Solution code](https://github.com/ByamB4/CCC/blob/master/Binary%20Exploitation/examples/src/buffer-overflow-jump-1.py) 
-```c
-char flag(int a1, int a2)
-{
-  if (a1 == 0xDEADBEEF && a2 == 0xC0DED00D)
-    printf(FLAG);
-}
-```
-
-Format string
--
-
-**Example 1:** 
-  * [Source code](https://github.com/ByamB4/CCC/blob/master/Binary%20Exploitation/examples/src/format-string-1.c)
-  * [Solution code](https://github.com/ByamB4/CCC/blob/master/Binary%20Exploitation/examples/src/format-string-1.py) 
-```c
-int var;
-int check  = 0x04030201;
-
-char fmt[128];
-
-if (argc <2)
-  exit(0);
-
-memset( fmt, 0, sizeof(fmt) );
-
-printf( "check at 0x%x\n", &check );
-printf( "argv[1] = [%s]\n", argv[1] );
-
-snprintf( fmt, sizeof(fmt), argv[1] );
-
-if ((check != 0x04030201) && (check != 0xdeadbeef))	
-  printf ("\nYou are on the right way !\n");
-
-printf( "fmt=[%s]\n", fmt );
-printf( "check=0x%x\n", check );
-
-if (check==0xdeadbeef) {
-  printf("Yeah dude ! You win !\n");
-  setreuid(geteuid(), geteuid());
-  system("/bin/bash");
-}
-```
-
-BSS buffer overflow
--
-
-BSS data segment is where to store global variables.
-
-**Example 1:** 
-  * [Source code](https://github.com/ByamB4/CCC/blob/master/Binary%20Exploitation/examples/src/bss-overflow-1.c)
-  * [Solution code](https://github.com/ByamB4/CCC/blob/master/Binary%20Exploitation/examples/src/bss-overflow-1.py)
-```c
-char username[512] = {1};
-void (*_atexit)(int) = exit;
-
-void cp_username(char *name, const char *arg)
-{
-  while ((*(name++) = *(arg++)))
-    ;
-  *name = 0;
-}
-
-int main(int argc, char **argv)
-{
-  if (argc != 2)
-  {
-    printf("[-] Usage : %s <username>\n", argv[0]);
-    exit(0);
-  }
-
-  cp_username(username, argv[1]);
-  printf("[+] Running program with username : %s\n", username);
-
-  _atexit(0);
-  return 0;
-}
-```
-
-
