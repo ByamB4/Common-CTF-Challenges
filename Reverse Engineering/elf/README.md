@@ -11,13 +11,6 @@
   cp amd64/sig/libcrypto-1.0.2h.sig ../ida66/sig
   ```
 
-## Python code packed
-
-Extract python code from binary
-
-- `pyi-archive_viewer` Extract the .pyc file
-- `uncompyle6` To uncompile .pyc file
-
 ## Bypassing ptrace
 
 - `Ghidra` open with raw binary, change **JNS** compare to **JMP** for disabling TEST instuction.
@@ -42,3 +35,10 @@ Extract python code from binary
   gcc -shared -o strcmp.so strcmp.o -m32
   $gdb➤  set environment LD_PRELOAD ./strcmp.so
   ```
+
+## Python code packed
+
+Extract python code from binary
+
+- `pyi-archive_viewer` Extract the .pyc file
+- `uncompyle6` To uncompile .pyc file
