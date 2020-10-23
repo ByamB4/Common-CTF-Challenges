@@ -1,64 +1,57 @@
-General
--
+## General
 
-* `Reversed hex file`
+- `Reversed hex file`
 
-	* Using python `open('output2.txt', 'wb').write(open('output.txt', 'rb').read()[::-1])`.
+  - Using python `open('output2.txt', 'wb').write(open('output.txt', 'rb').read()[::-1])`.
 
-* `Python bytecode`
+- `Python bytecode`
 
-	* You can use `uncompyle6` to decompile.
+  - You can use `uncompyle6` to decompile.
 
-PNG File
--
+## PNG File
 
-* `Magic numbers`
- 
-	* Fix magics [png-parser](https://github.com/ByamB4/Capture-The-Flag/blob/master/Forensics/src/png_parser.py)
-	
-* `pngcheck`
+- `Magic numbers`
 
-	* Command line tool, checks given png file corrupted or not.
-	
-* `2 same image`
+  - Fix magics [png-parser](https://github.com/ByamB4/Capture-The-Flag/blob/master/Forensics/src/png_parser.py)
 
-	
-	* We can use SUB, MUL, ... `compare 00000000.png 00000725.png -compose src diff.png`
-	
-PDF File
--
+- `pngcheck`
 
-* `pdfinfo`	
-	
-	* Command line tool to analyse given pdf.
-	
-* [`pdfminer`](https://github.com/euske/pdfminer)
-	
-	* Lot of useful tools.
+  - Command line tool, checks given png file corrupted or not.
 
-* `[pdf-repair](https://www.pdf-online.com/osa/repair.aspx)`
+- `2 same image`
 
-	* Online tool to fix given pdf file.
-	
-GIF File Forensics
--
+  - We can use SUB, MUL, ... `compare 00000000.png 00000725.png -compose src diff.png`
 
-* `Split images`
+## PDF File
 
-	* `convert test.gif %02d.png`
-	* `ls *.png | while read filename; do convert $filename -transparent white $filename; done`
-	* `ls *.png | while read filename; do convert $filename 00.png -gravity center -composite 00.png; done`
+- `pdfinfo`
 
-	
-Disk File
--
+  - Command line tool to analyse given pdf.
 
-* `.img` 
-	
-	* [DiskInternals Raid Recovery](https://www.diskinternals.com/raid-recovery/) 
+- [`pdfminer`](https://github.com/euske/pdfminer)
 
-* `.iso`
-	
-	* LUKS encrypted file, we have to find password to extract.
-	* `sudo cryptsetup open --type luks glaf.iso out_iso`
-	* `sudo mount /dev/mapper/out_iso /mnt`
+  - Lot of useful tools.
+
+- `[pdf-repair](https://www.pdf-online.com/osa/repair.aspx)`
+
+  - Online tool to fix given pdf file.
+
+## GIF File Forensics
+
+- `Split images`
+
+  - `convert test.gif %02d.png`
+  - `ls *.png | while read filename; do convert $filename -transparent white $filename; done`
+  - `ls *.png | while read filename; do convert $filename 00.png -gravity center -composite 00.png; done`
+
+## Disk File
+
+- `.img`
+
+  - [DiskInternals Raid Recovery](https://www.diskinternals.com/raid-recovery/)
+
+- `.iso`
+
+  - LUKS encrypted file, we have to find password to extract.
+  - `sudo cryptsetup open --type luks glaf.iso out_iso`
+  - `sudo mount /dev/mapper/out_iso /mnt`

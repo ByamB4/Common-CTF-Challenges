@@ -5,27 +5,30 @@ import os
 import struct
 from binascii import hexlify
 
+
 def process_1x_database(data, databaseName, maxInlineSize=1024):
     index = 8
     algorithm = -1
 
     encFlag = struct.unpack("<L", data[index:index+4])[0]
     index += 4
-    if (encFlag & 2 == 2): algorithm = 0
-    elif (enc_flag & 8): algorithm = 1
+    if (encFlag & 2 == 2):
+        algorithm = 0
+    elif (enc_flag & 8):
+        algorithm = 1
     else:
         print "Unsupported file encryption!"
         return
 
     version = hexlify(data[index:index+4])
     index += 4
-    
+
     finalRandomseed = hexlify(data[index:index+16])
     index += 16
 
     encIV = hexlify(data[index:index+16])
     index += 16
-    
+
     numGroups = struct.unpack("<L", data[index:index+4])[0]
     index += 4
     numEntries = struct.unpack("<L", data[index:index+4])[0]
@@ -44,11 +47,11 @@ def process_1x_database(data, databaseName, maxInlineSize=1024):
 
     if((filesize + datasize) < maxInlineSize):
         dataBuffer = hexlify(data[124:])
-        end = "*1*%ld*%s" %(datasize, hexlify(dataBuffer))
+        end = "*1*%ld*%s" % (datasize, hexlify(dataBuffer))
     else:
-        end = "0*%s" %(databaseName)
+        end = "0*%s" % (databaseName)
 
-    return "%s:$keepass$*1*%s*%s*%s*%s*%s*%s*%s" %(databaseName, keyTransfRounds, algorithm, finalRandomseed, transfRandomseed, encIV, contentsHash, end)
+    return "%s:$keepass$*1*%s*%s*%s*%s*%s*%s*%s" % (databaseName, keyTransfRounds, algorithm, finalRandomseed, transfRandomseed, encIV, contentsHash, end)
 
 
 def process_2x_database(data, databaseName):
@@ -68,7 +71,7 @@ def process_2x_database(data, databaseName):
         uSize = struct.unpack("H", data[index:index+2])[0]
         index += 2
         # print "btFieldID : %s , uSize : %s" %(btFieldID, uSize)
-        
+
         if btFieldID == 0:
             endReached = True
 
@@ -92,7 +95,7 @@ def process_2x_database(data, databaseName):
     dataStartOffset = index
     firstEncryptedBytes = hexlify(data[index:index+32])
 
-    return "%s:$keepass$*2*%s*%s*%s*%s*%s*%s*%s" %(databaseName, transformRounds, dataStartOffset, masterSeed, transformSeed, initializationVectors, expectedStartBytes, firstEncryptedBytes)
+    return "%s:$keepass$*2*%s*%s*%s*%s*%s*%s*%s" % (databaseName, transformRounds, dataStartOffset, masterSeed, transformSeed, initializationVectors, expectedStartBytes, firstEncryptedBytes)
 
 
 def process_database(filename):

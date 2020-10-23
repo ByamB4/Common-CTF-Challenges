@@ -1,4 +1,5 @@
 ## Character Encoding
+
 - [`UUencode`](https://www.dcode.fr/uu-encoding)
 
   ```

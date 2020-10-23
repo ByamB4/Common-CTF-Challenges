@@ -1,31 +1,26 @@
-Networking
----------------
+## Networking
 
-* [`Wireshark`](https://www.wireshark.org/)
+- [`.pcapng`](https://github.com/pcapng/pcapng)
 
-	`.pcap` файлууд дээр анализ хийнэ.
+  Ихэнх файл ийм байгаад байдаггүй гэхдээ хувиргах шаардлага гарвал
 
-* [`Network Miner`](http://www.netresec.com/?page=NetworkMiner)
+  - [http://pcapng.com/](http://pcapng.com/)
 
-	`.pcap` болон `.pcapng` файлууд дээр анализ хийнэ.
-	
-* [`.pcapng`](https://github.com/pcapng/pcapng)
+- [`tcpflow`][tcpflow]
 
-	Ихэнх файл ийм байгаад байдаггүй гэхдээ хувиргах шаардлага гарвал
-	* [http://pcapng.com/](http://pcapng.com/)
+  Командын мөрний түүл `.pcap` файлаас нуугдсан файл илрүүлнэ.
 
-* [`tcpflow`][tcpflow]
-
-	Командын мөрний түүл `.pcap` файлаас нуугдсан файл илрүүлнэ. 
 ```
 tcpflow -r my_file.pcap
 ls -1t | head -5 # see the last 5 recently modified files
 ```
 
-* `3D принтер` өгөгдөл
+- `3D принтер` өгөгдөл
 
-	Зарим `.pcap` файл дээр `usb` өгөгдөл баригдах бөгөөд эдгээрээс зарим нь принтерийнх байна. Энэ нь 3D принтерийн дата байх үед түүнийг зурах `python` код.
-	* [python2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/Code/pcap_3d_printer_capture.py)
+  Зарим `.pcap` файл дээр `usb` өгөгдөл баригдах бөгөөд эдгээрээс зарим нь принтерийнх байна. Энэ нь 3D принтерийн дата байх үед түүнийг зурах `python` код.
+
+  - [python2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/Code/pcap_3d_printer_capture.py)
+
 ```
 BAR 148, 239, 48, 2
 BAR 196, 191, 2, 48
@@ -35,12 +30,14 @@ BAR 76, 151, 40, 2
 BAR 76, 119, 2, 32
 ```
 
-* `USB (mouse) draw flag`
+- `USB (mouse) draw flag`
 
-	Ихэнх тохиолдолд USB трафикаар флаг зурах юм.
-	* [source-writeup](https://blogs.tunelko.com/2017/02/05/bitsctf-tom-and-jerry-50-points/)
-	
-* `Hex packet`
+  Ихэнх тохиолдолд USB трафикаар флаг зурах юм.
 
-	Энэ нь `.pcap` файлыг hex болгож нууцалсан байдаг.
-	* [https://hpd.gasmi.net/](https://hpd.gasmi.net/)
+  - [source-writeup](https://blogs.tunelko.com/2017/02/05/bitsctf-tom-and-jerry-50-points/)
+
+- `Hex packet`
+
+  Энэ нь `.pcap` файлыг hex болгож нууцалсан байдаг.
+
+  - [https://hpd.gasmi.net/](https://hpd.gasmi.net/)
