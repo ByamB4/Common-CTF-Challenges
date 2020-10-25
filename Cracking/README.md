@@ -35,3 +35,13 @@
 
   - `ssh2john <filename> > crackme`
   - `john crackme --show`
+
+## Office
+
+- [`office2john](https://github.com/magnumripper/JohnTheRipper.git)
+
+  - `./office2john.py ./test.xlsx > crackme.txt`
+  - `john --rules --wordlist=rockyou.txt crackme.txt`
+  - File extensions:
+    - .ole CDFV2 Encrypted
+    - .docx
