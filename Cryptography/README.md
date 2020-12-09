@@ -1,29 +1,3 @@
-## Transposition Cipher
-
-- [`Rail Fence (Zig-Zag) Cipher`](https://www.dcode.fr/rail-fence-cipher)
-
-  - `FEPLOCLGXMLFAFRCAAEGC`
-
-- [`Route/Path Cipher`](https://www.dcode.fr/route-cipher)
-
-  - `DCODUORETECIREHP`
-
-- [`Read more`](https://github.com/ByamB4/CCC/tree/master/Cryptography/Substitution%20Cipher)
-
-## Hash function
-
-- Message Digest algorithm - 5
-
-  - Length: 32
-
-- Secure Hash algorithm - 256
-  - Length: 64
-
-## Substitution Cipher
-
-- [`Fractionated Morse Cipher`](https://www.dcode.fr/fractionated-morse)
-  - `BGJTWGVFFOEGJUPSHSLNTHDVLKI`
-
 ## Poly-Alphabetic Cipher
 
 - [`Vigenere Cipher`](https://www.dcode.fr/vigenere-cipher)
