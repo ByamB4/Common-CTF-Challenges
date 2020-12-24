@@ -1,3 +1,5 @@
+.vscode
+Pipfile.lock
 *.log
 *.log.*
 *.pot
