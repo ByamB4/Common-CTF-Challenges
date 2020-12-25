@@ -55,3 +55,63 @@
   - LUKS encrypted file, we have to find password to extract.
   - `sudo cryptsetup open --type luks glaf.iso out_iso`
   - `sudo mount /dev/mapper/out_iso /mnt`
+
+========================================================================
+
+## General
+
+- `Reversed hex file`
+
+  - Using python `open('output2.txt', 'wb').write(open('output.txt', 'rb').read()[::-1])`.
+
+- `Python bytecode`
+
+  - You can use `uncompyle6` to decompile.
+
+## PNG File
+
+- `Magic numbers`
+
+  - Fix magics [png-parser](https://github.com/ByamB4/Capture-The-Flag/blob/master/Forensics/src/png_parser.py)
+
+- `pngcheck`
+
+  - Command line tool, checks given png file corrupted or not.
+
+- `2 same image`
+
+  - We can use SUB, MUL, ... `compare 00000000.png 00000725.png -compose src diff.png`
+
+## PDF File
+
+- `pdfinfo`
+
+  - Command line tool to analyse given pdf.
+
+- [`pdfminer`](https://github.com/euske/pdfminer)
+
+  - Lot of useful tools.
+
+- `[pdf-repair](https://www.pdf-online.com/osa/repair.aspx)`
+
+  - Online tool to fix given pdf file.
+
+## GIF File Forensics
+
+- `Split images`
+
+  - `convert test.gif %02d.png`
+  - `ls *.png | while read filename; do convert $filename -transparent white $filename; done`
+  - `ls *.png | while read filename; do convert $filename 00.png -gravity center -composite 00.png; done`
+
+## Disk File
+
+- `.img`
+
+  - [DiskInternals Raid Recovery](https://www.diskinternals.com/raid-recovery/)
+
+- `.iso`
+
+  - LUKS encrypted file, we have to find password to extract.
+  - `sudo cryptsetup open --type luks glaf.iso out_iso`
+  - `sudo mount /dev/mapper/out_iso /mnt`
