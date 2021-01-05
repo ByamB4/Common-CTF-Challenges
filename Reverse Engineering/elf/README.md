@@ -42,3 +42,39 @@ Extract python code from binary
 
 - `pyi-archive_viewer` Extract the .pyc file
 - `uncompyle6` To uncompile .pyc file
+
+## Shared object (.so)
+
+```c
+#include <stdio.h>
+#include <dlfcn.h>
+
+
+int call_library()
+{
+   void     *handle  = NULL;
+   lib_func  func    = NULL;
+   handle = dlopen("./libfoo.so", RTLD_NOW | RTLD_GLOBAL);
+   if (handle == NULL)
+   {
+       fprintf(stderr, "Unable to open lib: %s\n", dlerror());
+       return -1;
+   }
+   func = dlsym(handle, "print_flag");
+
+   if (func == NULL) {
+       fprintf(stderr, "Unable to get symbol\n");
+      return -1;
+   }
+
+   func();
+   return 0;
+}
+
+int main(int argc, const char *argv[])
+{
+    printf("Hello from main!\n");
+    call_library();
+    return 0;
+}
+```
