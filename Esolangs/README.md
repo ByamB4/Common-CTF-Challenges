@@ -29,3 +29,7 @@
 
   - Хуучин утасны keypad дуунаас тоонууд ялган авна
   - [https://unframework.github.io/dtmf-detect/#/](https://unframework.github.io/dtmf-detect/#/)
+
+- `Alien predator language`
+
+  ![]()
