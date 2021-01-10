@@ -45,7 +45,7 @@ Extract python code from binary
 
 ## Shared object (.so)
 
-Call function
+- Call function by c
 
 ```c
 #include <stdio.h>
@@ -73,4 +73,12 @@ int main(int argc, const char *argv[]) {
   call_library();
   return 0;
 }
+```
+
+- Call function by python
+
+```python
+from ctypes import *
+lib = cdll.LoadLibrary('[FILENAME].so')
+lib.print_flag()
 ```
