@@ -56,8 +56,23 @@
   - `sudo cryptsetup open --type luks glaf.iso out_iso`
   - `sudo mount /dev/mapper/out_iso /mnt`
 
-========================================================================
+- `Volatility`
 
+  Show imageinfo on given file 
+  - `volatility -f [FILENAME] imageinfo`
+  
+  Show currently running process
+  - `volatility -f [FILENAME] --profile=[PROFILE] pslist`
+  
+  Dumping currently running process by PID
+  - `volatility -f [FILENAME] --profile=[PROFILE] procdump -p [PID] -D dump/`
+  
+  Locate the virtual addresses of registry hives in memory
+  - `volatility -f [FILENAME] --profile=[PROFILE] hivelist`
+  
+  Extract and decrypt cached domain credentials stored in the registry
+  - `volatility -f [FILENAME] --profile=[PROFILE] hashdump -y [ADDRESS-OF-REGISTER-SYSTEM] -s [ADDRESS-OF-SYSTEMROOT-SAM]`
+  
 ## General
 
 - `Reversed hex file`
