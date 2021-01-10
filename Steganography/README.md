@@ -1,3 +1,11 @@
+## Text
+
+- [`Binary character shape`](https://www.dcode.fr/binary-character-shape)
+
+```
+OI8I8o%o80bI8oO1bOPIbpIqodpIO81%PoOqIq/|\q1%1OdIqbP08\08dO|/88o||oq%IbqO8ddIddII81IO//OI88Ib8opIIp8oqpd%\pqbI|/bI
+```
+
 ## Image
 
 - [`steghide`](http://steghide.sourceforge.net/download.php)
