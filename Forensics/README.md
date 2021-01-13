@@ -59,6 +59,10 @@
 - `rzip`
 
   - `rzip compressed` data
+
+- `zoo`
+
+  - `Zoo archive` data
   
 ## PDF File
 
