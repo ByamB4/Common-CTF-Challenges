@@ -22,6 +22,12 @@
 
   - We can use SUB, MUL, ... `compare 00000000.png 00000725.png -compose src diff.png`
 
+## Archive File
+
+- `nomarch`
+
+  - Extract `ARC` archive data
+  
 ## PDF File
 
 - `pdfinfo`
