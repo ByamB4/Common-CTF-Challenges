@@ -26,7 +26,19 @@
 
 - `nomarch`
 
-  - Extract `ARC` archive data
+  - `ARC` archive data
+  
+- `ppmd`
+  
+  - `PPMD` archive data
+
+- `cabextract`
+
+  - `Microsoft Cabinet` archive data
+  
+- `bunzip2`
+
+  - `bzip2` compressed data
   
 ## PDF File
 
