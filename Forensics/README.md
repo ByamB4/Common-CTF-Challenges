@@ -55,6 +55,10 @@
 - `kgb`
 
   - `KGB Archiver` file
+
+- `rzip`
+
+  - `rzip compressed` data
   
 ## PDF File
 
