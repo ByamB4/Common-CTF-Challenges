@@ -40,6 +40,22 @@
 
   - `bzip2` compressed data
   
+- `xz`
+
+  - `XZ` compressed data
+
+- `gzip`
+  
+  - `gzip` compressed data
+
+- `tar`
+
+  - `POSIX tar` archive (GNU)
+
+- `kgb`
+
+  - `KGB Archiver` file
+  
 ## PDF File
 
 - `pdfinfo`
