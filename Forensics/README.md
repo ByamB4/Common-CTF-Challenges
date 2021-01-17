@@ -22,48 +22,6 @@
 
   - We can use SUB, MUL, ... `compare 00000000.png 00000725.png -compose src diff.png`
 
-## Archive File
-
-- `nomarch`
-
-  - `ARC` archive data
-  
-- `ppmd`
-  
-  - `PPMD` archive data
-
-- `cabextract`
-
-  - `Microsoft Cabinet` archive data
-  
-- `bunzip2`
-
-  - `bzip2` compressed data
-  
-- `xz`
-
-  - `XZ` compressed data
-
-- `gzip`
-  
-  - `gzip` compressed data
-
-- `tar`
-
-  - `POSIX tar` archive (GNU)
-
-- `kgb`
-
-  - `KGB Archiver` file
-
-- `rzip`
-
-  - `rzip compressed` data
-
-- `zoo`
-
-  - `Zoo archive` data
-  
 ## PDF File
 
 - `pdfinfo`
@@ -179,3 +137,46 @@
   - LUKS encrypted file, we have to find password to extract.
   - `sudo cryptsetup open --type luks glaf.iso out_iso`
   - `sudo mount /dev/mapper/out_iso /mnt`
+
+## Archive File
+
+- `nomarch`
+
+  - `ARC` archive data
+  
+- `ppmd`
+  
+  - `PPMD` archive data
+
+- `cabextract`
+
+  - `Microsoft Cabinet` archive data
+  
+- `bunzip2`
+
+  - `bzip2` compressed data
+  
+- `xz`
+
+  - `XZ` compressed data
+
+- `gzip`
+  
+  - `gzip` compressed data
+
+- `tar`
+
+  - `POSIX tar` archive (GNU)
+
+- `kgb`
+
+  - `KGB Archiver` file
+
+- `rzip`
+
+  - `rzip compressed` data
+
+- `zoo`
+
+  - `Zoo archive` data
+  
