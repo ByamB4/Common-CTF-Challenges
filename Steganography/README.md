@@ -6,6 +6,14 @@
 OI8I8o%o80bI8oO1bOPIbpIqodpIO81%PoOqIq/|\q1%1OdIqbP08\08dO|/88o||oq%IbqO8ddIddII81IO//OI88Ib8opIIp8oqpd%\pqbI|/bI
 ```
 
+- [`White space steganography`]
+
+  - `stegsnow -C -p password secret.txt`
+
+- [`Steg with base64`](https://github.com/bzorigt/stegb64)
+
+  - [python2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Steganography/code/stegb64.py)
+  
 ## Image
 
 - [`steghide`](http://steghide.sourceforge.net/download.php)
@@ -14,7 +22,7 @@ OI8I8o%o80bI8oO1bOPIbpIqodpIO81%PoOqIq/|\q1%1OdIqbP08\08dO|/88o||oq%IbqO8ddIddII
 
 - [`stegcracker`](https://github.com/Va5c0/Steghide-Brute-Force-Tool)
 
-  - Brute force of steghide
+  - Brute force password of steghide
   
 - [`zsteg`](https://github.com/zed-0xff/zsteg)
 
@@ -37,13 +45,7 @@ OI8I8o%o80bI8oO1bOPIbpIqodpIO81%PoOqIq/|\q1%1OdIqbP08\08dO|/88o||oq%IbqO8ddIddII
   - [https://stylesuxx.github.io/steganography/](https://stylesuxx.github.io/steganography/)
   - `stegify -op decode -carrier cute_kittens.jpg -result hello`
 
-- [`Steg with base64`](https://github.com/bzorigt/stegb64)
-
-  - [python2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Steganography/code/stegb64.py)
-
-- [`White space steganography`]
-
-  - `stegsnow -C -p password secret.txt`
+- [`Steg for windows`](https://download.cnet.com/Steg/3000-2092_4-77792892.html)
 
 ## Audio
 
