@@ -74,10 +74,17 @@
 
   - Lot of useful tools.
 
-- `[pdf-repair](https://www.pdf-online.com/osa/repair.aspx)`
+- [`pdf-repair`](https://www.pdf-online.com/osa/repair.aspx)`
 
   - Online tool to fix given pdf file.
 
+- [`peepdf`](https://github.com/jesparza/peepdf)
+
+  - Use case [`writeup`](https://saransappa.wordpress.com/2020/06/08/sec-t-ctf-2019-forensics-challenge-writeup/)
+
+- [`Extract`](https://smallpdf.com/split-pdf) files, online tool
+
+  
 ## GIF File Forensics
 
 - `Split images`
