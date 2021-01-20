@@ -20,7 +20,7 @@ OI8I8o%o80bI8oO1bOPIbpIqodpIO81%PoOqIq/|\q1%1OdIqbP08\08dO|/88o||oq%IbqO8ddIddII
 
   - A command-line tool typically used alongside a password or key, that could be uncovered some other way when solving a challenge. 
 
-- [`stegcracker`](https://github.com/Va5c0/Steghide-Brute-Force-Tool)
+- [`stegcracker`](https://github.com/Paradoxis/StegCracker)
 
   - Brute force password of steghide
   
