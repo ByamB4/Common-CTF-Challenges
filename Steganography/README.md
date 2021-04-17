@@ -52,3 +52,6 @@ OI8I8o%o80bI8oO1bOPIbpIqodpIO81%PoOqIq/|\q1%1OdIqbP08\08dO|/88o||oq%IbqO8ddIddII
 - LSB Steganography
 
   - [repo](https://github.com/sniperline047/Audio-Steganography)
+
+## TODO
+- stegoveritas
