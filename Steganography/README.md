@@ -46,7 +46,9 @@ OI8I8o%o80bI8oO1bOPIbpIqodpIO81%PoOqIq/|\q1%1OdIqbP08\08dO|/88o||oq%IbqO8ddIddII
   - `stegify -op decode -carrier cute_kittens.jpg -result hello`
 
 - [`Steg for windows`](https://download.cnet.com/Steg/3000-2092_4-77792892.html)
-
+ 
+- http://diit.sourceforge.net/ Digital Invisible Ink Toolkit
+- 
 ## Audio
 
 - LSB Steganography
