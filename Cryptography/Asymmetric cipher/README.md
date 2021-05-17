@@ -36,3 +36,5 @@ Common attacks
 - `Too many primes`
 
   - [Python2](https://github.com/ByamB4/Capture-The-Flag-Tools/blob/master/Cryptography/Code/rsa-too-many-primes.py)
+
+https://blog.cryptohack.org/twitter-secrets
