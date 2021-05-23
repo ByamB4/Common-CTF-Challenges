@@ -28,3 +28,5 @@ print(decoded)
 
 ## [Dual tone multi frequency signal](http://dialabc.com/sound/detect/index.html)
 https://github.com/K1nd4SUS/CTF-Writeups/tree/main/dCTF_2021/Behind%20the%20scenes
+
+## TODO: Change folder structure
