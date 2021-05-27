@@ -41,3 +41,6 @@ BAR 76, 119, 2, 32
   Энэ нь `.pcap` файлыг hex болгож нууцалсан байдаг.
 
   - [https://hpd.gasmi.net/](https://hpd.gasmi.net/)
+  Энэ нь `.pcap` файлыг hex болгож нууцалсан байдаг.
+
+  - [https://hpd.gasmi.net/](https://hpd.gasmi.net/)
