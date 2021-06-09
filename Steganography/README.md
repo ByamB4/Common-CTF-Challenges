@@ -31,7 +31,9 @@ OI8I8o%o80bI8oO1bOPIbpIqodpIO81%PoOqIq/|\q1%1OdIqbP08\08dO|/88o||oq%IbqO8ddIddII
 - [`jsteg`]()
 
   - Command-line tool to use against JPEG images.
-
+- [`pico-8`](https://github.com/rvaccarim/p8png_decoder)
+  
+  - Source code extractor for PICO-8 cartridges.
 - `binary image`
 
   - [https://www.dcode.fr/binary-image](https://www.dcode.fr/binary-image)
@@ -57,4 +59,4 @@ OI8I8o%o80bI8oO1bOPIbpIqodpIO81%PoOqIq/|\q1%1OdIqbP08\08dO|/88o||oq%IbqO8ddIddII
 
 ## TODO
 - stegoveritas
-- - stegoveritas
+
