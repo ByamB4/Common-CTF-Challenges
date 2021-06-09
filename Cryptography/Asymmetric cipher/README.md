@@ -6,7 +6,7 @@
 - [`p`, `q`, `e` given find `d`](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cryptography/src/asymmetric-cipher/rsa/p-q-e-given-calculate-d.py)
 - [`N is prime`](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/n-is-prime.py)
 - [`N can be sqrt`](https://github.com/ByamB4/CCC/blob/master/Cryptography/src/asymmetric-cipher/rsa/sqrted-n.py)
-
+- [`Three primes for two modules`](https://zeyu2001.gitbook.io/ctfs/2021/zh3ro-ctf-v2/alice_bob_dave)
 - `base64 -d < pub.b64 > pub.der`
 - `base64 -d priv.b64 | openssl rsa -inform DER > out.key`
 - `base64 -d enc.b64 > enc`
