@@ -7,6 +7,12 @@
   - `OQWKWPUVMYTIUSSTHHPI`
   - `key: 12345`
 
+## Transposition cipher
+ 
+ - [`Rail fence`](https://www.dcode.fr/rail-fence-cipher)
+   - `Ta _7N6DE7hlg:W3D_H3C31N__BD4ef sHR053F38N43D47 i33___NC`
+
+
 ## Symmetric cryptography
 
 - [`Fernet`](https://asecuritysite.com/encryption/ferdecode)
