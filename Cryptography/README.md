@@ -27,6 +27,10 @@
     - [`Pigpen`](https://www.dcode.fr/pigpen-cipher)
     
      ![pigpen](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Cryptography/assets/img/pigpen.png)
+     
+    - [`Alienese`](https://alienese.moxievillelabs.com/)
+    
+     ![alienese](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Cryptography/assets/img/alienese.png)
 
 # TODO
 
