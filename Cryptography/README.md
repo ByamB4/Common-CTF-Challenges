@@ -3,6 +3,10 @@
 - [`Vigenere Cipher`](https://www.dcode.fr/vigenere-cipher)
   - `nGmni Tskcxipo esdskkxgmejvc`
 
+- [`Gronsfeld Cipher`](https://www.dcode.fr/gronsfeld-cipher)
+  - `OQWKWPUVMYTIUSSTHHPI`
+  - `key: 12345`
+
 ## Symmetric cryptography
 
 - [`Fernet`](https://asecuritysite.com/encryption/ferdecode)
@@ -13,7 +17,7 @@
 # TODO
 
 - Playing card cipher https://www.codewars.com/kata/59c2ff946bddd2a2fd00009e
-v
+
 # TODO
 
 - Playing card cipher https://www.codewars.com/kata/59c2ff946bddd2a2fd00009e
