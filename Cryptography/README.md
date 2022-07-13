@@ -20,6 +20,14 @@
   `Token: gAAAAABWC9P7-9RsxTz_dwxh9-O2VUB7Ih8UCQL1_Zk4suxnkCvb26Ie4i8HSUJ4caHZuiNtjLl3qfmCv_fS3_VpjL7HxCz7_Q==`
   `Key: -s6eI5hyNh8liH7Gq0urPC-vzPgNnxauKvRO4g03oYI=`
 
+# Substitution
+
+  - **Symbol substitution**
+  
+    - [`Pigpen`](https://www.dcode.fr/pigpen-cipher)
+    
+     ![pigpen](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Cryptography/assets/img/pigpen.png)
+
 # TODO
 
 - Playing card cipher https://www.codewars.com/kata/59c2ff946bddd2a2fd00009e
@@ -27,3 +35,4 @@
 # TODO
 
 - Playing card cipher https://www.codewars.com/kata/59c2ff946bddd2a2fd00009e
+
