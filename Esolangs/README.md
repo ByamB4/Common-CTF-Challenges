@@ -12,13 +12,13 @@
 
   - [https://www.dcode.fr/pigpen-cipher](https://www.dcode.fr/pigpen-cipher)
 
-![https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/Images/pigpen-cipher.png](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/Images/pigpen-cipher.png)
+![https://github.com/ByamB4/CaptureTheFlagTool/blob/main/Miscellaneous/Images/pigpen-cipher.png](https://github.com/ByamB4/CaptureTheFlagTool/blob/main/Miscellaneous/Images/pigpen-cipher.png)
 
 - `IMB Barcode`
 
   - [http://www.quine.org/09-bob-matthews-2009-09-12-usps-imb-decode.html](http://www.quine.org/09-bob-matthews-2009-09-12-usps-imb-decode.html)
 
-![https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/Images/imb_barcode.png](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Miscellaneous/Images/imb_barcode.png)
+![https://github.com/ByamB4/CaptureTheFlagTool/blob/main/Miscellaneous/Images/imb_barcode.png](https://github.com/ByamB4/CaptureTheFlagTool/blob/main/Miscellaneous/Images/imb_barcode.png)
 
 - `Rockstar`
 
@@ -32,4 +32,4 @@
 
 - `Alien predator language`
 
-  ![alien-predator](https://github.com/ByamB4/Common-CTF-Challenges/blob/master/Esolangs/static/img/alien-predator.png)
+  ![alien-predator](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Esolangs/static/img/alien-predator.png)
