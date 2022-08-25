@@ -1,4 +1,4 @@
-from Crypto.Util.number import long_to_bytes as ltb, inverse
+from Crypto.Util.number import long_to_bytes, inverse
 from gmpy2 import isqrt, square, is_square
 
 n = REDACTED
@@ -20,4 +20,4 @@ p, q = fermat_factors(n)
 d = inverse(e, (p - 1) * (q - 1))
 m = pow(c, d, n)
 
-print(ltb(m))
+print(long_to_bytes(m))
