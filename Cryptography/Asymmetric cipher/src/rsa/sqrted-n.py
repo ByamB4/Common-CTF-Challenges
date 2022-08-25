@@ -1,5 +1,5 @@
 from gmpy2 import *
-from Crypto.Util.number import long_to_bytes as ltb
+from Crypto.Util.number import long_to_bytes
 
 get_context().precision=2048
 
@@ -12,4 +12,4 @@ phi = p * (p - 1)
 d = invert(e, phi)
 m = pow(c, d, n)
 
-print(ltb(m))
+print(long_to_bytes(m))
