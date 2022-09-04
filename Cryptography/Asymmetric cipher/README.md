@@ -12,6 +12,10 @@
 - `base64 -d enc.b64 > enc`
 - `openssl rsautl -decrypt -inkey out.key < enc > decrypted`
 
+Factors
+
+- [https://www.alpertron.com.ar/ECM.HTM](https://www.alpertron.com.ar/ECM.HTM)
+
 Common attacks
 
 - `Small exponent`
