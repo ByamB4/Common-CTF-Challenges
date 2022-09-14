@@ -16,3 +16,8 @@ G1X2.7586Y0.0000
 G1X2.2069Y0.0000
 G1X1.6552Y0.2759
 ```
+
+
+## Find difference between same binaries
+
+- `cmp -bl [FILE] [FILE]`
