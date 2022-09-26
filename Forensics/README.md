@@ -126,6 +126,10 @@
   - `ls *.png | while read filename; do convert $filename -transparent white $filename; done`
   - `ls *.png | while read filename; do convert $filename 00.png -gravity center -composite 00.png; done`
 
+## PYC file
+
+  - https://www.toolnb.com/tools-lang-en/pyc.html
+
 ## Disk File
 
 - `.img`
