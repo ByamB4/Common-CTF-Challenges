@@ -130,18 +130,6 @@
 
   - https://www.toolnb.com/tools-lang-en/pyc.html
 
-## Disk File
-
-- `.img`
-
-  - [DiskInternals Raid Recovery](https://www.diskinternals.com/raid-recovery/)
-
-- `.iso`
-
-  - LUKS encrypted file, we have to find password to extract.
-  - `sudo cryptsetup open --type luks glaf.iso out_iso`
-  - `sudo mount /dev/mapper/out_iso /mnt`
-
 ## Archive File
 
 - `nomarch`
