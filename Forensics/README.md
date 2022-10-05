@@ -57,6 +57,13 @@
 
   - [DiskInternals Raid Recovery](https://www.diskinternals.com/raid-recovery/)
 
+- `DOS/MBR boot sector`
+
+  - `mmls dds2-alpine.flag.img`
+  - `fls -o 0000002048 dds2-alpine.flag.img` 
+  - `fls -o 0000002048 dds2-alpine.flag.img 18290`
+  - `icat -o 0000002048 dds2-alpine.flag.img 18291`
+  
 - `.iso`
 
   - LUKS encrypted file, we have to find password to extract.
