@@ -54,6 +54,8 @@
 ## Disk File
 
 - `.img`
+  
+  - List file and directory names in a disk image. `fls`
 
   - [DiskInternals Raid Recovery](https://www.diskinternals.com/raid-recovery/)
 
