@@ -49,8 +49,12 @@ OI8I8o%o80bI8oO1bOPIbpIqodpIO81%PoOqIq/|\q1%1OdIqbP08\08dO|/88o||oq%IbqO8ddIddII
 
 - [`Steg for windows`](https://download.cnet.com/Steg/3000-2092_4-77792892.html)
  
-- http://diit.sourceforge.net/ Digital Invisible Ink Toolkit
-- 
+  - http://diit.sourceforge.net/ Digital Invisible Ink Toolkit
+
+- `Powershell`
+
+  - [writeup](https://github.com/HHousen/PicoCTF-2021/blob/master/Forensics/Very%20very%20very%20Hidden/README.md)
+  
 ## Audio
 
 - LSB Steganography
