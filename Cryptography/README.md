@@ -43,5 +43,5 @@
 
 # TODO
 
-- Playing card cipher https://www.codewars.com/kata/59c2ff946bddd2a2fd00009e
+- quipquip
 
