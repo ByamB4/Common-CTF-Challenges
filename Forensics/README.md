@@ -72,8 +72,11 @@
 
 - `Volatility`
 
-  Show imageinfo on given file 
+  Show imageinfo of given file 
   - `volatility -f [FILENAME] imageinfo`
+  
+  Showing windows info
+  - `volatility -f [FILENAME] windows.info`
   
   Show currently running process
   - `volatility -f [FILENAME] --profile=[PROFILE] pslist`
