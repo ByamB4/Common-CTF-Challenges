@@ -40,6 +40,7 @@
 
 - **Extract**
   - [`pdfextract`](https://github.com/CrossRef/pdfextract)
+  - `polyfile --html voip.html [FILENAME].pdf`
   
 ## GIF File Forensics
 
