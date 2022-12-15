@@ -38,8 +38,8 @@
 
   - Use case [`writeup`](https://saransappa.wordpress.com/2020/06/08/sec-t-ctf-2019-forensics-challenge-writeup/)
 
-- [`Extract`](https://smallpdf.com/split-pdf) files, online tool
-
+- **Extract**
+  - [`pdfextract`](https://github.com/CrossRef/pdfextract)
   
 ## GIF File Forensics
 
