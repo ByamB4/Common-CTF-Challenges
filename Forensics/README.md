@@ -90,6 +90,13 @@
   Extract and decrypt cached domain credentials stored in the registry
   - `volatility -f [FILENAME] --profile=[PROFILE] hashdump -y [ADDRESS-OF-REGISTER-SYSTEM] -s [ADDRESS-OF-SYSTEMROOT-SAM]`
 
+- `Volatility 3`
+
+  **Dump file**
+  - `vol.py -f [FILENAME] -o [/path/to/dir] windows.dumpfiles`
+  - `vol.py -f [FILENAME] -o [/path/to/dir] windows.dumpfiles ‑‑virtaddr [OFFSET]`
+  - `vol.py -f [FILENAME] -o [/path/to/dir] windows.dumpfiles ‑‑physaddr [OFFSET]`
+  
 ## PYC file
 
   - https://www.toolnb.com/tools-lang-en/pyc.html
