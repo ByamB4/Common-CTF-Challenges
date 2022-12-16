@@ -41,7 +41,11 @@
 - **Extract**
   - [`pdfextract`](https://github.com/CrossRef/pdfextract)
   - `polyfile --html voip.html [FILENAME].pdf`
-  
+
+## Document
+
+  - `olevba` detect VBA Macros, extract their source code in clear text.
+
 ## GIF File Forensics
 
 - `Split images`
