@@ -91,6 +91,13 @@
   
   Locate the virtual addresses of registry hives in memory
   - `volatility -f [FILENAME] --profile=[PROFILE] hivelist`
+  - `volatility -f [FILENAME] --profile=[PROFILE] lsadump`
+  - `volatility -f [FILENAME] --profile=[PROFILE] hashdump`
+  - `volatility -f [FILENAME] --profile=[PROFILE] netscan`
+  - `volatility -f [FILENAME] --profile=[PROFILE] shellbags`
+  - `volatility -f [FILENAME] --profile=[PROFILE] clipboard`
+  - `volatility -f [FILENAME] --profile=[PROFILE] pstree`
+  - `volatility -f [FILENAME] --profile=[PROFILE] filescan`
   
   Extract and decrypt cached domain credentials stored in the registry
   - `volatility -f [FILENAME] --profile=[PROFILE] hashdump -y [ADDRESS-OF-REGISTER-SYSTEM] -s [ADDRESS-OF-SYSTEMROOT-SAM]`
