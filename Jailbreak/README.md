@@ -2,12 +2,12 @@
 
 - Error based
 ```
-int(open("flag.txt", "r").read())
+int(open('/etc/passwd', 'r').read())
 ```
 
 - python2 input **rce**
 ```
-__import__('os').system('cat valentine.txt')
+__import__('os').system('/etc/passwd')
 ```
 
 - Escaping some validation
