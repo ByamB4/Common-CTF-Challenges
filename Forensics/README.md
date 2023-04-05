@@ -1,4 +1,4 @@
-## PNG File
+### PNG File
 
   - `Magic numbers`
 
@@ -20,7 +20,7 @@
     - [writeup](https://github.com/Dvd848/CTFs/blob/master/2019_picoCTF/m00nwalk.md)
     - [tutorial](https://ourcodeworld.com/articles/read/956/how-to-convert-decode-a-slow-scan-television-transmissions-sstv-audio-file-to-images-using-qsstv-in-ubuntu-18-04)
   
-## PDF File
+### PDF File
 
   - `pdfinfo`
 
@@ -42,7 +42,7 @@
     - [`pdfextract`](https://github.com/CrossRef/pdfextract)
     - `polyfile --html voip.html [FILENAME].pdf`
 
-## Archive File
+### Archive File
 
 - Crack password protected zip file
 
@@ -54,11 +54,11 @@
     - `john -w=rockyou.txt hash.txt`
     - `john --show hash.txt`
     
-## Document
+### Document
 
   - `olevba` detect VBA Macros, extract their source code in clear text.
 
-## GIF File Forensics
+### GIF File Forensics
 
   - `Split images`
 
@@ -66,7 +66,12 @@
     - `ls *.png | while read filename; do convert $filename -transparent white $filename; done`
     - `ls *.png | while read filename; do convert $filename 00.png -gravity center -composite 00.png; done`
 
-## Disk File
+### Log files
+
+- Windows log file `.evtx`
+  - Analyze using [`chainsaw`](https://github.com/WithSecureLabs/chainsaw)
+  
+### Disk File
 
   - `.img`
   
