@@ -25,3 +25,11 @@
     Rockstar is a big bad monster
     Shout Rockstar
     ```
+- [`Ook!`](https://www.dcode.fr/ook-language)
+  
+  - Mostly uses "Ook!" word
+  - **Example**
+   
+    ```
+    Ook. Ook.  Ook. Ook.  Ook. Ook.  Ook. Ook.  Ook. Ook.  Ook. Ook.  Ook. Ook.  Ook. Ook.  Ook. Ook.  Ook. Ook.  Ook! Ook?  Ook. Ook?  Ook. Ook.  Ook. Ook?  Ook. Ook.  Ook. Ook.  Ook. Ook.  Ook. Ook?
+    ```
