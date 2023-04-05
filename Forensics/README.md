@@ -120,8 +120,3 @@
   - `vol.py -f [FILENAME] -o [/path/to/dir] windows.dumpfiles`
   - `vol.py -f [FILENAME] -o [/path/to/dir] windows.dumpfiles ‑‑virtaddr [OFFSET]`
   - `vol.py -f [FILENAME] -o [/path/to/dir] windows.dumpfiles ‑‑physaddr [OFFSET]`
-  
-## PYC file
-
-  - https://www.toolnb.com/tools-lang-en/pyc.html
-
