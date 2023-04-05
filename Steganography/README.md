@@ -1,42 +1,40 @@
 ## Text
 
+- `White space`
+  - `stegsnow -C -p <password> secret.txt`
+  - [`stegcracker`](https://github.com/0xHasanM/SnowCracker) cracks snow password
+
 - [`Binary character shape`](https://www.dcode.fr/binary-character-shape)
 
-```
-OI8I8o%o80bI8oO1bOPIbpIqodpIO81%PoOqIq/|\q1%1OdIqbP08\08dO|/88o||oq%IbqO8ddIddII81IO//OI88Ib8opIIp8oqpd%\pqbI|/bI
-```
+  - **Example**
+    ```
+    OI8I8o%o80bI8oO1bOPIbpIqodpIO81%PoOqIq/|\q1%1OdIqbP08\08dO|/88o||oq%IbqO8ddIddII81IO//OI88Ib8opIIp8oqpd%\pqbI|/bI
+    ```
 
-- [`White space steganography`]
-
-  - `stegsnow -C -p password secret.txt`
-
-- [`Steg with base64`](https://github.com/bzorigt/stegb64)
-
-  - [python2](https://github.com/ByamB4/CaptureTheFlagTool/blob/master/Steganography/code/stegb64.py)
+- [`Steg with base64`](https://github.com/hecky/stegb64)
   
+  - **Example**
+    ```
+    PigngTnTtqWjrEFGdsSlrfQexoKfOhYyXkmkmxlq=
+    ```
+    
 ## Image
 
-- [`steghide`](http://steghide.sourceforge.net/download.php)
+- `steghide` program that is able to hide data in various kinds of image and audio-files
 
-  - A command-line tool typically used alongside a password or key, that could be uncovered some other way when solving a challenge. 
+  - `steghide extract -sf <filename>`
 
-- [`stegseek`](https://github.com/RickdeJager/stegseek)
+- [`stegseek`](https://github.com/RickdeJager/stegseek) fastest steghide password cracker
 
-  - Brute force password of steghide
+  - `stegseek <filename> rockyou.txt`
   
-- [`zsteg`](https://github.com/zed-0xff/zsteg)
+- [`zsteg`](https://github.com/zed-0xff/zsteg) use against least significant bit data in png and bmp
 
-  - Command-line tool for use against Least Significant Bit steganography only works against PNG.
+  - `zsteg -a <filename>`
 
-- [`jsteg`]()
+- [`jsteg`](https://github.com/lukechampine/jsteg) another least significant bit tool extract data from jpg  
 
-  - Command-line tool to use against JPEG images.
-- [`pico-8`](https://github.com/rvaccarim/p8png_decoder)
-  
-  - Source code extractor for PICO-8 cartridges.
-- `binary image`
-
-  - [https://www.dcode.fr/binary-image](https://www.dcode.fr/binary-image)
+  - `jsteg reveal <in.jpg> <output>`
 
 - `FFT`
 
