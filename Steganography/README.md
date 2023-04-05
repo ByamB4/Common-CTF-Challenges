@@ -36,6 +36,10 @@
 
   - `jsteg reveal <in.jpg> <output>`
 
+- [Slow Scan Television](https://en.wikipedia.org/wiki/Slow-scan_television) send static image using only sound .wav
+
+  - [writeup](https://ctftime.org/writeup/22354)
+
 - `FFT`
 
   - [http://bigwww.epfl.ch/demo/ip/demos/FFT/](http://bigwww.epfl.ch/demo/ip/demos/FFT/)
