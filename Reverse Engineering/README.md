@@ -1,6 +1,6 @@
 ### Patch libc function
 
-- Patch sleep function
+- Patch sleep function (before binary execute)
 
   - Create `nosleep.c`
     ```c
@@ -16,6 +16,19 @@
     ```
   - Compile `gcc -shared -fPIC -ldl nosleep.c -o nosleep.so`
   - Execute `LD_PRELOAD="./nosleep.so" ./<binary>`
+
+- Patch sleep function (during binary execution)
+
+  - Create `agent.js`
+    ```js
+    let sleepfn = Module.findExportByName("libc.so.6", "sleep");
+    let blank = new NativeCallBack(() => {}, 'void', []);
+    Interceptor.replace(sleepfn, blank)
+    ```
+  - Execute binary and find process id
+  - `frida -p <pid> -l agent.js`
+
+
 
 ### Capa
 
