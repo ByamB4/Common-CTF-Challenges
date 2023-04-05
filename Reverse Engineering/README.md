@@ -28,7 +28,9 @@
   - Execute binary and find process id
   - `frida -p <pid> -l agent.js`
 
+- Patch sleep function (during binary execution windows binary)
 
+  - [writeup](https://docs.google.com/document/d/1Pls6AkWHbxvBuvDFLEv7piH9myZSahvQy4d3qR442Cw)
 
 ### Capa
 
