@@ -45,3 +45,8 @@
     0010010010001100000000000000000000000000000000000000100001001001
     001001001001001001001001100000100
     ```
+
+- [`Whitelips`](https://vii5ard.github.io/whitespace/)
+  
+  - Hides data in whitespaces
+  
