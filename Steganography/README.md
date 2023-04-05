@@ -1,23 +1,23 @@
 ## Text
 
 - `White space`
+
   - `stegsnow -C -p <password> secret.txt`
   - [`stegcracker`](https://github.com/0xHasanM/SnowCracker) cracks snow password
-
+  
 - [`Binary character shape`](https://www.dcode.fr/binary-character-shape)
 
-  - **Example**
+  - Example
     ```
     OI8I8o%o80bI8oO1bOPIbpIqodpIO81%PoOqIq/|\q1%1OdIqbP08\08dO|/88o||oq%IbqO8ddIddII81IO//OI88Ib8opIIp8oqpd%\pqbI|/bI
     ```
-
+    
 - [`Steg with base64`](https://github.com/hecky/stegb64)
   
-  - **Example**
+  - Example
     ```
     PigngTnTtqWjrEFGdsSlrfQexoKfOhYyXkmkmxlq=
-    ```
-    
+    ``` 
 ## Image
 
 - `steghide` program that is able to hide data in various kinds of image and audio-files
