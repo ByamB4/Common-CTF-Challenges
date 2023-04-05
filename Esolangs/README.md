@@ -1,8 +1,5 @@
 ## Esoteric programming languages
 
-- [`npiet`](https://www.bertnase.de/npiet/npiet-execute.php)
-  - Image steganography
-  
 - `Malbolge`
 
   - [http://malbolge.doleczek.pl/](http://malbolge.doleczek.pl/)
