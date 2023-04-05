@@ -31,6 +31,10 @@
     - [`Alienese`](https://alienese.moxievillelabs.com/)
     
      ![alienese](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Cryptography/assets/img/alienese.png)
+    
+    - [`Braille Alphabet`](https://www.dcode.fr/braille-alphabet)
+      
+     ![braille](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Cryptography/assets/img/braille.png)
  
   - [`Keyboard shift`](https://www.dcode.fr/keyboard-shift-cipher)
   
