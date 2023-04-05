@@ -33,3 +33,15 @@
     ```
     Ook. Ook.  Ook. Ook.  Ook. Ook.  Ook. Ook.  Ook. Ook.  Ook. Ook.  Ook. Ook.  Ook. Ook.  Ook. Ook.  Ook. Ook.  Ook! Ook?  Ook. Ook?  Ook. Ook.  Ook. Ook?  Ook. Ook.  Ook. Ook.  Ook. Ook.  Ook. Ook?
     ```
+
+- [`Binary fuck`](https://www.dcode.fr/binaryfuck-language)
+
+  - Uses two character like binary
+  - **Example**
+  
+    ```
+    0000000000000000000000000000001100100000100000000000100000000000
+    0000000000001000000000000000000000000000000001101101101100111101
+    0010010010001100000000000000000000000000000000000000100001001001
+    001001001001001001001001100000100
+    ```
