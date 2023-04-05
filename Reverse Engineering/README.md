@@ -32,6 +32,10 @@
 
   - [writeup](https://docs.google.com/document/d/1Pls6AkWHbxvBuvDFLEv7piH9myZSahvQy4d3qR442Cw)
 
+### Decompile `.pyc` file
+
+- [`pycdc`](https://github.com/zrax/pycdc)
+
 ### Capa
 
 - The FLARE team's open-source tool to identify capabilities in executable files.
