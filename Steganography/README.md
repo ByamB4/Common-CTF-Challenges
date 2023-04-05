@@ -18,6 +18,14 @@
     ```
     PigngTnTtqWjrEFGdsSlrfQexoKfOhYyXkmkmxlq=
     ``` 
+
+- [`Twitter secret messages`](https://holloway.nz/steg/)
+  
+  - Example
+    ```
+    i haｄ a grｅａｔ daｙ at the ｂeaｃh! #sunshｉne                
+    ```
+
 ## Image
 
 - `steghide` program that is able to hide data in various kinds of image and audio-files
