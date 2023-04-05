@@ -31,7 +31,3 @@
 
   - Хуучин утасны keypad дуунаас тоонууд ялган авна
   - [https://unframework.github.io/dtmf-detect/#/](https://unframework.github.io/dtmf-detect/#/)
-
-- `Alien predator language`
-
-  ![alien-predator](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Esolangs/static/img/alien-predator.png)
