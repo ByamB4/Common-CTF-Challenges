@@ -1,46 +1,46 @@
 ## PNG File
 
-- `Magic numbers`
+  - `Magic numbers`
 
-  - Fix magics [png-parser](https://github.com/ByamB4/Capture-The-Flag/blob/master/Forensics/src/png_parser.py)
+    - Fix magics [png-parser](https://github.com/ByamB4/Capture-The-Flag/blob/master/Forensics/src/png_parser.py)
 
-- `pngcheck`
+  - `pngcheck`
 
-  - Command line tool, checks given png file corrupted or not.
+    - Command line tool, checks given png file corrupted or not.
 
-- `2 same image`
+  - `2 same image`
 
-  - We can use SUB, MUL, ... `compare 00000000.png 00000725.png -compose src diff.png`
+    - We can use SUB, MUL, ... `compare 00000000.png 00000725.png -compose src diff.png`
 
 
-## Wav File
+### Wav File
 
-- `SSTV`
+  - `SSTV`
 
-  - [writeup](https://github.com/Dvd848/CTFs/blob/master/2019_picoCTF/m00nwalk.md)
-  - [tutorial](https://ourcodeworld.com/articles/read/956/how-to-convert-decode-a-slow-scan-television-transmissions-sstv-audio-file-to-images-using-qsstv-in-ubuntu-18-04)
+    - [writeup](https://github.com/Dvd848/CTFs/blob/master/2019_picoCTF/m00nwalk.md)
+    - [tutorial](https://ourcodeworld.com/articles/read/956/how-to-convert-decode-a-slow-scan-television-transmissions-sstv-audio-file-to-images-using-qsstv-in-ubuntu-18-04)
   
 ## PDF File
 
-- `pdfinfo`
+  - `pdfinfo`
 
-  - Command line tool to analyse given pdf.
+    - Command line tool to analyse given pdf.
 
-- [`pdfminer`](https://github.com/euske/pdfminer)
+  - [`pdfminer`](https://github.com/euske/pdfminer)
 
-  - Lot of useful tools.
+    - Lot of useful tools.
 
-- [`pdf-repair`](https://www.pdf-online.com/osa/repair.aspx)`
+  - [`pdf-repair`](https://www.pdf-online.com/osa/repair.aspx)`
 
-  - Online tool to fix given pdf file.
+    - Online tool to fix given pdf file.
 
-- [`peepdf`](https://github.com/jesparza/peepdf)
+  - [`peepdf`](https://github.com/jesparza/peepdf)
 
-  - Use case [`writeup`](https://saransappa.wordpress.com/2020/06/08/sec-t-ctf-2019-forensics-challenge-writeup/)
+    - Use case [`writeup`](https://saransappa.wordpress.com/2020/06/08/sec-t-ctf-2019-forensics-challenge-writeup/)
 
-- **Extract**
-  - [`pdfextract`](https://github.com/CrossRef/pdfextract)
-  - `polyfile --html voip.html [FILENAME].pdf`
+  - **Extract**
+    - [`pdfextract`](https://github.com/CrossRef/pdfextract)
+    - `polyfile --html voip.html [FILENAME].pdf`
 
 ## Document
 
@@ -48,19 +48,19 @@
 
 ## GIF File Forensics
 
-- `Split images`
+  - `Split images`
 
-  - `convert test.gif %02d.png`
-  - `ls *.png | while read filename; do convert $filename -transparent white $filename; done`
-  - `ls *.png | while read filename; do convert $filename 00.png -gravity center -composite 00.png; done`
+    - `convert test.gif %02d.png`
+    - `ls *.png | while read filename; do convert $filename -transparent white $filename; done`
+    - `ls *.png | while read filename; do convert $filename 00.png -gravity center -composite 00.png; done`
 
 ## Disk File
 
-- `.img`
+  - `.img`
   
-  - List file and directory names in a disk image. `fls`
+    - List file and directory names in a disk image. `fls`
 
-  - [DiskInternals Raid Recovery](https://www.diskinternals.com/raid-recovery/)
+    - [DiskInternals Raid Recovery](https://www.diskinternals.com/raid-recovery/)
 
 - `DOS/MBR boot sector`
 
