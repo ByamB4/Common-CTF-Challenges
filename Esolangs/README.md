@@ -15,19 +15,13 @@
     ```                             
     iisiiiisiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiodddoiiiiiiiooiiio
     ```
+    
+- [`Rockstar`](https://codewithrockstar.com/online)
 
-- `IMB Barcode`
-
-  - [http://www.quine.org/09-bob-matthews-2009-09-12-usps-imb-decode.html](http://www.quine.org/09-bob-matthews-2009-09-12-usps-imb-decode.html)
-
-![https://github.com/ByamB4/CaptureTheFlagTool/blob/main/Miscellaneous/Images/imb_barcode.png](https://github.com/ByamB4/CaptureTheFlagTool/blob/main/Miscellaneous/Images/imb_barcode.png)
-
-- `Rockstar`
-
-  - "Shout", "put", "Fuzz", "Buzz" гэх мэт үгээр дууны үг болгоно.
-  - [https://codewithrockstar.com/online](https://codewithrockstar.com/online)
-
-- `Dual-tone multi-frequency signaling (DTMF)`
-
-  - Хуучин утасны keypad дуунаас тоонууд ялган авна
-  - [https://unframework.github.io/dtmf-detect/#/](https://unframework.github.io/dtmf-detect/#/)
+  - Mostly uses "Shout", "put", "Fuzz", "Buzz" these words
+  - **Example**
+  
+    ```
+    Rockstar is a big bad monster
+    Shout Rockstar
+    ```
