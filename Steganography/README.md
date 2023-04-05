@@ -56,6 +56,12 @@
 - `Powershell`
 
   - [writeup](https://github.com/HHousen/PicoCTF-2021/blob/master/Forensics/Very%20very%20very%20Hidden/README.md)
+
+- [`npiet`](https://www.bertnase.de/npiet/npiet-execute.php) execute program and shows result.
+
+  - Example preview
+    
+    ![npiet-hello.gif](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Steganography/static/img/npiet_hello.gif)
   
 ## Audio
 
