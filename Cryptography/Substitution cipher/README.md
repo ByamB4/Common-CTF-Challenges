@@ -1,6 +1,9 @@
 ## Symbol Substitution
 
+- `Alien predator language`
 
+  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Cryptography/Substitution%20cipher/assets/img/alien-predator.png" width="500">
+  
 - [`Pigpen`](https://www.dcode.fr/pigpen-cipher)
   - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Cryptography/assets/img/pigpen.png" width="500">
 
