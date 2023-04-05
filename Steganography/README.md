@@ -26,6 +26,17 @@
     i haｄ a grｅａｔ daｙ at the ｂeaｃh! #sunshｉne                
     ```
 
+- [`Zero width stegnography`](https://github.com/enodari/zwsp-steg-py)
+  
+  - **Example**
+    ```
+    &#8203;&#8203;&#8203;&#8203;&lrm;&rlm;&lrm;&#8203;&#8203;&#8203;&#8203;&zwnj;&zwj;&rlm;&#8203;
+    &#8203;&#8203;&#8203;&lrm;&zwj;&rlm;&#8203;&#8203;&#8203;&#8203;&lrm;&zwj;&zwj;&#8203;&#8203;&#8203;
+    &#8203;&rlm;&rlm;&#8203;&#8203;&#8203;&#8203;&#8203;&rlm;&lrm;&zwnj;&#8203;&#8203;&#8203;&#8203;&lrm;
+    &#8203;&zwj;&#8203;&#8203;&#8203;&#8203;&zwj;&rlm;&zwj;&#8203;&#8203;&#8203;&#8203;&lrm;&#8203;&lrm;&#8203;
+    &#8203;&#8203;&#8203;&zwnj;&rlm;&lrm;&#8203;&#8203;&#8203;&#8203;&lrm;&zwj;&lrm;&#8203;&#8203;&#8203;
+    ```
+
 ## Image
 
 - `steghide` program that is able to hide data in various kinds of image and audio-files
