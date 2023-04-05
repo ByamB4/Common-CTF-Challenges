@@ -1,27 +1,3 @@
-## G-Code
-
-- https://ncviewer.com/
-
-```
-G1X1.6552Y3.5862
-G1X2.2069Y3.8621
-G1X2.7586Y3.8621
-G1X3.5862Y3.5862
-G1X4.1379Y3.0345
-G1X4.4138Y2.2069
-G1X4.4138Y1.6552
-G1X4.1379Y0.8276
-G1X3.5862Y0.2759
-G1X2.7586Y0.0000
-G1X2.2069Y0.0000
-G1X1.6552Y0.2759
-```
-
-
-## Find difference between same binaries
-
-- `cmp -bl [FILE] [FILE]`
-
 ## Capa
 
 - The FLARE team's open-source tool to identify capabilities in executable files.
