@@ -42,6 +42,18 @@
     - [`pdfextract`](https://github.com/CrossRef/pdfextract)
     - `polyfile --html voip.html [FILENAME].pdf`
 
+## Archive File
+
+- Crack password protected zip file
+
+  - Using [`fcrackzip`](https://www.geeksforgeeks.org/fcrackzip-tool-crack-a-zip-file-password-in-kali-linux/)
+    - `fcrackzip -v -u -D -p rockyou.txt <filename.zip>`
+    
+  - Using [`zip2john`](https://github.com/openwall/john/blob/bleeding-jumbo/src/zip2john.c)
+    - `zip2john <filename.zip> > hash.txt`
+    - `john -w=rockyou.txt hash.txt`
+    - `john --show hash.txt`
+    
 ## Document
 
   - `olevba` detect VBA Macros, extract their source code in clear text.
@@ -113,45 +125,3 @@
 
   - https://www.toolnb.com/tools-lang-en/pyc.html
 
-## Archive File
-
-- `nomarch`
-
-  - `ARC` archive data
-  
-- `ppmd`
-  
-  - `PPMD` archive data
-
-- `cabextract`
-
-  - `Microsoft Cabinet` archive data
-  
-- `bunzip2`
-
-  - `bzip2` compressed data
-  
-- `xz`
-
-  - `XZ` compressed data
-
-- `gzip`
-  
-  - `gzip` compressed data
-
-- `tar`
-
-  - `POSIX tar` archive (GNU)
-
-- `kgb`
-
-  - `KGB Archiver` file
-
-- `rzip`
-
-  - `rzip compressed` data
-
-- `zoo`
-
-  - `Zoo archive` data
-  
