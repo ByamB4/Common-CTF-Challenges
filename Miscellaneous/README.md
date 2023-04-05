@@ -37,3 +37,9 @@ https://github.com/K1nd4SUS/CTF-Writeups/tree/main/dCTF_2021/Behind%20the%20scen
 
 - https://vii5ard.github.io/whitespace/
 
+- `Dual-tone multi-frequency signaling (DTMF)`
+
+  - Хуучин утасны keypad дуунаас тоонууд ялган авна
+  - [https://unframework.github.io/dtmf-detect/#/](https://unframework.github.io/dtmf-detect/#/)
+
+
