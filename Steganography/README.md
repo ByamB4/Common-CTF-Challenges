@@ -55,9 +55,11 @@
   
 ## Audio
 
-- LSB Steganography
+- [Audacity](https://www.audacityteam.org/) upload your file then view spectogram data
 
-  - [repo](https://github.com/sniperline047/Audio-Steganography)
+- [Sonic Visualizer](https://www.sonicvisualiser.org/) upload your file then view spectogram data
+
+- [LSB](https://github.com/sniperline047/Audio-Steganography)
 
 ## TODO
 - stegoveritas
