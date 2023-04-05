@@ -36,7 +36,7 @@
 
   - `jsteg reveal <in.jpg> <output>`
 
-- [Slow Scan Television](https://en.wikipedia.org/wiki/Slow-scan_television) send static image using only sound .wav
+- [`Slow Scan Television`](https://en.wikipedia.org/wiki/Slow-scan_television) send static image using only sound .wav
 
   - [writeup](https://ctftime.org/writeup/22354)
 
