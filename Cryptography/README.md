@@ -18,28 +18,7 @@
 - [`Fernet`](https://asecuritysite.com/encryption/ferdecode)
 
   `Token: gAAAAABWC9P7-9RsxTz_dwxh9-O2VUB7Ih8UCQL1_Zk4suxnkCvb26Ie4i8HSUJ4caHZuiNtjLl3qfmCv_fS3_VpjL7HxCz7_Q==`
-  `Key: -s6eI5hyNh8liH7Gq0urPC-vzPgNnxauKvRO4g03oYI=`
-
-### Substitution
-
-  - **Symbol substitution**
-  
-    - [`Pigpen`](https://www.dcode.fr/pigpen-cipher)
-    
-     ![pigpen](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Cryptography/assets/img/pigpen.png)
-     
-    - [`Alienese`](https://alienese.moxievillelabs.com/)
-    
-     ![alienese](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Cryptography/assets/img/alienese.png)
-    
-    - [`Braille Alphabet`](https://www.dcode.fr/braille-alphabet)
-      
-     ![braille](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Cryptography/assets/img/braille.png)
- 
-  - [`Keyboard shift`](https://www.dcode.fr/keyboard-shift-cipher)
-  
-    - `c4co"Lct5-vec+H2efw)G-"Ve+$2;5zeef+`
- 
+  `Key: -s6eI5hyNh8liH7Gq0urPC-vzPgNnxauKvRO4g03oYI=` 
  
 ### Synchronous stream cipher
 
