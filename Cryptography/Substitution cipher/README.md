@@ -26,6 +26,10 @@
 - [`Braille Alphabet`](https://www.dcode.fr/braille-alphabet)
       
   - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Cryptography/assets/img/braille.png" width="500">
+
+- [`Birds on wire`](https://www.dcode.fr/birds-on-a-wire-cipher)
+      
+  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Cryptography/Substitution%20cipher/assets/img/birdsonawire.jpg" width="500">
  
 - [`Keyboard shift`](https://www.dcode.fr/keyboard-shift-cipher)
   
