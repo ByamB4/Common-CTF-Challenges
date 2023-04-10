@@ -34,3 +34,7 @@
     G01 X318.6183 Y6.531953
     G01 X318.3934 Y6.299265
     ```
+
+- [Pastebin](https://pastebin.com/)
+
+  - Can save your note with password protected url looks like `LX2gkn81`
