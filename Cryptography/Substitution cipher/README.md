@@ -38,3 +38,10 @@
   ```
   :ptr, O[di, od do,[;u fi,,u yrcy pg yjr [tomyomh smf yu[rdryyomh omfidytu/ :ptr, O[di, jsd nrrm yjr omfidytu\d dysmfstf fi,,u yrcy rbrt domvr yjr 26--d. ejrm sm imlmpem [tomyrt yppl s hs;;ru pg yu[r smf dvts,n;rf oy yp ,slr s yu[r d[rvo,rm nppl/ Oy jsd ditbobrf mpy pm;u gobr vrmyitord. niy s;dp yjr ;rs[ omyp r;rvytpmov yu[rdryyomh. tr,somomh rddrmyos;;u imvjsmhrf/
   ```
+- [`ROT-47`](https://www.dcode.fr/rot-47-cipher)
+  
+  - Example shifted with 47
+  
+  ```
+  5r@56 #@E\cf
+  ```
