@@ -10,6 +10,11 @@
 - Extract numbers from an audio recording of the dial tones.
 
   - [dtmf-decoder](https://github.com/ribt/dtmf-decoder)
+  - [online-tool](https://unframework.github.io/dtmf-detect/#/)
+
+- Multi-tap Phone (SMS)
+
+  - [dcode](https://www.dcode.fr/multitap-abc-cipher)
 
 - Keyboard layouts (workman, qwerty, dvorak, colemak)
 
