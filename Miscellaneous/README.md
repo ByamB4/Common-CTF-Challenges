@@ -9,8 +9,8 @@
     
 - Extract numbers from an audio recording of the dial tones.
 
-  - [dtmf-decoder](https://github.com/ribt/dtmf-decoder)
   - [online-tool](https://unframework.github.io/dtmf-detect/#/)
+  - [dtmf-decoder](https://github.com/ribt/dtmf-decoder)
 
 - Multi-tap Phone (SMS)
 
