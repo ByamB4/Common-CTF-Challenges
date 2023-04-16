@@ -1,11 +1,17 @@
-## Database
+### Hash
+
+- `md5`
+
+  - `hashcat -m 0 <file_name> /usr/share/wordlists/rockyou.txt`
+  
+### Database
 
 - `Keepass`
 
   - `python [code.py](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cracking/src/keepass2john.py) FILE.kdb > crackme`
     - `hashcat -a 0 -m 13400 --show -o out crackme rockyou.txt --force`
 
-## Service
+### Service
 
 - `FTP`
 
@@ -17,7 +23,7 @@
   - Brute force pasword with known username using [`hydra`](https://tools.kali.org/password-attacks/hydra)
   - `hydra -t 4 -l jan -P <wordlist> ssh://<target-address>`
 
-## ZIP
+### ZIP
 
 - [`fcrackzip`](http://manpages.ubuntu.com/manpages/trusty/man1/fcrackzip.1.html)
 
@@ -29,14 +35,14 @@
   - `zip2john <filename> > crackme`
   - `john crackme --show`
 
-## Private key
+### Private key
 
 - [`ssh2john`](https://github.com/magnumripper/JohnTheRipper.git)
 
   - `ssh2john <filename> > crackme`
   - `john crackme --show`
 
-## Office
+### Office
 
 - [`office2john`](https://github.com/magnumripper/JohnTheRipper.git)
 
