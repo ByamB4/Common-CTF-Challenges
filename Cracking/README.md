@@ -40,8 +40,8 @@
 
 - [`zip2john`](https://github.com/magnumripper/JohnTheRipper.git)
 
-  - `zip2john <filename> > crackme`
-  - `john crackme --show`
+  - `./zip2john <filename> > crackme.txt`
+  - `./john --wordlist=/usr/share/wordlists/rockyou.txt crackme.txt`
 
 ### Private key
 
