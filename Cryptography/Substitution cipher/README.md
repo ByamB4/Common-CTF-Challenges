@@ -30,6 +30,10 @@
 - [`Birds on wire`](https://www.dcode.fr/birds-on-a-wire-cipher)
       
   - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Cryptography/Substitution%20cipher/assets/img/birdsonawire.jpg" width="500">
+
+- [`Betamaze cipher`](https://www.dcode.fr/betamaze-cipher)
+      
+  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Cryptography/Substitution%20cipher/assets/img/betamaze.png" width="500">
  
 - [`Keyboard shift`](https://www.dcode.fr/keyboard-shift-cipher)
   
