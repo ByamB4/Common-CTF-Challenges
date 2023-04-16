@@ -2,7 +2,15 @@
 
 - `md5`
 
-  - `hashcat -m 0 <file_name> /usr/share/wordlists/rockyou.txt`
+  - `hashcat -m 0 $(echo '21232f297a57a5a743894a0e4a801fc3') /usr/share/wordlists/rockyou.txt`
+
+- `md5($pass.$salt)`
+
+  - `hashcat -m 10 -a 0 $(echo '5400711cd704e87ed3fd11556cc174ae:SALT') /usr/share/wordlists/rockyou.txt` 
+
+- `md5($salt.$pass)`
+
+  - `hashcat -m 20 -a 0 $(echo 'dd679302de4ce83d961f95a1facca536:SALT') /usr/share/wordlists/rockyou.txt` 
   
 ### Database
 
