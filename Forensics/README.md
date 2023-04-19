@@ -115,6 +115,10 @@
   - `volatility -f [FILENAME] --profile=[PROFILE] clipboard`
   - `volatility -f [FILENAME] --profile=[PROFILE] pstree`
   - `volatility -f [FILENAME] --profile=[PROFILE] filescan`
+  - `volatility -f [FILENAME] --profile=[PROFILE] consoles`
+  
+  Extract file from filescan output
+  - `volatility -f [FILENAME] --profile=[PROFILE] dumpfiles -Q [OFFSET] -D .`
   
   Extract and decrypt cached domain credentials stored in the registry
   - `volatility -f [FILENAME] --profile=[PROFILE] hashdump -y [ADDRESS-OF-REGISTER-SYSTEM] -s [ADDRESS-OF-SYSTEMROOT-SAM]`
