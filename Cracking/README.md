@@ -35,7 +35,6 @@
 
 - [`fcrackzip`](http://manpages.ubuntu.com/manpages/trusty/man1/fcrackzip.1.html)
 
-  - Brute force password with dictionary
   - `fcrackzip -v -D -u -p <wordlist> <target.zip>`
 
 - [`zip2john`](https://github.com/magnumripper/JohnTheRipper.git)
