@@ -26,7 +26,9 @@
     i haｄ a grｅａｔ daｙ at the ｂeaｃh! #sunshｉne                
     ```
 
-- [`Zero width stegnography`](https://github.com/enodari/zwsp-steg-py)
+- `Zero width stegnography`
+  - [online-tool](https://330k.github.io/misc_tools/unicode_steganography.html)
+  - [python-tool](https://github.com/enodari/zwsp-steg-py)
   
   - **Example**
     ```
