@@ -32,6 +32,10 @@
 
     - [writeup](https://docs.google.com/document/d/1Pls6AkWHbxvBuvDFLEv7piH9myZSahvQy4d3qR442Cw)
 
+- **Extract python from binary**
+  
+  - [`pyinstxtractor`](https://github.com/extremecoders-re/pyinstxtractor)
+
 - **Decompile `.pyc` file**
 
   - [`pycdc`](https://github.com/zrax/pycdc)
