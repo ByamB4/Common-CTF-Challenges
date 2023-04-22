@@ -35,6 +35,10 @@
       
   - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Cryptography/Substitution%20cipher/assets/img/betamaze.png" width="500">
  
+- [`Lunar alphabet`](https://www.dcode.fr/betamaze-cipher)
+      
+  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Cryptography/Substitution%20cipher/assets/img/lunar-alphabet.png" width="500">
+ 
 - [`Keyboard shift`](https://www.dcode.fr/keyboard-shift-cipher)
   
   - Example shifted with 1 key
