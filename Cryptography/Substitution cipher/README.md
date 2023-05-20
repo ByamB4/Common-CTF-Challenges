@@ -39,7 +39,7 @@
       
   - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Cryptography/Substitution%20cipher/assets/img/lunar-alphabet.png" width="500">
 
-- [`Dotsies`]([https://www.dcode.fr/betamaze-cipher](https://www.dcode.fr/dotsies-writing))
+- [`Dotsies`](https://www.dcode.fr/dotsies-writing)
       
   - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Cryptography/Substitution%20cipher/assets/img/dotsies_font.png" width="500">
  
