@@ -1,3 +1,8 @@
+## Bash
+
+- Whitespace
+    - `cat${IFS}flag.txt`
+
 ## Python jailbreak
 
 - Error based
