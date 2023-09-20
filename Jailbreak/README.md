@@ -2,6 +2,7 @@
 
 - Whitespace
     - `cat${IFS}flag.txt`
+    - `cat<flag.txt`
 
 ## Python jailbreak
 
