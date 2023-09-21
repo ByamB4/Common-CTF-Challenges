@@ -57,3 +57,10 @@ Common attacks
   from Crypto.PublicKey import RSA
   RSA.importKey(open('pub.key','r').read())
   ```
+
+- `p+q, (p+1)(q+1)` is given find `n`
+  ```python
+  a = p + q
+  b = (p + 1) * (q + 1)
+  n = b - a - 1
+  ```
