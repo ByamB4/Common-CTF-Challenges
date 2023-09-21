@@ -49,3 +49,5 @@ Common attacks
     mq = pow(c, dq, q)
     (((mp - mq)  * I) % p) * q + mq
   ```
+  
+- `dp` is given [code](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Cryptography/Asymmetric%20cipher/src/rsa/dp_is_given.py)
