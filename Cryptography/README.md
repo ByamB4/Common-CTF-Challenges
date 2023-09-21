@@ -27,6 +27,9 @@
   - `U2FsdGVkX1/+ydnDPowGbjjJXhZxm2MP2AgI`
 
 ### Examples
+  - [Morse](https://www.dcode.fr/morse-code)
+    - `-.. -.-. --- -.. . / -- --- .-. ... .`
+    
   - [UUnencode](https://www.dcode.fr/uu-encoding)
     - `89FQA9WMD<V1A<V1S83DY.#<W3$Q,2TM]`
     
