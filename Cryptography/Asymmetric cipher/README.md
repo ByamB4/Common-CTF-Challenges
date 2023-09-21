@@ -41,3 +41,11 @@ Common attacks
 - `Too many primes`
 
   - [Python2](https://github.com/ByamB4/Capture-The-Flag-Tools/blob/master/Cryptography/Code/rsa-too-many-primes.py)
+
+- `dp, dq` is given
+  ```python
+    I = inverse(q, p)
+    mp = pow(c, dp, p)
+    mq = pow(c, dq, q)
+    (((mp - mq)  * I) % p) * q + mq
+  ```
