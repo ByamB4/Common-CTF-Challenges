@@ -1,4 +1,4 @@
-## Automated Enumeration Tools
+### Automated Enumeration Tools
 
 - [LinPeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS)
 - [LinEnum](https://github.com/rebootuser/LinEnum)

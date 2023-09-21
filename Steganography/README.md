@@ -4,32 +4,33 @@
 
   - `stegsnow -C -p <password> secret.txt`
   - [`stegcracker`](https://github.com/0xHasanM/SnowCracker) cracks snow password
-  
+
 - [`Binary character shape`](https://www.dcode.fr/binary-character-shape)
 
   - Example
     ```
     OI8I8o%o80bI8oO1bOPIbpIqodpIO81%PoOqIq/|\q1%1OdIqbP08\08dO|/88o||oq%IbqO8ddIddII81IO//OI88Ib8opIIp8oqpd%\pqbI|/bI
     ```
-    
+
 - [`Steg with base64`](https://github.com/hecky/stegb64)
-  
+
   - Example
     ```
     PigngTnTtqWjrEFGdsSlrfQexoKfOhYyXkmkmxlq=
-    ``` 
+    ```
 
 - [`Twitter secret messages`](https://holloway.nz/steg/)
-  
+
   - Example
     ```
-    i haｄ a grｅａｔ daｙ at the ｂeaｃh! #sunshｉne                
+    i haｄ a grｅａｔ daｙ at the ｂeaｃh! #sunshｉne             
     ```
 
 - `Zero width stegnography`
+
   - [online-tool](https://330k.github.io/misc_tools/unicode_steganography.html)
   - [python-tool](https://github.com/enodari/zwsp-steg-py)
-  
+
   - **Example**
     ```
     &#8203;&#8203;&#8203;&#8203;&lrm;&rlm;&lrm;&#8203;&#8203;&#8203;&#8203;&zwnj;&zwj;&rlm;&#8203;
@@ -48,12 +49,12 @@
 - [`stegseek`](https://github.com/RickdeJager/stegseek) fastest steghide password cracker
 
   - `stegseek <filename> rockyou.txt`
-  
+
 - [`zsteg`](https://github.com/zed-0xff/zsteg) use against least significant bit data in png and bmp
 
   - `zsteg -a <filename>`
 
-- [`jsteg`](https://github.com/lukechampine/jsteg) another least significant bit tool extract data from jpg  
+- [`jsteg`](https://github.com/lukechampine/jsteg) another least significant bit tool extract data from jpg
 
   - `jsteg reveal <in.jpg> <output>`
 
@@ -71,7 +72,7 @@
   - `stegify -op decode -carrier cute_kittens.jpg -result hello`
 
 - [`Steg for windows`](https://download.cnet.com/Steg/3000-2092_4-77792892.html)
- 
+
   - http://diit.sourceforge.net/ Digital Invisible Ink Toolkit
 
 - `Powershell`
@@ -81,9 +82,9 @@
 - [`npiet`](https://www.bertnase.de/npiet/npiet-execute.php) execute program and shows result.
 
   - Example preview
-    
+
     ![npiet-hello.gif](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Steganography/static/img/npiet_hello.gif)
-  
+
 ## Audio
 
 - [Audacity](https://www.audacityteam.org/) upload your file then view spectogram data
@@ -93,5 +94,5 @@
 - [LSB](https://github.com/sniperline047/Audio-Steganography)
 
 ## TODO
-- stegoveritas
 
+- stegoveritas

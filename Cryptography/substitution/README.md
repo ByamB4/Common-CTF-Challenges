@@ -50,10 +50,16 @@
   ```
   :ptr, O[di, od do,[;u fi,,u yrcy pg yjr [tomyomh smf yu[rdryyomh omfidytu/ :ptr, O[di, jsd nrrm yjr omfidytu\d dysmfstf fi,,u yrcy rbrt domvr yjr 26--d. ejrm sm imlmpem [tomyrt yppl s hs;;ru pg yu[r smf dvts,n;rf oy yp ,slr s yu[r d[rvo,rm nppl/ Oy jsd ditbobrf mpy pm;u gobr vrmyitord. niy s;dp yjr ;rs[ omyp r;rvytpmov yu[rdryyomh. tr,somomh rddrmyos;;u imvjsmhrf/
   ```
-- [`ROT-47`](https://www.dcode.fr/rot-47-cipher)
-  
-  - Example shifted with 47
-  
-  ```
-  5r@56 #@E\cf
-  ```
+
+## Numeral System
+
+- [`Cistercian Monk Numerals`](https://www.dcode.fr/cistercian-numbers)
+
+![monk number](https://github.com/ByamB4/CCC/blob/master/Communication%20System/assets/img/Numeral%20System/Cistercian%20Monk%20Numerals.jpg)
+
+
+## Notation System
+
+- [`Braille Code`](https://www.dcode.fr/braille-alphabet)
+
+![alphabet](https://github.com/ByamB4/Common-CTF-Challenges/blob/master/Communication%20System/assets/img/Notation%20System/Braille%20Alphabet.jpg)

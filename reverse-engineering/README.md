@@ -3,6 +3,7 @@
   - Patch sleep function (before binary execute)
 
     - Create `nosleep.c`
+
       ```c
       #include <stdio.h>
 
@@ -14,6 +15,7 @@
         fprintf(stderr, "Hooked process,no sleeps!\n");
       }
       ```
+
     - Compile `gcc -shared -fPIC -ldl nosleep.c -o nosleep.so`
     - Execute `LD_PRELOAD="./nosleep.so" ./<binary>`
 
@@ -22,8 +24,8 @@
     - Create `agent.js`
       ```js
       let sleepfn = Module.findExportByName("libc.so.6", "sleep");
-      let blank = new NativeCallBack(() => {}, 'void', []);
-      Interceptor.replace(sleepfn, blank)
+      let blank = new NativeCallBack(() => {}, "void", []);
+      Interceptor.replace(sleepfn, blank);
       ```
     - Execute binary and find process id
     - `frida -p <pid> -l agent.js`
@@ -33,7 +35,7 @@
     - [writeup](https://docs.google.com/document/d/1Pls6AkWHbxvBuvDFLEv7piH9myZSahvQy4d3qR442Cw)
 
 - **Extract python from binary**
-  
+
   - [`pyinstxtractor`](https://github.com/extremecoders-re/pyinstxtractor)
 
 - **Decompile `.pyc` file**
@@ -43,7 +45,6 @@
 - **Capa**
 
   - The FLARE team's open-source tool to identify capabilities in executable files.
-
 
 - **Detect It Easy**
 
