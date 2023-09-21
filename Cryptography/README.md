@@ -26,7 +26,8 @@
 
   - `U2FsdGVkX1/+ydnDPowGbjjJXhZxm2MP2AgI`
 
-### TODO
+### Chinese code
 
-- quipquip
+  - [lookup-table](http://code.mcdvisa.com/) `606046152623600817831216121621196386`
+
 
