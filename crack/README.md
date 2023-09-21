@@ -42,6 +42,15 @@
   - `./zip2john <filename> > crackme.txt`
   - `./john --wordlist=/usr/share/wordlists/rockyou.txt crackme.txt`
 
+### Web related
+
+- JSON web token hash
+ 
+  - Using `hashcat`
+    
+    - `echo 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...' > jwt.hash`
+    - `hashcat jwt.hash -m 16500 rockyou.txt`
+
 ### Private key
 
 - [`ssh2john`](https://github.com/magnumripper/JohnTheRipper.git)
