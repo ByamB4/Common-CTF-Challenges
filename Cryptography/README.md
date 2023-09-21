@@ -27,6 +27,9 @@
   - `U2FsdGVkX1/+ydnDPowGbjjJXhZxm2MP2AgI`
 
 ### Examples
+  - [rot-47](https://www.dcode.fr/rot-47-cipher)
+    - `v)*L*_F0<}@H0>F49023@FE0#@EN`
+    
   - [Morse](https://www.dcode.fr/morse-code)
     - `-.. -.-. --- -.. . / -- --- .-. ... .`
     
