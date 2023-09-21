@@ -26,8 +26,9 @@
 
   - `U2FsdGVkX1/+ydnDPowGbjjJXhZxm2MP2AgI`
 
-### Chinese code
-
-  - [lookup-table](http://code.mcdvisa.com/) `606046152623600817831216121621196386`
-
-
+### Examples
+  - [UUnencode](https://www.dcode.fr/uu-encoding)
+    - `89FQA9WMD<V1A<V1S83DY.#<W3$Q,2TM]`
+    
+  - [Chinese code](http://code.mcdvisa.com/)
+    - `606046152623600817831216121621196386`
