@@ -53,6 +53,9 @@
     - `zip2john <filename.zip> > hash.txt`
     - `john -w=rockyou.txt hash.txt`
     - `john --show hash.txt`
+
+  - Edit hex byte to get some file for `zip`
+    - `50 4B 03 04 14 00 09 00` to `50 4B 03 04 14 00 00 00`
     
 ### Document
 
