@@ -51,3 +51,9 @@ Common attacks
   ```
   
 - `dp` is given [code](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Cryptography/Asymmetric%20cipher/src/rsa/dp_is_given.py)
+
+- Read `pub.key`
+  ```python
+  from Crypto.PublicKey import RSA
+  RSA.importKey(open('pub.key','r').read())
+  ```
