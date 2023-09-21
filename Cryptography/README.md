@@ -30,6 +30,9 @@
   - [rot-47](https://www.dcode.fr/rot-47-cipher)
     - `v)*L*_F0<}@H0>F49023@FE0#@EN`
     
+  - [playfair](https://www.boxentriq.com/code-breaking/playfair-cipher)
+    - `Dncnoqqfliqrpgeklwmppu`
+  
   - [Morse](https://www.dcode.fr/morse-code)
     - `-.. -.-. --- -.. . / -- --- .-. ... .`
     
