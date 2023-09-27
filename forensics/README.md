@@ -29,7 +29,7 @@
 
   - Lot of useful tools.
 
-- [`pdf-repair`](https://www.pdf-online.com/osa/repair.aspx)`
+- [`pdf-repair`](https://www.pdf-online.com/osa/repair.aspx)
 
   - Online tool to fix given pdf file.
 
@@ -95,11 +95,18 @@
   - `sudo mount /dev/mapper/out_iso /mnt`
 
 - `Volatility`
-
-  Show imageinfo of given file
+  
+  Get imageinfo of given file
 
   - `volatility -f [FILENAME] imageinfo`
 
+  Build custom profile
+
+  ```sh
+  zip volatility/plugins/overlays/linux/${OS}_${KVER}_profile.zip tools/linux/module.dwarf /usr/src/kernels/*el6.x86_64/System.map
+  cp /volatility/volatility/plugins/overlays/linux/${OS}_${KVER}_profile.zip 
+  ```
+  
   Showing windows info
 
   - `volatility -f [FILENAME] windows.info`
