@@ -1,3 +1,76 @@
+## Volatility 2
+
+  - **Get imageinfo of given file**
+
+    - `volatility -f [FILENAME] imageinfo`
+  
+  - **Showing windows info**
+
+    - `volatility -f [FILENAME] windows.info`
+
+  - **Show currently running process**
+
+    - `volatility -f [FILENAME] --profile=[PROFILE] pslist`
+
+  - **Dumping currently running process by PID**
+
+    - `volatility -f [FILENAME] --profile=[PROFILE] procdump -p [PID] -D dump/`
+
+  - **Locate the virtual addresses of registry hives in memory**
+
+    - `volatility -f [FILENAME] --profile=[PROFILE] hivelist`
+    - `volatility -f [FILENAME] --profile=[PROFILE] lsadump`
+    - `volatility -f [FILENAME] --profile=[PROFILE] hashdump`
+    - `volatility -f [FILENAME] --profile=[PROFILE] netscan`
+    - `volatility -f [FILENAME] --profile=[PROFILE] shellbags`
+    - `volatility -f [FILENAME] --profile=[PROFILE] clipboard`
+    - `volatility -f [FILENAME] --profile=[PROFILE] pstree`
+    - `volatility -f [FILENAME] --profile=[PROFILE] filescan`
+    - `volatility -f [FILENAME] --profile=[PROFILE] consoles`
+
+  - **Extract file from filescan output**
+
+    - `volatility -f [FILENAME] --profile=[PROFILE] dumpfiles -Q [OFFSET] -D .`
+
+  - **Extract and decrypt cached domain credentials stored in the registry**
+
+    - `volatility -f [FILENAME] --profile=[PROFILE] hashdump -y [ADDRESS-OF-REGISTER-SYSTEM] -s [ADDRESS-OF-SYSTEMROOT-SAM]`
+
+
+  - **Build custom profile (linux)**
+
+    ```sh
+    zip profile.zip module.dwarf System.map-4.15.0-213-generic
+    cp volatility/volatility/plugins/overlays/linux/profile.zip
+    ```
+
+  - **Get dump profile name (linux)**
+
+    - `python2 vol.py -f dump.mem --info`
+
+  - **Show supported plugin commands (linux)**
+
+    - `python2 vol.py -f dump.mem --profile=Linuxubuntux64 --help`
+
+  - **Enumerate files (linux)**
+
+    - `python2 vol.py -f dump.mem --profile=Linuxubuntux64 linux_enumerate_files`
+   
+  - **Recover file (linux)**
+    - Get inode of the file
+      - `python2 vol.py -f dump.mem --profile=Linuxubuntux64 linux_find_file -F /home/zangi/zan/needed.java`
+
+    - **Recover file using inode**
+      - `python2 vol.py -f dump.mem --profile=Linuxubuntux64 linux_find_file -i 0xffff95d2b7d2b890 -O out`
+      
+## Volatility 3
+
+  - **Dump file**
+
+    - `vol.py -f [FILENAME] -o [/path/to/dir] windows.dumpfiles`
+    - `vol.py -f [FILENAME] -o [/path/to/dir] windows.dumpfiles ‑‑virtaddr [OFFSET]`
+    - `vol.py -f [FILENAME] -o [/path/to/dir] windows.dumpfiles ‑‑physaddr [OFFSET]`
+
 ### PNG File
 
 - `Magic numbers`
@@ -19,7 +92,7 @@
   - [writeup](https://github.com/Dvd848/CTFs/blob/master/2019_picoCTF/m00nwalk.md)
   - [tutorial](https://ourcodeworld.com/articles/read/956/how-to-convert-decode-a-slow-scan-television-transmissions-sstv-audio-file-to-images-using-qsstv-in-ubuntu-18-04)
 
-### PDF File
+## PDF File
 
 - `pdfinfo`
 
@@ -41,7 +114,7 @@
   - [`pdfextract`](https://github.com/CrossRef/pdfextract)
   - `polyfile --html voip.html [FILENAME].pdf`
 
-### Archive File
+## Archive File
 
 - Crack password protected zip file
 
@@ -56,11 +129,11 @@
   - Edit hex byte to get some file for `zip`
     - `50 4B 03 04 14 00 09 00` to `50 4B 03 04 14 00 00 00`
 
-### Document
+## Document
 
 - `olevba` detect VBA Macros, extract their source code in clear text.
 
-### GIF File Forensics
+## GIF File Forensics
 
 - `Split images`
 
@@ -68,12 +141,12 @@
   - `ls *.png | while read filename; do convert $filename -transparent white $filename; done`
   - `ls *.png | while read filename; do convert $filename 00.png -gravity center -composite 00.png; done`
 
-### Log files
+## Log files
 
 - Windows log file `.evtx`
   - Analyze using [`chainsaw`](https://github.com/WithSecureLabs/chainsaw)
 
-### Disk File
+## Disk File
 
 - `.img`
 
@@ -93,56 +166,3 @@
   - LUKS encrypted file, we have to find password to extract.
   - `sudo cryptsetup open --type luks glaf.iso out_iso`
   - `sudo mount /dev/mapper/out_iso /mnt`
-
-- `Volatility`
-  
-  Get imageinfo of given file
-
-  - `volatility -f [FILENAME] imageinfo`
-
-  Build custom profile
-
-  ```sh
-  zip volatility/plugins/overlays/linux/${OS}_${KVER}_profile.zip tools/linux/module.dwarf /usr/src/kernels/*el6.x86_64/System.map
-  cp /volatility/volatility/plugins/overlays/linux/${OS}_${KVER}_profile.zip 
-  ```
-  
-  Showing windows info
-
-  - `volatility -f [FILENAME] windows.info`
-
-  Show currently running process
-
-  - `volatility -f [FILENAME] --profile=[PROFILE] pslist`
-
-  Dumping currently running process by PID
-
-  - `volatility -f [FILENAME] --profile=[PROFILE] procdump -p [PID] -D dump/`
-
-  Locate the virtual addresses of registry hives in memory
-
-  - `volatility -f [FILENAME] --profile=[PROFILE] hivelist`
-  - `volatility -f [FILENAME] --profile=[PROFILE] lsadump`
-  - `volatility -f [FILENAME] --profile=[PROFILE] hashdump`
-  - `volatility -f [FILENAME] --profile=[PROFILE] netscan`
-  - `volatility -f [FILENAME] --profile=[PROFILE] shellbags`
-  - `volatility -f [FILENAME] --profile=[PROFILE] clipboard`
-  - `volatility -f [FILENAME] --profile=[PROFILE] pstree`
-  - `volatility -f [FILENAME] --profile=[PROFILE] filescan`
-  - `volatility -f [FILENAME] --profile=[PROFILE] consoles`
-
-  Extract file from filescan output
-
-  - `volatility -f [FILENAME] --profile=[PROFILE] dumpfiles -Q [OFFSET] -D .`
-
-  Extract and decrypt cached domain credentials stored in the registry
-
-  - `volatility -f [FILENAME] --profile=[PROFILE] hashdump -y [ADDRESS-OF-REGISTER-SYSTEM] -s [ADDRESS-OF-SYSTEMROOT-SAM]`
-
-- `Volatility 3`
-
-  **Dump file**
-
-  - `vol.py -f [FILENAME] -o [/path/to/dir] windows.dumpfiles`
-  - `vol.py -f [FILENAME] -o [/path/to/dir] windows.dumpfiles ‑‑virtaddr [OFFSET]`
-  - `vol.py -f [FILENAME] -o [/path/to/dir] windows.dumpfiles ‑‑physaddr [OFFSET]`
