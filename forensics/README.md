@@ -85,6 +85,13 @@
 
   - We can use SUB, MUL, ... `compare 00000000.png 00000725.png -compose src diff.png`
 
+
+### Browser related
+
+- [`firefox_decrypt`](https://github.com/unode/firefox_decrypt)
+
+  - Firefox Decrypt is a tool to extract passwords from Mozilla (Firefox™, Waterfox™, Thunderbird®, SeaMonkey®) profiles
+   
 ### Wav File
 
 - `SSTV`
