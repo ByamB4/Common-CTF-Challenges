@@ -7,7 +7,11 @@
 - Registry `MS Windows registry file, NT/2000 or above`
 
   - Viewer [`registry-spy`](https://github.com/andyjsmith/Registry-Spy)
-  
+
+- RDP Bitmap Cache
+
+  - [`bmc-tools`](https://github.com/ANSSI-FR/bmc-tools)
+
 ## PNG File
 
 - `Magic numbers`
