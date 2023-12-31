@@ -4,7 +4,7 @@
 
   - Analyze using [`chainsaw`](https://github.com/WithSecureLabs/chainsaw)
 
-- Registry
+- Registry `MS Windows registry file, NT/2000 or above`
 
   - Viewer [`registry-spy`](https://github.com/andyjsmith/Registry-Spy)
   
