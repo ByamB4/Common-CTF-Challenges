@@ -11,6 +11,10 @@
 - RDP Bitmap Cache
 
   - [`bmc-tools`](https://github.com/ANSSI-FR/bmc-tools)
+ 
+- Windows Management Instrumentation (WMI)
+
+  - [`WMI Forensics`](https://github.com/davidpany/WMI_Forensics)    
 
 ## PNG File
 
