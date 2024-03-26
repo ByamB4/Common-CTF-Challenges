@@ -41,6 +41,10 @@
 
   - `./zip2john <filename> > crackme.txt`
   - `./john --wordlist=/usr/share/wordlists/rockyou.txt crackme.txt`
+ 
+- [`zip-crc-cracker`](https://github.com/kmyk/zip-crc-cracker)
+
+  - If file size around 4 byte 
 
 ### Web related
 
