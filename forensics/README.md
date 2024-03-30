@@ -16,7 +16,7 @@
 
   - [`WMI Forensics`](https://github.com/davidpany/WMI_Forensics)    
 
-## PNG File
+## Image File
 
 - `Magic numbers`
 
@@ -31,6 +31,7 @@
   - We can use SUB, MUL, ... `compare 00000000.png 00000725.png -compose src diff.png`
  
 - `aperisolve`[https://www.aperisolve.com/]
+- `stegseek`[https://github.com/RickdeJager/stegseek]
 
 
 ## Browser related
