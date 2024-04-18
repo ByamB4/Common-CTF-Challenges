@@ -113,6 +113,8 @@
   - `fls -o 0000002048 dds2-alpine.flag.img`
   - `fls -o 0000002048 dds2-alpine.flag.img 18290`
   - `icat -o 0000002048 dds2-alpine.flag.img 18291`
+ 
+  - `qemu-system-x86_64 [IMAGE].img`
 
 - `.iso`
 
