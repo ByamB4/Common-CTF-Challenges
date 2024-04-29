@@ -42,6 +42,8 @@
 
 ## Image
 
+- [`aperisolve`](https://www.aperisolve.com/) all in one tool
+
 - `steghide` program that is able to hide data in various kinds of image and audio-files
 
   - `steghide extract -sf <filename>`
