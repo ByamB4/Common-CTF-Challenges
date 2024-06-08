@@ -57,7 +57,7 @@
 
 - [`pdfminer`](https://github.com/euske/pdfminer)
 
-  - Lot of useful tools.
+  - `pdf2txt.py [INPUT].pdf`
 
 - [`pdf-repair`](https://www.pdf-online.com/osa/repair.aspx)
 
