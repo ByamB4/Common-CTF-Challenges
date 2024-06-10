@@ -12,6 +12,10 @@
 
 - [`Rail fence`](https://www.dcode.fr/rail-fence-cipher)
   - `Ta _7N6DE7hlg:W3D_H3C31N__BD4ef sHR053F38N43D47 i33___NC`
+ 
+- [`Scytale cipher`](https://www.dcode.fr/scytale-cipher)
+
+  - `hsggna0stiaeaetteyc4ehvdatyporwtyseefregrstaf_etposruouoy{qnirroiybrbs5edmothssavetc8hebhwuibihh72eyaoepmlvoet9lobulpkyenf4xpulsloinmelllisyassnousa31mebneedtctg_}eeedeboghbihpatesyyfolus1lnhnooeliotb5ebidfueonnactayseyl`
 
 ### Symmetric cryptography
 
