@@ -12,6 +12,13 @@
 
   - `hashcat -m 20 -a 0 $(echo 'dd679302de4ce83d961f95a1facca536:SALT') /usr/share/wordlists/rockyou.txt`
 
+### Wireshark
+
+- `IEEE 802.11`
+
+  - Use [https://hashcat.net/cap2hashcat/](https://hashcat.net/cap2hashcat/)
+  - `hashcat -m 22000 [INPUT_FILE] rockyou.txt`
+
 ### Database
 
 - `Keepass`
