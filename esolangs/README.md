@@ -1,5 +1,9 @@
 ## Esoteric programming languages
 
+- [`Brainfuck`]
+
+  - [`Debugger`](https://gramthanos.github.io/BrainFLAG/)
+    
 - [`Malbolge`](http://malbolge.doleczek.pl/)
 
   - **Example**
