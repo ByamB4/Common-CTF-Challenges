@@ -103,8 +103,11 @@
 
 - `.img`
 
-  - List file and directory names in a disk image. `fls`
-
+  - `fls`
+    - `fls [FILE].img`
+    - `fls [FILE].img [UID]`
+    - `icat [FILE].img [UID]`
+  
   - [DiskInternals Raid Recovery](https://www.diskinternals.com/raid-recovery/)
 
 - `DOS/MBR boot sector`
