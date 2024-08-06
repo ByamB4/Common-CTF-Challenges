@@ -1,3 +1,4 @@
-## Email
+## F* OSINT
 
-  - [epieos](https://epieos.com/)
+  - [Find by email](https://epieos.com/)
+  - [Reverse name lookup](https://whatsmyname.app/)
