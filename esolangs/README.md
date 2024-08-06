@@ -1,9 +1,10 @@
 ## Esoteric programming languages
 
-- [`Brainfuck`]
+- `Brainfuck`
 
   - [`Visualizer`](https://ashupk.github.io/Brainfuck/brainfuck-visualizer-master/index.html)
   - [`Debugger`](https://gramthanos.github.io/BrainFLAG/)
+  - [`convert to c`](https://github.com/paulkaefer/bftoc/tree/master)
   
 - [`Malbolge`](http://malbolge.doleczek.pl/)
 
