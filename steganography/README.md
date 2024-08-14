@@ -95,6 +95,8 @@
 
 - [LSB](https://github.com/sniperline047/Audio-Steganography)
 
+- [deepsound.exe](https://github.com/oneplus-x/DeepSound-2.0) is a steganography tool and audio converter that hides secret data into audio files.
+
 ## TODO
 
 - stegoveritas
