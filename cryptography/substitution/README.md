@@ -42,7 +42,11 @@
 - [`Dotsies`](https://www.dcode.fr/dotsies-writing)
       
   - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/cryptography/substitution/assets/img/dotsies_font.png" width="500">
- 
+
+- [`Flag Semaphore`](https://www.dcode.fr/semaphore-flag)
+      
+  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/cryptography/substitution/assets/img/semaphore-flag.png" width="500">
+
 - [`Keyboard shift`](https://www.dcode.fr/keyboard-shift-cipher)
   
   - Example shifted with 1 key
