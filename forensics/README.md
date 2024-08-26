@@ -36,6 +36,8 @@
   
   - `stegseek [IMAGE].jpg rockyou.txt`
 
+- [`Hide data in height`](https://cyberhacktics.com/hiding-information-by-changing-an-images-height/)
+
 ## Browser related
 
 - [`firefox_decrypt`](https://github.com/unode/firefox_decrypt)
