@@ -4,6 +4,7 @@
 
   - `stegsnow -C -p <password> secret.txt`
   - [`stegcracker`](https://github.com/0xHasanM/SnowCracker) cracks snow password
+  - [`snow`](https://github.com/mattkwan-zz/snow)
 
 - [`Binary character shape`](https://www.dcode.fr/binary-character-shape)
 
