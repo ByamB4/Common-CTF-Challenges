@@ -2,9 +2,9 @@
 
 - `White space`
 
-  - `stegsnow -C -p <password> secret.txt`
+  - `stegsnow -C -p [PASSWORD] [INPUT].txt`
   - [`stegcracker`](https://github.com/0xHasanM/SnowCracker) cracks snow password
-  - [`snow`](https://github.com/mattkwan-zz/snow)
+  - `stegsnow -C [INPUT].txt`
 
 - [`Binary character shape`](https://www.dcode.fr/binary-character-shape)
 
