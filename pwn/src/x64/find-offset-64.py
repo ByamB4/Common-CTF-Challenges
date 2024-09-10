@@ -1,8 +1,6 @@
 from pwn import *
 
-FILENAME = REDACTED
-
-elf = context.binary = ELF(FILENAME, checksec=False)
+elf = context.binary = ELF('challenge', checksec=False)
 
 context.log_level = 'debug'
 
