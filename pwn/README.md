@@ -6,7 +6,7 @@
 
 > No PIE: Virtual address it should use and keeps its memory layout quite static
 
-> File descriptor: input - 0, output - 1, error - 2
+> File descriptor: input: 0, output: 1, error: 2
 
 ### Syscall table
 
@@ -22,7 +22,7 @@
 
 - Bypass `strcmp`
 
-  - Strcmp stops at null byte. **\x00**
+  - Stops at null byte. `\x00`
 
 ### GDB
 
