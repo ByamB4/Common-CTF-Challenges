@@ -40,7 +40,11 @@
 
 - **Decompile `.pyc` file**
 
+  - [`pylingual.io`](https://pylingual.io/)
   - [`pycdc`](https://github.com/zrax/pycdc)
+  - `uncompyle6`
+  - `decompyle3`
+  - [`stegosaurus`](https://bitbucket.org/jherron/stegosaurus.git)
 
 - **Capa**
 
