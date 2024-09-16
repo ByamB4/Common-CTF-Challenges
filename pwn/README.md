@@ -24,8 +24,15 @@
 
   - Stops at null byte. `\x00`
 
+### Shellcode
+
+- Only alphabets + digits
+  - [`https://github.com/TaQini/alpha3`](https://github.com/TaQini/alpha3)
+    - `python2 ALPHA3.py x64 ascii mixedcase rax --input='sh' > x64.sh`
+
 ### GDB
 
 - `Pipe python output`
 
   - `r < <(python -c "print '\x41' * 500")`
+ 
