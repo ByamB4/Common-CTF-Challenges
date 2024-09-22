@@ -46,6 +46,12 @@ print("".__class__.__mro__[1].__subclasses__())
 
 ```
 
+- Use [`italic`](https://lingojam.com/ItalicTextGenerator) font to bypass filter
+
+```
+𝘱𝘳𝘪𝘯𝘵(𝘧𝘭𝘢𝘨)
+```
+
 ## Ruby Command Executing
 
 - `open("| ls")`
