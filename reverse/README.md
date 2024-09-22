@@ -61,3 +61,7 @@
 - **Godot**
 
   - [online-tool](https://github.com/bruvzg/gdsdecomp)
+ 
+- **Lua**
+
+  - [https://luadec.metaworm.site/](https://luadec.metaworm.site/)
