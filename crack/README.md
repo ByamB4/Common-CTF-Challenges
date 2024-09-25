@@ -62,6 +62,13 @@
     - `echo 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...' > jwt.hash`
     - `hashcat jwt.hash -m 16500 rockyou.txt`
 
+
+### PDF
+
+- [`pdfcrack`](https://github.com/alitrack/PDFCrack)
+
+  - `pdfcrack --wordlist=rockyou.txt crackme.pdf`
+    
 ### Private key
 
 - [`ssh2john`](https://github.com/magnumripper/JohnTheRipper.git)
