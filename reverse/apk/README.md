@@ -10,6 +10,7 @@
 
   ```bash
   apktool d [NAME].apk
-  keytool -genkey -v -keystore release.keystore -alias release.keystore.alias -keyalg RSA -keysize 2048 -validity 3650
-  ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks release.keystore [NAME].apk
+  apktool b [FOLDER] -o updated.apk
+  keytool -genkey -v -keystore key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias chall
+  apksigner sign --ks key.jks updated.apk
   ```
