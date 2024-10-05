@@ -1,7 +1,9 @@
 ## Frida
 
+- Run server
+  - `cd /data/local/tmp; ./frida-server &`
+  
 - Show installed apps
-
   - `frida-ps -Uai`
 
 ## Apktool
