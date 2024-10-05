@@ -5,6 +5,7 @@ import gdb
 from string import *
 
 gdb.execute('set pagination off')
+gdb.execute('set confirm off')
 gdb.execute('file checker')
 gdb.execute('b *main+170')
 
