@@ -5,3 +5,8 @@
 - [LES (Linux Exploit Suggester)](https://github.com/mzet-/linux-exploit-suggester)
 - [Linux Smart Enumeration](https://github.com/diego-treitos/linux-smart-enumeration)
 - [Linux Priv Checker](https://github.com/linted/linuxprivchecker)
+
+
+## Find SUID binaries
+
+  - `find / -perm -4000 2>/dev/null`
