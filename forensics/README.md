@@ -211,3 +211,8 @@
   - `apktool b [FOLDER_NAME] -o updated.apk`
   - `apksigner sign --ks key.jks updated.apk`
   - [uber-apk-signer](https://github.com/patrickfav/uber-apk-signer)
+
+### React native Hermes bytecode [hbc-tool](https://github.com/P1sec/hermes-dec)
+  - `hbc-file-parser index.android.bundle out.hasm`
+  - `hbc-disassembler index.android.bundle out.dis`
+  - `hbc-decompiler index.android.bundle out.js`
