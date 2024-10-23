@@ -216,3 +216,8 @@
   - `hbc-file-parser index.android.bundle > out.hasm`
   - `hbc-disassembler index.android.bundle out.dis`
   - `hbc-decompiler index.android.bundle out.js`
+
+
+## Roblox
+
+  - [show old version/source code](https://github.com/PuruSinghvi/CTF-Writeups/tree/main/SunshineCTF%202024/Forensics/Rogue%20Robloxians)
