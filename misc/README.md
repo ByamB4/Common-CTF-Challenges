@@ -44,4 +44,8 @@
 
   - Can save your note with password protected url looks like `LX2gkn81`
 
-# TODO
+## Git
+
+  ### Show full history
+
+  - `git log --patch --follow -- text.txt > full_history.txt`
