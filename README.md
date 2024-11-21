@@ -3,7 +3,7 @@
 Welcome to the Common CTF Challenges GitHub repository! Our goal is to provide individuals with a comprehensive set of tools and resources to improve their skills in Capture the Flag (CTF) competitions.
 
 ## Features
-Our repository includes the following features:
+This repository includes the following features:
 - A comprehensive guide on how to use our tools to solve common CTF challenges.
 - Detailed explanations on how to install and run each tool.
 - Tips and tricks on how to solve the challenges.
