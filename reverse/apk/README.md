@@ -6,13 +6,10 @@
 - Show installed apps
   - `frida-ps -Uai`
 
-## Apktool
+### Rebuilding apk file
 
-- Rebuild apk file
-
-  ```bash
-  apktool d [NAME].apk
-  apktool b [FOLDER] -o updated.apk
-  keytool -genkey -v -keystore key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias chall
-  apksigner sign --ks key.jks updated.apk
-  ```
+  - `keytool -genkey -v -keystore key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias chall` 
+  - `apktool d [INPUT].apk`
+  - `apktool b [FOLDER_NAME] -o updated.apk`
+  - `apksigner sign --ks key.jks updated.apk`
+  - [uber-apk-signer](https://github.com/patrickfav/uber-apk-signer)
