@@ -202,15 +202,6 @@
     - `vol.py -f [FILENAME] -o [/path/to/dir] windows.dumpfiles ‑‑virtaddr [OFFSET]`
     - `vol.py -f [FILENAME] -o [/path/to/dir] windows.dumpfiles ‑‑physaddr [OFFSET]`
 
-## APK
-
-### Rebuilding apk file
-
-  - `keytool -genkey -v -keystore key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias chall` 
-  - `apktool d [INPUT].apk`
-  - `apktool b [FOLDER_NAME] -o updated.apk`
-  - `apksigner sign --ks key.jks updated.apk`
-  - [uber-apk-signer](https://github.com/patrickfav/uber-apk-signer)
 
 ### React native Hermes bytecode [hbc-tool](https://github.com/P1sec/hermes-dec)
   - `hbc-file-parser index.android.bundle > out.hasm`
