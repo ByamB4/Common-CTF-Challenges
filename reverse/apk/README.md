@@ -5,6 +5,9 @@
   
 - Show installed apps
   - `frida-ps -Uai`
+ 
+- Call function
+  - [frida.js](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/reverse/src/frida_call_function.js)
 
 ### Rebuilding apk file
 
