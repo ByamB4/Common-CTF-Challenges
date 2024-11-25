@@ -65,3 +65,7 @@
 - **Lua**
 
   - [https://luadec.metaworm.site/](https://luadec.metaworm.site/)
+ 
+- **Convert asm to binary**
+
+  - `gcc -c chall.s -o chall.o -masm=intel`
