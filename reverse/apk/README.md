@@ -16,3 +16,7 @@
   - `apktool b [FOLDER_NAME] -o updated.apk`
   - `apksigner sign --ks key.jks updated.apk`
   - [uber-apk-signer](https://github.com/patrickfav/uber-apk-signer)
+
+### Hook function
+
+  - `frida -U -f mn.chall.flag -l hook.js`
