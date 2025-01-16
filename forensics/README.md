@@ -105,6 +105,10 @@
 
 ## Disk File
 
+- `EWF/Expert Witness/EnCase`
+
+  - [`Autospy`](https://www.autopsy.com/)
+
 - `.img`
 
   - `fls`
