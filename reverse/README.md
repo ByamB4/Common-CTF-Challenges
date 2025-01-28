@@ -65,6 +65,10 @@
 - **Lua**
 
   - [https://luadec.metaworm.site/](https://luadec.metaworm.site/)
+
+- **Rust/Go**
+
+  - [https://github.com/h311d1n3r/Cerberus](https://github.com/h311d1n3r/Cerberus)
  
 - **Convert asm to binary**
 
