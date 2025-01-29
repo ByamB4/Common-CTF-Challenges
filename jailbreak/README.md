@@ -10,6 +10,7 @@
   "";id
   ; id
   `id`
+  |id
   ```
 - Whitespace
   ```
