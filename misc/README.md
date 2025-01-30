@@ -49,3 +49,7 @@
   ### Show full history
 
   - `git log --patch --follow -- text.txt > full_history.txt`
+
+  ### Extract all files
+
+  - [extractor](https://github.com/internetwache/GitTools/tree/master/Extractor)
