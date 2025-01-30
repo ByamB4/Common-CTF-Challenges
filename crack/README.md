@@ -23,7 +23,11 @@
 
 - `Keepass`
 
-  - `python [code.py](https://github.com/ByamB4/Capture-The-Flag/blob/master/Cracking/src/keepass2john.py) FILE.kdb > crackme`
+  - **John**
+    - `keepass2john databse > crack.hash`
+    - `john crack.hash --format=keepass --wordlist=rockyou.txt`
+
+  - **Hashcat**
     - `hashcat -a 0 -m 13400 --show -o out crackme rockyou.txt --force`
 
 ### Service
