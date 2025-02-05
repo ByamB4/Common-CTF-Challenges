@@ -84,10 +84,8 @@
 
 - [`npiet`](https://www.bertnase.de/npiet/npiet-execute.php) execute program and shows result.
 
-  - Example preview
-
-    ![npiet-hello.gif](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Steganography/static/img/npiet_hello.gif)
-
+  ![npiet-hello.gif](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/steganography/assets/img/npiet_hello.gif)
+                       
 - [`openstego`](https://www.openstego.com/)
 
 ## Audio
