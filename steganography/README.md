@@ -88,6 +88,8 @@
 
     ![npiet-hello.gif](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/Steganography/static/img/npiet_hello.gif)
 
+- [`openstego`](https://www.openstego.com/)
+
 ## Audio
 
 - [Audacity](https://www.audacityteam.org/) upload your file then view spectogram data
