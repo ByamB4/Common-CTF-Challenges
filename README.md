@@ -9,3 +9,8 @@ This repository includes the following features:
 - Tips and tricks on how to solve the challenges.
 - Tools covering a wide range of challenges, including cryptography, steganography, web exploitation, and reverse engineering.
 - Suitable for beginners and experienced CTF players.
+
+
+## Interesting blogs
+
+- [https://frereit.de/](https://frereit.de/)
