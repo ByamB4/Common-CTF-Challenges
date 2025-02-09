@@ -11,6 +11,6 @@ This repository includes the following features:
 - Suitable for beginners and experienced CTF players.
 
 
-## Interesting blogs
+## Cool blogs
 
 - [https://frereit.de/](https://frereit.de/)
