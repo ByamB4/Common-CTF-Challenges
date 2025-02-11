@@ -57,6 +57,7 @@
     - `volatility -f [FILENAME] --profile=[PROFILE] pstree`
     - `volatility -f [FILENAME] --profile=[PROFILE] filescan`
     - `volatility -f [FILENAME] --profile=[PROFILE] consoles`
+    - `volatility -f [FILENAME] --profile=[PROFILE] cmdscan`
 
   - **Extract file from filescan output**
 
