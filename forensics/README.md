@@ -101,6 +101,9 @@
     - `vol.py -f [FILENAME] -o [/path/to/dir] windows.dumpfiles ‑‑virtaddr [OFFSET]`
     - `vol.py -f [FILENAME] -o [/path/to/dir] windows.dumpfiles ‑‑physaddr [OFFSET]`
 
+## PCAP file
+
+- `tcpflow -r [INPUT].pcap`
 
 
 ## Windows
