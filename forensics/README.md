@@ -110,7 +110,8 @@
 ## PCAP file
 
 - `tcpflow -r [INPUT].pcap`
-- `USB traffic`
+- **USB traffic**
+  - [https://github.com/5h4rrk/CTF-Usb_Keyboard_Parser](https://github.com/5h4rrk/CTF-Usb_Keyboard_Parser)
   - [ctf-usb-keyboard-parser](https://github.com/TeamRocketIst/ctf-usb-keyboard-parser/tree/master)
 
 
