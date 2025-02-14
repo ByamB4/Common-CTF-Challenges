@@ -27,6 +27,9 @@
   - LUKS encrypted file, we have to find password to extract.
   - `sudo cryptsetup open --type luks glaf.iso out_iso`
   - `sudo mount /dev/mapper/out_iso /mnt`
+ 
+- Just use `strings`
+  - `xxd image | grep "F.L.A" -B 10 -A 10`
 
 ## Volatility 2
 
