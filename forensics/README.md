@@ -105,6 +105,8 @@
 ## PCAP file
 
 - `tcpflow -r [INPUT].pcap`
+- `USB traffic`
+  - [ctf-usb-keyboard-parser](https://github.com/TeamRocketIst/ctf-usb-keyboard-parser/tree/master)
 
 
 ## Windows
