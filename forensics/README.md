@@ -96,7 +96,11 @@
 
     - **Recover file using inode**
       - `python2 vol.py -f dump.mem --profile=Linuxubuntux64 linux_find_file -i 0xffff95d2b7d2b890 -O out`
-      
+  
+  - **Interesting files**
+
+    - `\Google\Chrome\User Data\Default\History`
+
 ## Volatility 3
 
   - **Dump file**
