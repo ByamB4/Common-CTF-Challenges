@@ -76,14 +76,9 @@
     
   - **Build custom profile (linux)**
 
-    ```sh
-    zip profile.zip module.dwarf System.map-4.15.0-213-generic
-    cp volatility/volatility/plugins/overlays/linux/profile.zip
-    ```
-
-  - **Get dump profile name (linux)**
-
-    - `python2 vol.py -f dump.mem --info`
+    - **Method 1 (use docker slow but confident)**
+      - [https://github.com/hanasuru/vol_profile_builder/blob/master/build.sh](https://github.com/hanasuru/vol_profile_builder/blob/master/build.sh)
+      - `./build.sh 18.04 4.15.0-213-generic`
 
   - **Show supported plugin commands (linux)**
 
