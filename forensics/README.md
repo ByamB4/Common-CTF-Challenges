@@ -33,6 +33,10 @@
 
 ## Volatility 2
 
+  - **Interesting files**
+
+    - `\Google\Chrome\User Data\Default\History`
+
   - **Get imageinfo of given file**
 
     - `volatility -f [FILENAME] imageinfo`
@@ -80,24 +84,20 @@
       - [https://github.com/hanasuru/vol_profile_builder/blob/master/build.sh](https://github.com/hanasuru/vol_profile_builder/blob/master/build.sh)
       - `./build.sh 18.04 4.15.0-213-generic`
 
-  - **Show supported plugin commands (linux)**
+  - **Show supported plugin commands**
 
     - `python2 vol.py -f dump.mem --profile=Linuxubuntux64 --help`
 
-  - **Enumerate files (linux)**
+  - **Enumerate files**
 
     - `python2 vol.py -f dump.mem --profile=Linuxubuntux64 linux_enumerate_files`
    
-  - **Recover file (linux)**
-    - Get inode of the file
+  - **Recover file**
+    - **Get inode of the file**
       - `python2 vol.py -f dump.mem --profile=Linuxubuntux64 linux_find_file -F /home/zangi/zan/needed.java`
 
     - **Recover file using inode**
       - `python2 vol.py -f dump.mem --profile=Linuxubuntux64 linux_find_file -i 0xffff95d2b7d2b890 -O out`
-  
-  - **Interesting files**
-
-    - `\Google\Chrome\User Data\Default\History`
 
 ## Volatility 3
 
