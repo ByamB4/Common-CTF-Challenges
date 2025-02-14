@@ -70,7 +70,10 @@
 
     - `volatility -f [FILENAME] --profile=[PROFILE] hashdump -y [ADDRESS-OF-REGISTER-SYSTEM] -s [ADDRESS-OF-SYSTEMROOT-SAM]`
 
-
+### Working with linux
+  - **Get linux version**
+    - `strings [FILE] | grep "Linux version"`
+    
   - **Build custom profile (linux)**
 
     ```sh
