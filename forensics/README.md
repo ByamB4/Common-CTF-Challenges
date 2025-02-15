@@ -113,6 +113,9 @@
   - [CTF-Usb_Keyboard_Parser](https://github.com/5h4rrk/CTF-Usb_Keyboard_Parser)
   - [ctf-usb-keyboard-parser](https://github.com/TeamRocketIst/ctf-usb-keyboard-parser)
 
+- **Extract DNS query**
+  - [pcap_extract_dns_query.py](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/forensics/src/pcap_extract_dns_query.py)
+  
 - `tcpflow -r [INPUT].pcap`
 
 ## Windows
