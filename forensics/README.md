@@ -107,8 +107,13 @@
   - **Common commands**
     - `volatility -f [FILENAME] --profile=[PROFILE] linux_bash`
     - `volatility -f [FILENAME] --profile=[PROFILE] linux_bash_env`
+    - `volatility -f [FILENAME] --profile=[PROFILE] linux_pstree`
     - `volatility -f [FILENAME] --profile=[PROFILE] linux_psaux`
     - `volatility -f [FILENAME] --profile=[PROFILE] linux_psenv`
+    - `volatility -f [FILENAME] --profile=[PROFILE] linux_malfind`
+    - `volatility -f [FILENAME] --profile=[PROFILE] linux_getcwd`
+    - `volatility -f [FILENAME] --profile=[PROFILE] linux_elfs`
+    - `volatility -f [FILENAME] --profile=[PROFILE] linux_volshell`
 
 ## Volatility 3
 
