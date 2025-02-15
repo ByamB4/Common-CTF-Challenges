@@ -53,9 +53,8 @@
 
     - `volatility -f [FILENAME] --profile=[PROFILE] procdump -p [PID] -D dump/`
 
-  - **Locate the virtual addresses of registry hives in memory**
+  - **Common commands**
 
-    - `volatility -f [FILENAME] --profile=[PROFILE] hivelist`
     - `volatility -f [FILENAME] --profile=[PROFILE] lsadump`
     - `volatility -f [FILENAME] --profile=[PROFILE] hashdump`
     - `volatility -f [FILENAME] --profile=[PROFILE] netscan`
@@ -71,8 +70,8 @@
     - `volatility -f [FILENAME] --profile=[PROFILE] dumpfiles -Q [OFFSET] -D .`
 
   - **Extract and decrypt cached domain credentials stored in the registry**
-
-    - `volatility -f [FILENAME] --profile=[PROFILE] hashdump -y [ADDRESS-OF-REGISTER-SYSTEM] -s [ADDRESS-OF-SYSTEMROOT-SAM]`
+    - `volatility -f [FILE] --profile=[PROFILE] hivelist`
+    - `volatility -f [FILE] --profile=[PROFILE] hashdump -y [ADDRESS-OF-REGISTER-SYSTEM] -s [ADDRESS-OF-SYSTEMROOT-SAM]`
 
 ### Working with linux
   - **Get linux version**
@@ -92,26 +91,29 @@
       
   - **Show supported plugin commands**
 
-    - `python2 vol.py -f dump.mem --profile=Linuxubuntux64 --help`
+    - `volatility -f [FILENAME] --profile=[PROFILE] --help`
 
   - **Enumerate files**
 
-    - `python2 vol.py -f dump.mem --profile=Linuxubuntux64 linux_enumerate_files`
+    - `volatility -f [FILENAME] --profile=[PROFILE] linux_enumerate_files`
    
   - **Recover file**
     - **Get inode of the file**
-      - `python2 vol.py -f dump.mem --profile=Linuxubuntux64 linux_find_file -F /home/zangi/zan/needed.java`
+      - `volatility -f [FILENAME] --profile=[PROFILE] linux_find_file -F /home/ctf/flag.txt`
 
     - **Recover file using inode**
-      - `python2 vol.py -f dump.mem --profile=Linuxubuntux64 linux_find_file -i 0xffff95d2b7d2b890 -O out`
+      - `volatility -f [FILENAME] --profile=[PROFILE] linux_find_file -i [INODE] -O out`
+     
+  - **Common commands**
+    - `volatility -f [FILENAME] --profile=[PROFILE] linux_bash`
 
 ## Volatility 3
 
   - **Dump file**
 
-    - `vol.py -f [FILENAME] -o [/path/to/dir] windows.dumpfiles`
-    - `vol.py -f [FILENAME] -o [/path/to/dir] windows.dumpfiles ‑‑virtaddr [OFFSET]`
-    - `vol.py -f [FILENAME] -o [/path/to/dir] windows.dumpfiles ‑‑physaddr [OFFSET]`
+    - `volatility3 -f [FILENAME] -o [/path/to/dir] windows.dumpfiles`
+    - `volatility3 -f [FILENAME] -o [/path/to/dir] windows.dumpfiles ‑‑virtaddr [OFFSET]`
+    - `volatility3 -f [FILENAME] -o [/path/to/dir] windows.dumpfiles ‑‑physaddr [OFFSET]`
 
 ## PCAP file
 
