@@ -106,6 +106,9 @@
      
   - **Common commands**
     - `volatility -f [FILENAME] --profile=[PROFILE] linux_bash`
+    - `volatility -f [FILENAME] --profile=[PROFILE] linux_bash_env`
+    - `volatility -f [FILENAME] --profile=[PROFILE] linux_psaux`
+    - `volatility -f [FILENAME] --profile=[PROFILE] linux_psenv`
 
 ## Volatility 3
 
