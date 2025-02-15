@@ -84,6 +84,12 @@
       - [https://github.com/hanasuru/vol_profile_builder/blob/master/build.sh](https://github.com/hanasuru/vol_profile_builder/blob/master/build.sh)
       - `./build.sh 18.04 4.15.0-213-generic`
 
+    - **Method 2 (custom profile)**
+      ```sh
+      zip profile.zip module.dwarf System.map-4.15.0-213-generic
+      cp volatility/volatility/plugins/overlays/linux/profile.zip
+      ```
+      
   - **Show supported plugin commands**
 
     - `python2 vol.py -f dump.mem --profile=Linuxubuntux64 --help`
