@@ -64,6 +64,7 @@
     - `volatility -f [FILENAME] --profile=[PROFILE] filescan`
     - `volatility -f [FILENAME] --profile=[PROFILE] consoles`
     - `volatility -f [FILENAME] --profile=[PROFILE] cmdscan`
+    - `volatility -f [FILENAME] --profile=[PROFILE] envars`
 
   - **Extract file from filescan output**
 
