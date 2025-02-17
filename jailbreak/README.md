@@ -22,16 +22,17 @@
 ## Python jailbreak
 
 - Error based
-
-```
-int(open('/etc/passwd', 'r').read())
-```
+  
+  ```
+  int(open('/etc/passwd', 'r').read())
+  ?????(????)
+  ```
 
 - python2 input **rce**
-
-```
-__import__('os').system('/etc/passwd')
-```
+  
+  ```
+  __import__('os').system('/etc/passwd')
+  ```
 
 - Escaping some validation
 
