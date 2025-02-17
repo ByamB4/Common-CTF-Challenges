@@ -32,18 +32,22 @@
 
 ### Examples
 
+- [base64-inflate](https://jgraph.github.io/drawio-tools/tools/convert.html)
+  - `84gKNbRQNXcKT/X0TM7PTQXy4hPzUlSNzOKdEiuLchJzEhNVzV0A`
+  
 - [rot-47](https://www.dcode.fr/rot-47-cipher)
   - `v)*L*_F0<}@H0>F49023@FE0#@EN`
+    
 - [playfair](https://www.boxentriq.com/code-breaking/playfair-cipher)
-
   - `Dncnoqqfliqrpgeklwmppu`
 
 - [Morse](https://www.dcode.fr/morse-code)
   - `-.. -.-. --- -.. . / -- --- .-. ... .`
+ 
 - [UUnencode](https://www.dcode.fr/uu-encoding)
   - `89FQA9WMD<V1A<V1S83DY.#<W3$Q,2TM]`
+ 
 - [Chinese code](http://code.mcdvisa.com/)
-
   - `606046152623600817831216121621196386`
 
 - [`SMS Packet Data Unit`](https://www.diafaan.com/sms-tutorials/gsm-modem-tutorial/online-sms-pdu-decoder/)
