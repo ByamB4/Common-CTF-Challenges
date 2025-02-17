@@ -1,22 +1,22 @@
-- Decode android pattern lock
+- **Decode android pattern lock**
 
   - [DecodeAndroidGesture](https://github.com/jzyra/DecodeAndroidGesture)
 
-- Recover data from pixelized image
+- **Recover data from pixelized image**
 
   - [Depix](https://github.com/beurtschipper/Depix)
     - [writeup](https://github.com/K1nd4SUS/CTF-Writeups/tree/main/dCTF_2021/Behind%20the%20scenes)
 
-- Extract numbers from an audio recording of the dial tones.
+- **Extract numbers from an audio recording of the dial tones**
 
   - [online-tool](https://unframework.github.io/dtmf-detect/#/)
   - [dtmf-decoder](https://github.com/ribt/dtmf-decoder)
 
-- Multi-tap Phone (SMS)
+- **Recover QR code**
 
-  - [dcode](https://www.dcode.fr/multitap-abc-cipher)
+  - [qrazybox](https://merri.cx/qrazybox/)
 
-- Keyboard layouts (workman, qwerty, dvorak, colemak)
+- **Keyboard layouts (workman, qwerty, dvorak, colemak)**
 
   - [https://awsm-tools.com/keyboard-layout](https://awsm-tools.com/keyboard-layout)
   - **Example**
@@ -28,7 +28,7 @@
     U'l hrcasbabukg, lpwr byak rcrw hrlpksbwabukg
     ```
 
-- G-code for CNC Machining
+- **G-code for CNC Machining**
 
   - [https://gcodetutor.com/cnc-program-simulator.html](https://gcodetutor.com/cnc-program-simulator.html)
   - **Example**
@@ -40,16 +40,14 @@
     G01 X318.3934 Y6.299265
     ```
 
-- [Pastebin](https://pastebin.com/)
+- [`pastebin`](https://pastebin.com/)
 
   - Can save your note with password protected url looks like `LX2gkn81`
 
-## Git
+### Git
 
-  ### Show full history
+  - **Show full history**
+    - `git log --patch --follow -- text.txt > full_history.txt`
 
-  - `git log --patch --follow -- text.txt > full_history.txt`
-
-  ### Extract all files
-
-  - [extractor](https://github.com/internetwache/GitTools/tree/master/Extractor)
+  - **Extract all files**
+    - [extractor](https://github.com/internetwache/GitTools/tree/master/Extractor)
