@@ -30,11 +30,11 @@
 
   - `U2FsdGVkX1/+ydnDPowGbjjJXhZxm2MP2AgI`
 
-### Examples
+### Examples (other)
 
 - [base64-inflate](https://jgraph.github.io/drawio-tools/tools/convert.html)
   - `84gKNbRQNXcKT/X0TM7PTQXy4hPzUlSNzOKdEiuLchJzEhNVzV0A`
-  
+
 - [rot-47](https://www.dcode.fr/rot-47-cipher)
   - `v)*L*_F0<}@H0>F49023@FE0#@EN`
     
@@ -52,3 +52,6 @@
 
 - [`SMS Packet Data Unit`](https://www.diafaan.com/sms-tutorials/gsm-modem-tutorial/online-sms-pdu-decoder/)
   - `00110000910000FF2E547419646687CFA0F41CA4032993D321D5B8414D9BD348D1397C1293CE63C458753AB3915028B44901`
+
+- [shadoks-cipher](https://www.dcode.fr/shadoks-numeral-system)
+  - BU ZO MEU BUGA BUBU BUZO BUMEU ZOGA ZOBU ZOZO`
