@@ -1,3 +1,69 @@
+### Symbol Substitution
+
+- `Alien predator language`
+
+  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/alien-predator.png" width="500">
+
+
+- [`Pigpen`](https://www.dcode.fr/pigpen-cipher)
+
+  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/pigpen.png" width="500">
+
+- [`Hexahue`](https://www.dcode.fr/hexahue-cipher)
+
+  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/hexahue.png" width="500">
+
+- [`Mary Stuart Code`](https://www.dcode.fr/mary-stuart-code)
+
+  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/mary-queen-of-scots.png" width="500">
+
+- [`Elder Futhark Rune`](https://www.dcode.fr/elder-futhark)
+
+  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/eldrfuthark.gif" width="500">
+
+- [`Alienese`](https://alienese.moxievillelabs.com/)
+  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/alien-predator.png" width="500">
+- [`Braille Alphabet`](https://www.dcode.fr/braille-alphabet)
+
+  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/braille-alphabet.jpg" width="500">
+
+- [`Birds on wire`](https://www.dcode.fr/birds-on-a-wire-cipher)
+
+  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/birdsonawire.jpg" width="500">
+
+- [`Betamaze cipher`](https://www.dcode.fr/betamaze-cipher)
+
+  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/betamaze.png" width="500">
+
+- [`Lunar alphabet`](https://www.dcode.fr/betamaze-cipher)
+
+  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/lunar-alphabet.png" width="500">
+
+- [`Dotsies`](https://www.dcode.fr/dotsies-writing)
+
+  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/dotsies_font.png" width="500">
+
+- [`Flag Semaphore`](https://www.dcode.fr/semaphore-flag)
+
+  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/semaphore-flag.png" width="500">
+
+- [`Music Sheet cipher`](https://www.dcode.fr/music-sheet-cipher)
+
+  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/music_sheet_cipher.png" width="500">
+
+- [`Keyboard shift`](https://www.dcode.fr/keyboard-shift-cipher)
+
+  - Example shifted with 1 key
+
+  ```
+  :ptr, O[di, od do,[;u fi,,u yrcy pg yjr [tomyomh smf yu[rdryyomh omfidytu/ :ptr, O[di, jsd nrrm yjr omfidytu\d dysmfstf fi,,u yrcy rbrt domvr yjr 26--d. ejrm sm imlmpem [tomyrt yppl s hs;;ru pg yu[r smf dvts,n;rf oy yp ,slr s yu[r d[rvo,rm nppl/ Oy jsd ditbobrf mpy pm;u gobr vrmyitord. niy s;dp yjr ;rs[ omyp r;rvytpmov yu[rdryyomh. tr,somomh rddrmyos;;u imvjsmhrf/
+  ```
+
+### Numeral System
+
+- [`Cistercian Monk Numerals`](https://www.dcode.fr/cistercian-numbers)
+  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/cistercian-monk-numerals.jpg" width="500">
+
 ### Poly-Alphabetic Cipher
 
 - [`Vigenere Cipher`](https://www.dcode.fr/vigenere-cipher)
@@ -60,70 +126,4 @@
   - `00110000910000FF2E547419646687CFA0F41CA4032993D321D5B8414D9BD348D1397C1293CE63C458753AB3915028B44901`
 
 - [shadoks-cipher](https://www.dcode.fr/shadoks-numeral-system)
-  - BU ZO MEU BUGA BUBU BUZO BUMEU ZOGA ZOBU ZOZO`
-
-## Symbol Substitution
-
-- `Alien predator language`
-
-  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/alien-predator.png" width="500">
-
-
-- [`Pigpen`](https://www.dcode.fr/pigpen-cipher)
-
-  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/pigpen.png" width="500">
-
-- [`Hexahue`](https://www.dcode.fr/hexahue-cipher)
-
-  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/hexahue.png" width="500">
-
-- [`Mary Stuart Code`](https://www.dcode.fr/mary-stuart-code)
-
-  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/mary-queen-of-scots.png" width="500">
-
-- [`Elder Futhark Rune`](https://www.dcode.fr/elder-futhark)
-
-  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/eldrfuthark.gif" width="500">
-
-- [`Alienese`](https://alienese.moxievillelabs.com/)
-  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/alien-predator.png" width="500">
-- [`Braille Alphabet`](https://www.dcode.fr/braille-alphabet)
-
-  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/braille-alphabet.jpg" width="500">
-
-- [`Birds on wire`](https://www.dcode.fr/birds-on-a-wire-cipher)
-
-  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/birdsonawire.jpg" width="500">
-
-- [`Betamaze cipher`](https://www.dcode.fr/betamaze-cipher)
-
-  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/betamaze.png" width="500">
-
-- [`Lunar alphabet`](https://www.dcode.fr/betamaze-cipher)
-
-  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/lunar-alphabet.png" width="500">
-
-- [`Dotsies`](https://www.dcode.fr/dotsies-writing)
-
-  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/dotsies_font.png" width="500">
-
-- [`Flag Semaphore`](https://www.dcode.fr/semaphore-flag)
-
-  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/semaphore-flag.png" width="500">
-
-- [`Music Sheet cipher`](https://www.dcode.fr/music-sheet-cipher)
-
-  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/music_sheet_cipher.png" width="500">
-
-- [`Keyboard shift`](https://www.dcode.fr/keyboard-shift-cipher)
-
-  - Example shifted with 1 key
-
-  ```
-  :ptr, O[di, od do,[;u fi,,u yrcy pg yjr [tomyomh smf yu[rdryyomh omfidytu/ :ptr, O[di, jsd nrrm yjr omfidytu\d dysmfstf fi,,u yrcy rbrt domvr yjr 26--d. ejrm sm imlmpem [tomyrt yppl s hs;;ru pg yu[r smf dvts,n;rf oy yp ,slr s yu[r d[rvo,rm nppl/ Oy jsd ditbobrf mpy pm;u gobr vrmyitord. niy s;dp yjr ;rs[ omyp r;rvytpmov yu[rdryyomh. tr,somomh rddrmyos;;u imvjsmhrf/
-  ```
-
-## Numeral System
-
-- [`Cistercian Monk Numerals`](https://www.dcode.fr/cistercian-numbers)
-  - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/cistercian-monk-numerals.jpg" width="500">
+  - `BU ZO MEU BUGA BUBU BUZO BUMEU ZOGA ZOBU ZOZO`
