@@ -40,6 +40,9 @@
     G01 X318.3934 Y6.299265
     ```
 
+- **Punch card**
+  - [https://www.masswerk.at/keypunch/](https://www.masswerk.at/keypunch/)
+  
 - [`pastebin`](https://pastebin.com/)
 
   - Can save your note with password protected url looks like `LX2gkn81`
