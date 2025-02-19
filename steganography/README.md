@@ -1,92 +1,70 @@
-## Text
 
-- `White space`
+## Image
 
-  - `stegsnow -C -p [PASSWORD] [INPUT].txt`
-  - [`stegcracker`](https://github.com/0xHasanM/SnowCracker) cracks snow password
-  - `stegsnow -C [INPUT].txt`
+- [https://www.aperisolve.com/](https://www.aperisolve.com/)
 
-- [`Binary character shape`](https://www.dcode.fr/binary-character-shape)
+- [https://github.com/RickdeJager/stegseek](https://github.com/RickdeJager/stegseek)
 
-  - Example
-    ```
-    OI8I8o%o80bI8oO1bOPIbpIqodpIO81%PoOqIq/|\q1%1OdIqbP08\08dO|/88o||oq%IbqO8ddIddII81IO//OI88Ib8opIIp8oqpd%\pqbI|/bI
-    ```
+- [https://github.com/lukechampine/jsteg](https://github.com/lukechampine/jsteg)
 
-- [`Steg with base64`](https://github.com/hecky/stegb64)
+- [`openstego`](https://www.openstego.com/)
 
-  - Example
-    ```
-    PigngTnTtqWjrEFGdsSlrfQexoKfOhYyXkmkmxlq=
-    ```
+- **Slow Scan Televisio**
+  
+  - [https://ctftime.org/writeup/22354](https://ctftime.org/writeup/22354)
 
-- [`Twitter secret messages`](https://holloway.nz/steg/)
+- **Fast Fourier Transform**
 
-  - Example
-    ```
-    i haｄ a grｅａｔ daｙ at the ｂeaｃh! #sunshｉne             
-    ```
+  - [http://bigwww.epfl.ch/demo/ip/demos/FFT/](http://bigwww.epfl.ch/demo/ip/demos/FFT/)
 
-- `Zero width stegnography`
+- **Least Significant Bit**
 
-  - [online-tool](https://330k.github.io/misc_tools/unicode_steganography.html)
-  - [python-tool](https://github.com/enodari/zwsp-steg-py)
+  - [https://github.com/zed-0xff/zsteg](https://github.com/zed-0xff/zsteg)
 
-  - **Example**
-    ```
+  - [https://stylesuxx.github.io/steganography/](https://stylesuxx.github.io/steganography/)
+    
+  - `stegify -op decode -carrier cute_kittens.jpg -result hello`
+
+- **Windows**
+
+  - [Steg for windows](https://download.cnet.com/Steg/3000-2092_4-77792892.html)
+
+  - **Digital Invisible Ink Toolkit**
+    
+
+### Text
+
+- [https://www.dcode.fr/binary-character-shape](https://www.dcode.fr/binary-character-shape)
+
+  ```
+  OI8I8o%o80bI8oO1bOPIbpIqodpIO81%PoOqIq/|\q1%1OdIqbP08\08dO|/88o||oq%IbqO8ddIddII81IO//OI88Ib8opIIp8oqpd%\pqbI|/bI
+  ```
+
+- [https://github.com/hecky/stegb64](https://github.com/hecky/stegb64)
+
+  ```
+  PigngTnTtqWjrEFGdsSlrfQexoKfOhYyXkmkmxlq=
+  ```
+
+- [https://holloway.nz/steg/](https://holloway.nz/steg/)
+
+  ```
+  i haｄ a grｅａｔ daｙ at the ｂeaｃh! #sunshｉne             
+  ```
+
+- **Zero width stegnography**
+
+  - [https://330k.github.io/misc_tools/unicode_steganography.html](https://330k.github.io/misc_tools/unicode_steganography.html)
+ 
+  - [https://github.com/enodari/zwsp-steg-py](https://github.com/enodari/zwsp-steg-py)
+
+  ```
     &#8203;&#8203;&#8203;&#8203;&lrm;&rlm;&lrm;&#8203;&#8203;&#8203;&#8203;&zwnj;&zwj;&rlm;&#8203;
     &#8203;&#8203;&#8203;&lrm;&zwj;&rlm;&#8203;&#8203;&#8203;&#8203;&lrm;&zwj;&zwj;&#8203;&#8203;&#8203;
     &#8203;&rlm;&rlm;&#8203;&#8203;&#8203;&#8203;&#8203;&rlm;&lrm;&zwnj;&#8203;&#8203;&#8203;&#8203;&lrm;
     &#8203;&zwj;&#8203;&#8203;&#8203;&#8203;&zwj;&rlm;&zwj;&#8203;&#8203;&#8203;&#8203;&lrm;&#8203;&lrm;&#8203;
     &#8203;&#8203;&#8203;&zwnj;&rlm;&lrm;&#8203;&#8203;&#8203;&#8203;&lrm;&zwj;&lrm;&#8203;&#8203;&#8203;
-    ```
-
-## Image
-
-- [`aperisolve`](https://www.aperisolve.com/) all in one tool
-
-- `steghide` program that is able to hide data in various kinds of image and audio-files
-
-  - `steghide extract -sf <filename>`
-
-- [`stegseek`](https://github.com/RickdeJager/stegseek) fastest steghide password cracker
-
-  - `stegseek <filename> rockyou.txt`
-
-- [`zsteg`](https://github.com/zed-0xff/zsteg) use against least significant bit data in png and bmp
-
-  - `zsteg -a <filename>`
-
-- [`jsteg`](https://github.com/lukechampine/jsteg) another least significant bit tool extract data from jpg
-
-  - `jsteg reveal <in.jpg> <output>`
-
-- [`Slow Scan Television`](https://en.wikipedia.org/wiki/Slow-scan_television) send static image using only sound .wav
-
-  - [writeup](https://ctftime.org/writeup/22354)
-
-- `FFT`
-
-  - [http://bigwww.epfl.ch/demo/ip/demos/FFT/](http://bigwww.epfl.ch/demo/ip/demos/FFT/)
-
-- [`Least Significant Bit`](https://en.wikipedia.org/wiki/Bit_numbering#Least_significant_bit_in_digital_steganography)
-
-  - [https://stylesuxx.github.io/steganography/](https://stylesuxx.github.io/steganography/)
-  - `stegify -op decode -carrier cute_kittens.jpg -result hello`
-
-- [`Steg for windows`](https://download.cnet.com/Steg/3000-2092_4-77792892.html)
-
-  - http://diit.sourceforge.net/ Digital Invisible Ink Toolkit
-
-- `Powershell`
-
-  - [writeup](https://github.com/HHousen/PicoCTF-2021/blob/master/Forensics/Very%20very%20very%20Hidden/README.md)
-
-- [`npiet`](https://www.bertnase.de/npiet/npiet-execute.php) execute program and shows result.
-
-  ![npiet-hello.gif](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/steganography/assets/img/npiet_hello.gif)
-                       
-- [`openstego`](https://www.openstego.com/)
+  ```
 
 ## Audio
 
@@ -94,10 +72,6 @@
 
 - [Sonic Visualizer](https://www.sonicvisualiser.org/) upload your file then view spectogram data
 
-- [LSB](https://github.com/sniperline047/Audio-Steganography)
+- [https://github.com/sniperline047/Audio-Steganography](https://github.com/sniperline047/Audio-Steganography)
 
 - [deepsound.exe](https://github.com/oneplus-x/DeepSound-2.0) is a steganography tool and audio converter that hides secret data into audio files.
-
-## TODO
-
-- stegoveritas
