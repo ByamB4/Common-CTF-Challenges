@@ -135,6 +135,21 @@
   
 - `tcpflow -r [INPUT].pcap`
 
+- **3D printer**
+
+  ```
+  BAR 148, 239, 48, 2
+  BAR 196, 191, 2, 48
+  BAR 148, 191, 48, 2
+  BAR 68, 191, 48, 2
+  BAR 76, 151, 40, 2
+  BAR 76, 119, 2, 32
+  ```
+
+- **USB (mouse) draw**
+  - [https://blogs.tunelko.com/2017/02/05/bitsctf-tom-and-jerry-50-points/](https://blogs.tunelko.com/2017/02/05/bitsctf-tom-and-jerry-50-points/)
+
+
 ## Windows
 
 - Windows log file `.evtx`
