@@ -9,7 +9,7 @@
 
 - [`openstego`](https://www.openstego.com/)
 
-- **Slow Scan Televisio**
+- **Slow Scan Television**
   
   - [https://ctftime.org/writeup/22354](https://ctftime.org/writeup/22354)
 
