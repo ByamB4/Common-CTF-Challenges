@@ -1,11 +1,10 @@
-### Interesting protocols
+### Tricks 
 
-- `file:///etc/passwd`
+- **Protocols**
+  - `file:///etc/passwd`
 
-### Interesting headers
-
+- **Headers**
   - `X-Forwarded-Host`
-    - Password reset poisoning
 
 ### Local File Inclution
   - `/robots.txt`
