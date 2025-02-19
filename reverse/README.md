@@ -1,50 +1,21 @@
-- **Patch libc function**
+### Python
+  - **Decompile `.pyc` file**
+  
+    - [pylingual.io](https://pylingual.io/)
+    - [pycdc](https://github.com/zrax/pycdc)
+    - [https://github.com/rocky/python-uncompyle6](https://github.com/rocky/python-uncompyle6)
+    - [https://github.com/rocky/python-decompile3](https://github.com/rocky/python-decompile3)
+    - [https://bitbucket.org/jherron/stegosaurus.git](https://bitbucket.org/jherron/stegosaurus.git)
 
-  - Patch sleep function (before binary execute)
+### Rust/go
+  
+  - [https://github.com/h311d1n3r/Cerberus](https://github.com/h311d1n3r/Cerberus)
 
-    - Create `nosleep.c`
+### Tricks
 
-      ```c
-      #include <stdio.h>
+- **Convert asm to binary**
 
-      unsigned int sleep(unsigned int seconds) {
-        return 0;
-      }
-
-      __attribute__((constructor)) static void setup(void){
-        fprintf(stderr, "Hooked process,no sleeps!\n");
-      }
-      ```
-
-    - Compile `gcc -shared -fPIC -ldl nosleep.c -o nosleep.so`
-    - Execute `LD_PRELOAD="./nosleep.so" ./<binary>`
-
-  - Patch sleep function (during binary execution)
-
-    - Create `agent.js`
-      ```js
-      let sleepfn = Module.findExportByName("libc.so.6", "sleep");
-      let blank = new NativeCallBack(() => {}, "void", []);
-      Interceptor.replace(sleepfn, blank);
-      ```
-    - Execute binary and find process id
-    - `frida -p <pid> -l agent.js`
-
-  - Patch sleep function (during binary execution windows binary)
-
-    - [writeup](https://docs.google.com/document/d/1Pls6AkWHbxvBuvDFLEv7piH9myZSahvQy4d3qR442Cw)
-
-- **Extract python from binary**
-
-  - [`pyinstxtractor`](https://github.com/extremecoders-re/pyinstxtractor)
-
-- **Decompile `.pyc` file**
-
-  - [`pylingual.io`](https://pylingual.io/)
-  - [`pycdc`](https://github.com/zrax/pycdc)
-  - `uncompyle6`
-  - `decompyle3`
-  - [`stegosaurus`](https://bitbucket.org/jherron/stegosaurus.git)
+  - `gcc -c chall.s -o chall.o -masm=intel`
 
 - **Capa**
 
@@ -58,18 +29,11 @@
 
   - Advanced monitoring tool for Windows that shows real-time file system, Registry and process/thread activity.
 
-- **Godot**
+### Godot
 
-  - [online-tool](https://github.com/bruvzg/gdsdecomp)
- 
-- **Lua**
+  - [https://github.com/bruvzg/gdsdecomp](https://github.com/bruvzg/gdsdecomp)
+
+### Lua
 
   - [https://luadec.metaworm.site/](https://luadec.metaworm.site/)
 
-- **Rust/Go**
-
-  - [https://github.com/h311d1n3r/Cerberus](https://github.com/h311d1n3r/Cerberus)
- 
-- **Convert asm to binary**
-
-  - `gcc -c chall.s -o chall.o -masm=intel`
