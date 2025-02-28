@@ -52,7 +52,11 @@
 
   - `./zip2john <filename> > crackme.txt`
   - `./john --wordlist=/usr/share/wordlists/rockyou.txt crackme.txt`
- 
+
+- **Plain text attack**
+
+  - [https://github.com/kimci86/bkcrack](https://github.com/kimci86/bkcrack)
+  
 - [`zip-crc-cracker`](https://github.com/kmyk/zip-crc-cracker)
 
   - If file size around 4 byte 
