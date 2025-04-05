@@ -31,3 +31,6 @@
   - `phpinfo();`
   - `var_dump(scandir('/'));`
   - `var_dump(file_get_contents('/etc/passwd'));`
+
+- [`Hash extender`](https://github.com/iagox86/hash_extender)
+  - `username=guest&date=2025-04-05T20:02:28+0800&secret_length=8&`
