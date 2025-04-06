@@ -170,14 +170,10 @@
 
 ## Image File
 
-- `Magic numbers`
+- **PNG**
+  - [https://github.com/sherlly/PCRT](https://github.com/sherlly/PCRT)
+  - [png-parser](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/forensics/src/png_parser.py)
   
-  - Fix magic [png-parser](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/forensics/src/png_parser.py)
-    
-- `pngcheck`
-
-  - Command line tool, checks given png file corrupted or not.
-
 - `2 same image`
 
   - We can use SUB, MUL, ... `compare 00000000.png 00000725.png -compose src diff.png`
