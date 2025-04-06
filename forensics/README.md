@@ -171,9 +171,9 @@
 ## Image File
 
 - `Magic numbers`
-
-  - Fix magics [png-parser](https://github.com/ByamB4/Capture-The-Flag/blob/master/Forensics/src/png_parser.py)
-
+  
+  - Fix magic [png-parser](https://github.com/ByamB4/Common-CTF-Challenges/blob/main/forensics/src/png_parser.py)
+    
 - `pngcheck`
 
   - Command line tool, checks given png file corrupted or not.
