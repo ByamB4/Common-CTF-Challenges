@@ -20,3 +20,9 @@
 ### Hook function
 
   - `frida -U -f mn.chall.flag -l hook.js`
+
+### Hermes bytecode
+  - `git clone https://github.com/P1sec/hermes-dec`
+  - `python3 setup.py install`
+  - `python3 hbc_disassembler.py [INPUT] disassemreact`
+  - `python3 hbc_decompiler.py [INPUT] decompiledreact`
