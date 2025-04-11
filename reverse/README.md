@@ -13,6 +13,9 @@
 
 ### Tricks
 
+- **Resource editor**
+    - [https://www.resource-editor.com/](https://www.resource-editor.com/)
+      
 - **Convert asm to binary**
 
   - `gcc -c chall.s -o chall.o -masm=intel`
