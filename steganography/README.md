@@ -9,7 +9,7 @@
 
 - [`openstego`](https://www.openstego.com/)
 
-- [`https://stego.app/](https://stego.app/)
+- [`https://stego.app/`](https://stego.app/)
 
 - **Slow Scan Television**
   
