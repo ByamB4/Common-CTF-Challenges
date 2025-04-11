@@ -7,6 +7,8 @@
 
 - [https://github.com/lukechampine/jsteg](https://github.com/lukechampine/jsteg)
 
+- [`stegodon`](https://github.com/leechy9/stegodon)
+
 - [`openstego`](https://www.openstego.com/)
 
 - [https://stego.app/](https://stego.app/)
