@@ -46,6 +46,8 @@
 
 ### Text
 
+- [White space](https://naokikp.github.io/wsi/whitespace.html)
+
 - [https://www.dcode.fr/binary-character-shape](https://www.dcode.fr/binary-character-shape)
 
   ```
