@@ -185,6 +185,7 @@
   - `stegseek [IMAGE].jpg rockyou.txt`
 
 - [`Hide data in height`](https://cyberhacktics.com/hiding-information-by-changing-an-images-height/)
+- [`png-size-solver`](https://github.com/Ge0rg3/ctf-png-size-solver)
 
 ## Browser related
 
