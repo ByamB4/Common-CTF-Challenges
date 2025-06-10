@@ -6,7 +6,10 @@
 - [Linux Smart Enumeration](https://github.com/diego-treitos/linux-smart-enumeration)
 - [Linux Priv Checker](https://github.com/linted/linuxprivchecker)
 
+### Be root
 
-## Find SUID binaries
+- [https://github.com/ly4k/PwnKit](https://github.com/ly4k/PwnKit)
+
+### Find SUID binaries
 
   - `find / -perm -4000 2>/dev/null`
