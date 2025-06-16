@@ -26,3 +26,7 @@
   - `python3 setup.py install`
   - `python3 hbc_disassembler.py [INPUT] disassemreact`
   - `python3 hbc_decompiler.py [INPUT] decompiledreact`
+
+
+### TODO
+  - [https://mas.owasp.org/crackmes/](https://mas.owasp.org/crackmes/)
