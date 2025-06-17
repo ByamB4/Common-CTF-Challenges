@@ -24,12 +24,17 @@
 
   - `frida -U -f mn.chall.flag -l hook.js`
 
+### Extract apk from installed application (emulator)
+  - `adb shell pm list packages`
+  - `adb shell pm path [com.application.example]`
+  - `adb pull [/data/app/~~igIDWXFnPHEQj1nabZV0yQ==/com.application.example-f0FVENe4Co6LNpL-usLWbg==/base.apk] ./output.apk` 
+
+
 ### Hermes bytecode
   - `git clone https://github.com/P1sec/hermes-dec`
   - `python3 setup.py install`
   - `python3 hbc_disassembler.py [INPUT] disassemreact`
   - `python3 hbc_decompiler.py [INPUT] decompiledreact`
-
 
 ### TODO
   - [https://mas.owasp.org/crackmes/](https://mas.owasp.org/crackmes/)
