@@ -65,3 +65,7 @@
 
   - **Extract all files**
     - [https://github.com/internetwache/GitTools/tree/master/Extractor](https://github.com/internetwache/GitTools/tree/master/Extractor)
+   
+  - **Symbols**
+    - [https://detexify.kirelabs.org/symbols.html](https://detexify.kirelabs.org/symbols.html)
+    - [https://snip.mathpix.com/](https://snip.mathpix.com/)
