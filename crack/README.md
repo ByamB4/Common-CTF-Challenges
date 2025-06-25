@@ -1,27 +1,31 @@
 ### Hash
 
-- `md5`
+- **md5**
 
   - `hashcat -m 0 $(echo '21232f297a57a5a743894a0e4a801fc3') /usr/share/wordlists/rockyou.txt`
 
-- `md5($pass.$salt)`
+- **md5($pass.$salt)**
 
   - `hashcat -m 10 -a 0 $(echo '5400711cd704e87ed3fd11556cc174ae:SALT') /usr/share/wordlists/rockyou.txt`
 
-- `md5($salt.$pass)`
+- **md5($salt.$pass)**
 
   - `hashcat -m 20 -a 0 $(echo 'dd679302de4ce83d961f95a1facca536:SALT') /usr/share/wordlists/rockyou.txt`
 
+- **CPassword**
+
+  -  `python3 gpp-decrypt.py -c PCXrmCkYWyRRx3bf+zqEydW9/trbFToMDx6fAvmeCDw` 
+
 ### Wireshark
 
-- `IEEE 802.11`
+- **IEEE 802.11**
 
   - Use [https://hashcat.net/cap2hashcat/](https://hashcat.net/cap2hashcat/)
   - `hashcat -m 22000 [INPUT_FILE] rockyou.txt`
 
 ### Database
 
-- `Keepass`
+- **Keepass**
 
   - **John**
     - `keepass2john databse > crack.hash`
@@ -32,12 +36,12 @@
 
 ### Service
 
-- `FTP`
+- **FTP**
 
   - Brute force pasword with known username using [`hydra`](https://tools.kali.org/password-attacks/hydra)
   - `hydra -l <username> -P <wordlist> <target-address> ftp`
 
-- `SSH`
+- **SSH**
 
   - Brute force pasword with known username using [`hydra`](https://tools.kali.org/password-attacks/hydra)
   - `hydra -t 4 -l jan -P <wordlist> ssh://<target-address>`
@@ -63,7 +67,7 @@
 
 ### Web related
 
-- JSON web token hash
+- **JSON web token**
  
   - Using `hashcat`
     
