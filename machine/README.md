@@ -13,3 +13,7 @@
 ### Find SUID binaries
 
   - `find / -perm -4000 2>/dev/null`
+
+## Directory finder
+  - `subfinder -d hackerone.com -v`
+  - `waybackurls hackerone.com`
