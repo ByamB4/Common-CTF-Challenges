@@ -40,3 +40,9 @@
 
   - `.php5`
   - `.php.pdf`
+
+
+### Codeigniter
+
+  - **Add "root" head into json**
+      - `{"username":"admin","password":"123"}` -> `{"root":{"username":"admin","password":"123"}}`
