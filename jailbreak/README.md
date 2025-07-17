@@ -7,6 +7,7 @@
 
 - **Run commands**
   ```
+  print(subprocess.run(['id'], capture_output=True, text=True))
   "";id
   ; id
   `id`
