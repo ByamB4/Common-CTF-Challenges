@@ -35,6 +35,20 @@
   gcc -shared -o strcmp.so strcmp.o -m32
   $gdb➤  set environment LD_PRELOAD ./strcmp.so
   ```
+## Bypassing sleep (64 bit)
+
+```c
+#include <unistd.h>
+
+unsigned int sleep(unsigned int seconds) {
+    return 0;
+}
+```
+
+```sh
+gcc -fPIC -shared -o sleep.so sleep.c
+LD_PRELOAD=$PWD/sleep.so ./[BINARY]
+```
 
 ## Python code packed
 
