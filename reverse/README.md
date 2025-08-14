@@ -34,7 +34,9 @@
 
 ### Godot
 
+  - [https://godotengine.org/download/windows/](https://godotengine.org/download/windows/)
   - [https://github.com/bruvzg/gdsdecomp](https://github.com/bruvzg/gdsdecomp)
+  - [writeup-1](https://medium.com/@Sle3pyHead/the-game-ctf-notes-tryhackme-babeb48c2ae9)
 
 ### Lua
 
