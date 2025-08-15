@@ -20,3 +20,6 @@
     - [https://github.com/TaQini/alpha3](https://github.com/TaQini/alpha3)
     
     - [https://github.com/SkyLined/alpha3/tree/master](https://github.com/SkyLined/alpha3/tree/master)
+
+- **Interesting repo**
+    - [https://github.com/TheFlash2k/flashlib/tree/main](https://github.com/TheFlash2k/flashlib/tree/main)
