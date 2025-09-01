@@ -20,7 +20,10 @@
 - [https://medium.com/@yeahhub/top-22-steganography-tools-fb9c5b73daba](https://medium.com/@yeahhub/top-22-steganography-tools-fb9c5b73daba)
 
 - [https://www.greycampus.com/blog/information-security/top-must-have-tools-to-perform-steganography](https://www.greycampus.com/blog/information-security/top-must-have-tools-to-perform-steganography)
-  
+
+- **Magic Eye**
+  - [https://magiceye.ecksdee.co.uk/](https://magiceye.ecksdee.co.uk/)
+
 - **Slow Scan Television**
   
   - [https://ctftime.org/writeup/22354](https://ctftime.org/writeup/22354)
