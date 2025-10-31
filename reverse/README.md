@@ -1,14 +1,18 @@
 ### Python
 
-- **Decompile `.pyc` file**
+- Reversing Compiled Python `(.pyc)`
 
   - [pylingual.io](https://pylingual.io/)
+ 
   - [pycdc](https://github.com/zrax/pycdc)
+ 
   - [https://github.com/rocky/python-uncompyle6](https://github.com/rocky/python-uncompyle6)
+    
   - [https://github.com/rocky/python-decompile3](https://github.com/rocky/python-decompile3)
+    
   - [https://bitbucket.org/jherron/stegosaurus.git](https://bitbucket.org/jherron/stegosaurus.git)
 
-### Rust/go
+### Rust/Go
 
 - [https://github.com/h311d1n3r/Cerberus](https://github.com/h311d1n3r/Cerberus)
 
@@ -16,6 +20,7 @@
 
 - **Resource editor**
   - [https://www.resource-editor.com/](https://www.resource-editor.com/)
+
 - **Convert asm to binary**
 
   - `gcc -c chall.s -o chall.o -masm=intel`
@@ -77,14 +82,18 @@
 
 ### Hermes bytecode
 
-- `git clone https://github.com/P1sec/hermes-dec`
-- `python3 setup.py install`
-- `python3 hbc_disassembler.py [INPUT] disassemreact`
-- `python3 hbc_decompiler.py [INPUT] decompiledreact`
+If `index.android.bundle` isn’t readable and it’s likely Hermes bytecode, the compiled form of React Native’s JavaScript. You can disassemble or decompile it using `hermes-dec`
 
-### TODO
+```bash
+# clone and install hermes-dec
+git clone https://github.com/P1sec/hermes-dec
+cd hermes-dec
+python3 setup.py install
 
-- [https://mas.owasp.org/crackmes/](https://mas.owasp.org/crackmes/)
+# disassemble or decompile Hermes bytecode
+python3 hbc_disassembler.py index.android.bundle disassembled_hermes
+python3 hbc_decompiler.py index.android.bundle decompiled_hermes
+```
 
 ## Bypass ptrace
 
@@ -110,3 +119,8 @@ Extract python code from binary
 
 - [https://dnspy.org/](https://dnspy.org/)
 - [https://github.com/AssetRipper/AssetRipper](https://github.com/AssetRipper/AssetRipper)
+
+
+### TODO
+
+- [https://mas.owasp.org/crackmes/](https://mas.owasp.org/crackmes/)
