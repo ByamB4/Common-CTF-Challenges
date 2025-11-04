@@ -39,3 +39,4 @@ Welcome contributions of any kind—whether it’s a brand‑new tool, a clever 
 ## Cool blogs
 
 - [https://frereit.de/](https://frereit.de/)
+- [https://deayzl.tistory.com](https://deayzl.tistory.com)
