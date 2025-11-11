@@ -80,6 +80,11 @@
 - `adb shell pm path [com.application.example]`
 - `adb pull [/data/app/~~igIDWXFnPHEQj1nabZV0yQ==/com.application.example-f0FVENe4Co6LNpL-usLWbg==/base.apk] ./output.apk`
 
+### Install .apks
+
+- `unzip [INPUT].apks -d apks`
+- `adb install-multiple ./apks/*.apk`
+
 ### Hermes bytecode
 
 If `index.android.bundle` isn’t readable and it’s likely Hermes bytecode, the compiled form of React Native’s JavaScript. You can disassemble or decompile it using `hermes-dec`
