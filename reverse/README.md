@@ -74,7 +74,12 @@
 
 - `frida -U -f mn.chall.flag -l hook.js`
 
-### Extract apk from installed application (emulator)
+### Extract apk from installed applications (method-1)
+
+- Install `ML Manager` application to extract
+- `adb pull "/storage/emulated/0/Android/media/com.javiersantos.mlmanager/<APK_NAME>"`
+
+### Extract apk from installed applications (method-2)
 
 - `adb shell pm list packages`
 - `adb shell pm path [com.application.example]`
