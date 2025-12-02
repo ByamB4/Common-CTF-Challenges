@@ -112,12 +112,12 @@ python3 hbc_decompiler.py index.android.bundle decompiled_hermes
   - Open with ghidra (raw binary)
   - Change **JNS** compare to **JMP** for disabling TEST instuction
 
-## UPX Packed
+## Packer
 
-Sometime UPX packed binary can't decompressed back. So author is manually changed some byte or even sections.
-
-- You can try to guess
-- Missing library. Append kernel32.dll to actual binary. [code](https://github.com/ByamB4/CCC/blob/master/Reverse%20Engineering/exe/src/append-kernel32.py)
+- [Donut](https://github.com/TheWover/donut) **TODO**
+- **UPX**
+  - Sometime UPX packed binary can't decompressed back. So author is manually changed some byte or even sections.
+  - Missing library. Append kernel32.dll to actual binary. [code](https://github.com/ByamB4/CCC/blob/master/Reverse%20Engineering/exe/src/append-kernel32.py)
 
 ## Python code packed
 
@@ -131,6 +131,8 @@ Extract python code from binary
 - [https://github.com/AssetRipper/AssetRipper](https://github.com/AssetRipper/AssetRipper)
 
 
+### Packer
+- [UPX]
 ### TODO
 
 - [https://mas.owasp.org/crackmes/](https://mas.owasp.org/crackmes/)
