@@ -3,6 +3,7 @@
 Tools and references for reversing binaries and bytecode.
 
 ## Quick wins
+
 - Identify the language/format first (Python bytecode, Rust/Go signatures).
 - Use decompilers to get a quick view before manual RE.
 - Keep resource editors and unpackers handy for Windows challenges.
@@ -12,13 +13,11 @@ Tools and references for reversing binaries and bytecode.
 - Reversing Compiled Python `(.pyc)`
 
   - [pylingual.io](https://pylingual.io/)
- 
+
   - [pycdc](https://github.com/zrax/pycdc)
- 
+
   - [https://github.com/rocky/python-uncompyle6](https://github.com/rocky/python-uncompyle6)
-    
   - [https://github.com/rocky/python-decompile3](https://github.com/rocky/python-decompile3)
-    
   - [https://bitbucket.org/jherron/stegosaurus.git](https://bitbucket.org/jherron/stegosaurus.git)
 
 ## Rust/Go
@@ -28,6 +27,7 @@ Tools and references for reversing binaries and bytecode.
 ## Tricks
 
 - **Resource editor**
+
   - [https://www.resource-editor.com/](https://www.resource-editor.com/)
 
 - **Convert asm to binary**
@@ -71,36 +71,6 @@ Tools and references for reversing binaries and bytecode.
 - Trace function calls
   - [https://codeshare.frida.re/@d3z3n0v3/trace-function-calls/](https://codeshare.frida.re/@d3z3n0v3/trace-function-calls/)
 
-## Android / APKs
-
-### Rebuilding apk file
-
-- `keytool -genkey -v -keystore key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias chall`
-- `apktool d [INPUT].apk`
-- `apktool b [FOLDER_NAME] -o updated.apk`
-- `apksigner sign --ks key.jks updated.apk`
-- [uber-apk-signer](https://github.com/patrickfav/uber-apk-signer)
-
-### Hook function
-
-- `frida -U -f mn.chall.flag -l hook.js`
-
-### Extract apk from installed applications (method-1)
-
-- Install `ML Manager` application to extract
-- `adb pull "/storage/emulated/0/Android/media/com.javiersantos.mlmanager/<APK_NAME>"`
-
-### Extract apk from installed applications (method-2)
-
-- `adb shell pm list packages`
-- `adb shell pm path [com.application.example]`
-- `adb pull [/data/app/~~igIDWXFnPHEQj1nabZV0yQ==/com.application.example-f0FVENe4Co6LNpL-usLWbg==/base.apk] ./output.apk`
-
-### Install .apks
-
-- `unzip [INPUT].apks -d apks`
-- `adb install-multiple ./apks/*.apk`
-
 ## Hermes bytecode
 
 If `index.android.bundle` isn’t readable and it’s likely Hermes bytecode, the compiled form of React Native’s JavaScript. You can disassemble or decompile it using `hermes-dec`
@@ -142,4 +112,5 @@ Extract python code from binary
 - [https://github.com/AssetRipper/AssetRipper](https://github.com/AssetRipper/AssetRipper)
 
 ## TODO
+
 - https://mas.owasp.org/crackmes/

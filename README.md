@@ -8,13 +8,14 @@ Reference notes, commands, and ready-to-use snippets for common Capture the Flag
 - `web/` web exploitation tricks (LFI, XSS, SQLi, SSTI, prototype pollution) and payload examples
 - `pwn/` binary exploitation reminders: mitigations, syscall tables, shellcode links
 - `reverse/` reversing cheats for Python, Rust/Go, and general tooling
+- `mobile/` Android-focused reversing and runtime manipulation (APK rebuilds, Frida hooks, Hermes bytecode)
 - `crack/` cracking commands for hashes, KeePass, Wi-Fi captures, and services
 - `machine/` enumeration and privesc helpers (Linux), WordPress scanning, defense snippets
 - `network/mitm.py` Scapy MITM automation for intercepting and injecting on a TCP service (run with root)
 - `cloud/`, `osint/`, `forensics/`, `misc/`, `esolangs/`, `jailbreak/`, `web3/` focused notes and links for their respective categories
 
 ## Directory map
-- Cheatsheets: `cloud/`, `crack/`, `crypto/`, `esolangs/`, `forensics/`, `jailbreak/`, `machine/`, `misc/`, `osint/`, `pwn/`, `reverse/`, `steganography/`, `web/`, `web3/`
+- Cheatsheets: `cloud/`, `crack/`, `crypto/`, `esolangs/`, `forensics/`, `jailbreak/`, `machine/`, `misc/`, `mobile/`, `osint/`, `pwn/`, `reverse/`, `steganography/`, `web/`, `web3/`
 - Scripts: `network/mitm.py` (TCP MITM), add new tools alongside their category README
 - Infrastructure: `.gitignore`, `.gitattributes` (safe to ignore while browsing)
 
