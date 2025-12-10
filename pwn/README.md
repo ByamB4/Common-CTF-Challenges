@@ -1,25 +1,21 @@
-> No RELRO: Possible to overwrite global variable
-> No canary: Possible to smash the stack
-> NX disabled: Possible to write and execute from the stack
-> No PIE: Virtual address it should use and keeps its memory layout quite static
-> File descriptor: input: 0, output: 1, error: 2
+# Pwn
 
-- **Syscall table**
+Binary exploitation reminders and quick references.
 
-  - [`https://x64.syscall.sh/`](https://x64.syscall.sh/)
-  - [`https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md`](https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md)
+## Quick wins
+- Check protections first: RELRO, canary, NX, PIE, file descriptors.
+- Identify the libc version/offsets early to avoid wrong gadgets.
+- For restricted shellcode (alphanumeric), use dedicated encoders.
 
-- **Libc offset**
+## Protections cheatline
+- No RELRO: overwrite GOT/global variables possible.
+- No canary: stack smashing is viable.
+- NX disabled: stack/executable segments writable+executable.
+- No PIE: addresses stay static; hardcode libc/PLT.
+- File descriptors: stdin 0, stdout 1, stderr 2.
 
-  - [`https://libc.blukat.me/`](https://libc.blukat.me/)
-  - [`https://libc.rip/`](https://libc.rip/)
-
-- **Shellcode**
-
-  - **Restricted (alphabets+digits)**
-    - [https://github.com/TaQini/alpha3](https://github.com/TaQini/alpha3)
-    
-    - [https://github.com/SkyLined/alpha3/tree/master](https://github.com/SkyLined/alpha3/tree/master)
-
-- **Interesting repo**
-    - [https://github.com/TheFlash2k/flashlib/tree/main](https://github.com/TheFlash2k/flashlib/tree/main)
+## References
+- Syscall tables: https://x64.syscall.sh/, https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md
+- Libc offsets: https://libc.blukat.me/, https://libc.rip/
+- Alphanumeric shellcode encoders: https://github.com/TaQini/alpha3, https://github.com/SkyLined/alpha3/tree/master
+- Exploit library repo: https://github.com/TheFlash2k/flashlib/tree/main

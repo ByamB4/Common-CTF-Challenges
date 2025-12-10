@@ -1,4 +1,17 @@
 #!/usr/bin/env python3
+"""
+MITM helper for ARP spoofing a client/server pair and injecting a command once a secret is observed.
+
+Usage:
+- Update the IP/MAC addresses, interface, and target_port below.
+- Install scapy (in a venv if possible): pip install scapy
+- Run as root: sudo python3 network/mitm.py
+
+This script will:
+1) ARP poison client and server.
+2) Sniff for the secret and inject the string "flag" after it.
+3) Forward packets between the two until the flag is returned.
+"""
 
 import scapy.all as scapy
 import time

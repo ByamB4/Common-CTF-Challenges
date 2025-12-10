@@ -1,4 +1,14 @@
-### Symbol Substitution
+# Crypto
+
+Scope: quick references for ciphers, alphabets, and sample ciphertexts seen in CTF crypto challenges. Use online solvers sparingly; many links point to dcode.fr or similar.
+
+## Quick wins
+- Check for simple substitutions (pigpen, hexahue, runes, braille) before heavier cryptanalysis.
+- For polyalphabetic ciphers, guess key length with repeating patterns, then try Vigenere/Gronsfeld.
+- Test transposition ciphers (rail fence, scytale) on jumbled text with clear delimiters or braces.
+- If you see hex/base64-like blobs, try decoding chains and look for inflate/rot variants.
+
+## Symbol substitution
 
 - `Alien predator language`
 
@@ -59,12 +69,12 @@
   :ptr, O[di, od do,[;u fi,,u yrcy pg yjr [tomyomh smf yu[rdryyomh omfidytu/ :ptr, O[di, jsd nrrm yjr omfidytu\d dysmfstf fi,,u yrcy rbrt domvr yjr 26--d. ejrm sm imlmpem [tomyrt yppl s hs;;ru pg yu[r smf dvts,n;rf oy yp ,slr s yu[r d[rvo,rm nppl/ Oy jsd ditbobrf mpy pm;u gobr vrmyitord. niy s;dp yjr ;rs[ omyp r;rvytpmov yu[rdryyomh. tr,somomh rddrmyos;;u imvjsmhrf/
   ```
 
-### Numeral System
+## Numeral system
 
 - [`Cistercian Monk Numerals`](https://www.dcode.fr/cistercian-numbers)
   - <img src="https://github.com/ByamB4/Common-CTF-Challenges/blob/main/crypto/img/cistercian-monk-numerals.jpg" width="500">
 
-### Poly-Alphabetic Cipher
+## Poly-alphabetic cipher
 
 - [`Vigenere Cipher`](https://www.dcode.fr/vigenere-cipher)
 
@@ -74,7 +84,7 @@
   - `OQWKWPUVMYTIUSSTHHPI`
   - `key: 12345`
 
-### Transposition cipher
+## Transposition cipher
 
 - [`Rail fence`](https://www.dcode.fr/rail-fence-cipher)
 
@@ -84,20 +94,20 @@
 
   - `hsggna0stiaeaetteyc4ehvdatyporwtyseefregrstaf_etposruouoy{qnirroiybrbs5edmothssavetc8hebhwuibihh72eyaoepmlvoet9lobulpkyenf4xpulsloinmelllisyassnousa31mebneedtctg_}eeedeboghbihpatesyyfolus1lnhnooeliotb5ebidfueonnactayseyl`
 
-### Symmetric cryptography
+## Symmetric cryptography
 
 - [`Fernet`](https://asecuritysite.com/encryption/ferdecode)
 
   `Token: gAAAAABWC9P7-9RsxTz_dwxh9-O2VUB7Ih8UCQL1_Zk4suxnkCvb26Ie4i8HSUJ4caHZuiNtjLl3qfmCv_fS3_VpjL7HxCz7_Q==`
   `Key: -s6eI5hyNh8liH7Gq0urPC-vzPgNnxauKvRO4g03oYI=`
 
-### Synchronous stream cipher
+## Synchronous stream cipher
 
 - [`Rabbit`](<https://en.wikipedia.org/wiki/Rabbit_(cipher)>)
 
   - `U2FsdGVkX1/+ydnDPowGbjjJXhZxm2MP2AgI`
 
-### Examples (other)
+## Examples (other)
 
 - [base64-inflate](https://jgraph.github.io/drawio-tools/tools/convert.html)
 

@@ -1,4 +1,11 @@
-## Esoteric programming languages
+# Esoteric programming languages
+
+Scope: recognizing and handling esolangs that appear as obfuscated payloads or challenge code.
+
+## Quick wins
+- Look for repeated limited symbols (`+-<>.,[]`) to spot Brainfuck.
+- If text is just punctuation or repeated keywords (Ook!, Shout/Fizz), match to the language patterns below.
+- Use online interpreters/visualizers to quickly run or decode snippets.
 
 - `Brainfuck`
 

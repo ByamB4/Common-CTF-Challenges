@@ -1,3 +1,12 @@
+# Jailbreak / Sandbox escape
+
+Payload snippets for restricted shells, jailed interpreters, and input filters.
+
+## Quick wins
+- Try no-whitespace variants (`$IFS`, newline separators) when spaces are blocked.
+- Mix different separators (`;`, `|`, backticks) to break out of limited interpreters.
+- In Python, abuse `__import__`, `os.system`, or harmless-looking builtins.
+
 ## Bash
 
 - **Read file**

@@ -1,3 +1,11 @@
+# Steganography
+
+Image and audio steg helpers and quick links.
+
+## Quick wins
+- Run `stegseek`/`steghide` with common wordlists on JPG/PNG.
+- Check metadata and magic values; some challenges hide data in dimensions or LSB.
+- For audio, consider SSTV/FFT or DTMF; for images, try multiple online analyzers.
 
 ## Image
 
@@ -47,7 +55,7 @@
   - **Digital Invisible Ink Toolkit**
     
 
-### Text
+## Text
 
 - [White space](https://naokikp.github.io/wsi/whitespace.html)
 

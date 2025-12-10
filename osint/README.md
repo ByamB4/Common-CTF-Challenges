@@ -1,13 +1,20 @@
-## F* OSINT
+# OSINT
 
-- **Find by username**
-  - [https://github.com/sherlock-project/sherlock](https://github.com/sherlock-project/sherlock)
+Finding accounts, emails, and general footprinting links.
+
+## Quick wins
+- Try username pivots first; many CTF personas reuse handles.
+- If email is available, pivot to breached data/metadata (e.g., epieos).
+- Keep an "all-in-one" framework handy for categories you forget.
+
+## Username hunting
+- https://github.com/sherlock-project/sherlock
   
-- **Find by email**
-  - [https://epieos.com/](https://epieos.com/)
+## Email pivots
+- https://epieos.com/
 
-- **Reverse name lookup**
-  - [https://whatsmyname.app/](https://whatsmyname.app/)
+## Name/handle lookup
+- https://whatsmyname.app/
  
-- **All in one**
-  - [https://osintframework.com/](https://osintframework.com/)
+## Framework
+- https://osintframework.com/

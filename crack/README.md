@@ -1,99 +1,61 @@
-### Hash
+# Cracking
 
-- **md5**
+Offline/online password recovery cheats: hashes, captures, archives, and services.
 
-  - `hashcat -m 0 $(echo '21232f297a57a5a743894a0e4a801fc3') /usr/share/wordlists/rockyou.txt`
+## Quick wins
+- Try the right hashcat mode first; avoid wasting time on the wrong format.
+- Convert captures to crackable hashes (cap2hashcat, zip2john, ssh2john, office2john).
+- Keep wordlists handy (`rockyou.txt`, custom event lists).
 
-- **md5($pass.$salt)**
+## Hashes
+- MD5: `hashcat -m 0 21232f297a57a5a743894a0e4a801fc3 /usr/share/wordlists/rockyou.txt`
+- MD5(pass.salt): `hashcat -m 10 -a 0 '5400711cd704e87ed3fd11556cc174ae:SALT' /usr/share/wordlists/rockyou.txt`
+- MD5(salt.pass): `hashcat -m 20 -a 0 'dd679302de4ce83d961f95a1facca536:SALT' /usr/share/wordlists/rockyou.txt`
+- GPP CPassword: `python3 gpp-decrypt.py -c PCXrmCkYWyRRx3bf+zqEydW9/trbFToMDx6fAvmeCDw`
 
-  - `hashcat -m 10 -a 0 $(echo '5400711cd704e87ed3fd11556cc174ae:SALT') /usr/share/wordlists/rockyou.txt`
+## Wi-Fi captures
+- Convert capture: https://hashcat.net/cap2hashcat/
+- Crack WPA handshakes: `hashcat -m 22000 capture.hc22000 rockyou.txt`
 
-- **md5($salt.$pass)**
+## Databases
+- KeePass with John:
+  ```
+  keepass2john database.kdbx > crack.hash
+  john crack.hash --format=keepass --wordlist=rockyou.txt
+  ```
+- KeePass with hashcat:
+  ```
+  hashcat -a 0 -m 13400 --show -o out crackme.kdbx rockyou.txt --force
+  ```
 
-  - `hashcat -m 20 -a 0 $(echo 'dd679302de4ce83d961f95a1facca536:SALT') /usr/share/wordlists/rockyou.txt`
+## Services
+- FTP brute (known user): `hydra -l <user> -P <wordlist> <target> ftp`
+- SSH brute (known user): `hydra -t 4 -l jan -P <wordlist> ssh://<target>`
 
-- **CPassword**
+## Archives (ZIP)
+- Dictionary: `fcrackzip -v -D -u -p <wordlist> target.zip`
+- John route:
+  ```
+  zip2john target.zip > crackme.txt
+  john --wordlist=/usr/share/wordlists/rockyou.txt crackme.txt
+  ```
+- Known plaintext attack: https://github.com/kimci86/bkcrack
+- CRC short files: https://github.com/kmyk/zip-crc-cracker (useful if file size ~4 bytes)
 
-  -  `python3 gpp-decrypt.py -c PCXrmCkYWyRRx3bf+zqEydW9/trbFToMDx6fAvmeCDw` 
+## Web/JWT
+- JWT HS256 with hashcat:
+  ```
+  echo 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...' > jwt.hash
+  hashcat jwt.hash -m 16500 rockyou.txt
+  ```
 
-### Wireshark
+## PDFs
+- `pdfcrack --wordlist=rockyou.txt crackme.pdf`
 
-- **IEEE 802.11**
+## Private keys
+- SSH private key: `ssh2john id_rsa > crackme && john crackme --show`
 
-  - Use [https://hashcat.net/cap2hashcat/](https://hashcat.net/cap2hashcat/)
-  - `hashcat -m 22000 [INPUT_FILE] rockyou.txt`
-
-### Database
-
-- **Keepass**
-
-  - **John**
-    - `keepass2john databse > crack.hash`
-    - `john crack.hash --format=keepass --wordlist=rockyou.txt`
-
-  - **Hashcat**
-    - `hashcat -a 0 -m 13400 --show -o out crackme rockyou.txt --force`
-
-### Service
-
-- **FTP**
-
-  - Brute force pasword with known username using [`hydra`](https://tools.kali.org/password-attacks/hydra)
-  - `hydra -l <username> -P <wordlist> <target-address> ftp`
-
-- **SSH**
-
-  - Brute force pasword with known username using [`hydra`](https://tools.kali.org/password-attacks/hydra)
-  - `hydra -t 4 -l jan -P <wordlist> ssh://<target-address>`
-
-### ZIP
-
-- [`fcrackzip`](http://manpages.ubuntu.com/manpages/trusty/man1/fcrackzip.1.html)
-
-  - `fcrackzip -v -D -u -p <wordlist> <target.zip>`
-
-- [`zip2john`](https://github.com/magnumripper/JohnTheRipper.git)
-
-  - `./zip2john <filename> > crackme.txt`
-  - `./john --wordlist=/usr/share/wordlists/rockyou.txt crackme.txt`
-
-- **Plain text attack**
-
-  - [https://github.com/kimci86/bkcrack](https://github.com/kimci86/bkcrack)
-  
-- [`zip-crc-cracker`](https://github.com/kmyk/zip-crc-cracker)
-
-  - If file size around 4 byte 
-
-### Web related
-
-- **JSON web token**
- 
-  - Using `hashcat`
-    
-    - `echo 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...' > jwt.hash`
-    - `hashcat jwt.hash -m 16500 rockyou.txt`
-
-
-### PDF
-
-- [`pdfcrack`](https://github.com/alitrack/PDFCrack)
-
-  - `pdfcrack --wordlist=rockyou.txt crackme.pdf`
-    
-### Private key
-
-- [`ssh2john`](https://github.com/magnumripper/JohnTheRipper.git)
-
-  - `ssh2john <filename> > crackme`
-  - `john crackme --show`
-
-### Office
-
-- [`office2john`](https://github.com/magnumripper/JohnTheRipper.git)
-
-  - `./office2john.py ./test.xlsx > crackme.txt`
-  - `john --rules --wordlist=rockyou.txt crackme.txt`
-  - File extensions:
-    - **.ole** CDFV2 Encrypted
-    - **.docx**
+## Office docs
+- `office2john.py test.xlsx > crackme.txt`
+- `john --rules --wordlist=rockyou.txt crackme.txt`
+- Common extensions: `.ole` (CDFV2), `.docx`, `.xlsx`

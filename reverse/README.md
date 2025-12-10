@@ -1,4 +1,13 @@
-### Python
+# Reverse Engineering
+
+Tools and references for reversing binaries and bytecode.
+
+## Quick wins
+- Identify the language/format first (Python bytecode, Rust/Go signatures).
+- Use decompilers to get a quick view before manual RE.
+- Keep resource editors and unpackers handy for Windows challenges.
+
+## Python
 
 - Reversing Compiled Python `(.pyc)`
 
@@ -12,11 +21,11 @@
     
   - [https://bitbucket.org/jherron/stegosaurus.git](https://bitbucket.org/jherron/stegosaurus.git)
 
-### Rust/Go
+## Rust/Go
 
 - [https://github.com/h311d1n3r/Cerberus](https://github.com/h311d1n3r/Cerberus)
 
-### Tricks
+## Tricks
 
 - **Resource editor**
   - [https://www.resource-editor.com/](https://www.resource-editor.com/)
@@ -37,13 +46,13 @@
 
   - Advanced monitoring tool for Windows that shows real-time file system, Registry and process/thread activity.
 
-### Godot
+## Godot
 
 - [https://godotengine.org/download/windows/](https://godotengine.org/download/windows/)
 - [https://github.com/bruvzg/gdsdecomp](https://github.com/bruvzg/gdsdecomp)
 - [writeup-1](https://medium.com/@Sle3pyHead/the-game-ctf-notes-tryhackme-babeb48c2ae9)
 
-### Lua
+## Lua
 
 - [https://luadec.metaworm.site/](https://luadec.metaworm.site/)
 
@@ -61,6 +70,8 @@
 
 - Trace function calls
   - [https://codeshare.frida.re/@d3z3n0v3/trace-function-calls/](https://codeshare.frida.re/@d3z3n0v3/trace-function-calls/)
+
+## Android / APKs
 
 ### Rebuilding apk file
 
@@ -90,7 +101,7 @@
 - `unzip [INPUT].apks -d apks`
 - `adb install-multiple ./apks/*.apk`
 
-### Hermes bytecode
+## Hermes bytecode
 
 If `index.android.bundle` isn’t readable and it’s likely Hermes bytecode, the compiled form of React Native’s JavaScript. You can disassemble or decompile it using `hermes-dec`
 
@@ -112,7 +123,7 @@ python3 hbc_decompiler.py index.android.bundle decompiled_hermes
   - Open with ghidra (raw binary)
   - Change **JNS** compare to **JMP** for disabling TEST instuction
 
-## Packer
+## Packers
 
 - [Donut](https://github.com/TheWover/donut) **TODO**
 - **UPX**
@@ -130,9 +141,5 @@ Extract python code from binary
 - [https://dnspy.org/](https://dnspy.org/)
 - [https://github.com/AssetRipper/AssetRipper](https://github.com/AssetRipper/AssetRipper)
 
-
-### Packer
-- [UPX]
-### TODO
-
-- [https://mas.owasp.org/crackmes/](https://mas.owasp.org/crackmes/)
+## TODO
+- https://mas.owasp.org/crackmes/

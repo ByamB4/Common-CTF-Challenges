@@ -1,3 +1,14 @@
+# Misc
+
+Grab bag of handy tools for oddball CTF tasks.
+
+## Quick wins
+- Check for visual obfuscation (pixelation, QR distortion) with specialized tools.
+- For audio/tones, use DTMF or spectrogram helpers.
+- Keep keyboard layout references for substitution-style puzzles.
+
+## Tools and references
+
 - **Decode android pattern lock**
 
   - [DecodeAndroidGesture](https://github.com/jzyra/DecodeAndroidGesture)
@@ -47,12 +58,12 @@
 
   - Can save your note with password protected url looks like `LX2gkn81`
 
-### Git
+## Git
 
   - **Show full history**
     - `git log --patch --follow -- text.txt > full_history.txt`
    
-### Latex
+## LaTeX
   - **Read file**
     ```
     \renewcommand\r{\ifeof\file\else\read\file to\line\line\r\fi}
